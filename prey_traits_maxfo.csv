@@ -1,0 +1,193 @@
+PreyClass,PreyOrder,PreyFamily,PreySP,habitat_combi,vert_habitat,horz_habitat,diel_migrant,refuge,phys_defense,TrophicLevel,body_shape,max_fo
+Actinopterygii,Argentiniformes,Bathylagidae,Bathylagoides wesethi,mesopelagic,mesopelagic,oceanic,1,0,0,3.4,elongated,0
+Actinopterygii,Argentiniformes,Bathylagidae,Leuroglossus stilbius,oceanic mesopelagic,mesopelagic,oceanic,1,0,0,3.26,fusiform ,0.4
+Actinopterygii,Atheriniformes,Atherinidae,Atherinopsis californiensis,coastal epipelagic,epipelagic,coastal,0,0,1,2.33,elongated,0
+Actinopterygii,Aulopiformes,Anotopteridae,Anotopterus nikparini,mesopelagic,bathypelagic,oceanic,UN,0,0,4.5,eel-like,1
+Actinopterygii,Aulopiformes,Anotopteridae,Anotopterus pharao,mesopelagic,mesopelagic,oceanic,UN,0,0,4.34,elongated,11.11111111
+Actinopterygii,Aulopiformes,Chlorothalmidae,Chlorophthalmus agassizi,continental demersal,demersal,continental shelf,0,0,0,3.66,elongated,2.86
+Actinopterygii,Aulopiformes,Omusdidae,Omosudis lowii,mesopelagic,mesopelagic,oceanic,1,0,0,4.29,elongated,16.7
+Actinopterygii,Aulopiformes,Paralepididae,Arctozenus risso,mesopelagic,mesopelagic,oceanic,1,0,0,3.22,elongated,52
+Actinopterygii,Aulopiformes,Paralepididae,Lestidiops ringens,mesopelagic,mesopelagic,oceanic,UN,0,0,4.05,elongated,4
+Actinopterygii,Aulopiformes,Paralepididae,Lestidiops sphyrenoides,mesopelagic,mesopelagic,oceanic,0,0,0,4.5,elongated,31.48
+Actinopterygii,Aulopiformes,Paralepididae,Macroparalepis affinis,mesopelagic,mesopelagic,oceanic,0,0,0,4.1,elongated,4
+Actinopterygii,Aulopiformes,Paralepididae,Magnisudis atlantica,mesopelagic,mesopelagic,oceanic,0,0,0,3.65,elongated,6.5
+Actinopterygii,Aulopiformes,Paralepididae,Paralepis coregonoides,mesopelagic,mesopelagic,oceanic,0,0,0,4.07,elongated,81.48148148
+Actinopterygii,Aulopiformes,Paralepididae,Paralepis speciosa,mesopelagic,mesopelagic,oceanic,0,0,0,3.15,elongated,0
+Actinopterygii,Aulopiformes,Paralepididae,Sudis hyalina,mesopelagic,mesopelagic,oceanic,UN,0,0,4.2,elongated,0
+Actinopterygii,Beloniformes,Belonidae,Belone belone,coastal epipelagic,epipelagic,coastal,0,0,0,4.16,elongated,8.7
+Actinopterygii,Beloniformes,Belonidae,Strongylura exilis,coastal epipelagic,epipelagic,coastal,UN,0,0,4.5,elongated,1
+Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,oceanic epipelagic,epipelagic,oceanic,0,0,0,3.71,elongated,54.35
+Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,oceanic epipelagic,epipelagic,oceanic,1,0,0,3.91,elongated,64.81
+Actinopterygii,Clupeiformes,Clupeidae,Clupea pallasii pallasii,coastal epipelagic,epipelagic,coastal,1,0,0,3.16,fusiform ,0
+Actinopterygii,Clupeiformes,Clupeidae,Sardina pilchardus,coastal epipelagic,epipelagic,coastal,1,0,0,3.06,fusiform ,3.4
+Actinopterygii,Clupeiformes,Clupeidae,Sardinella aurita,coastal epipelagic,epipelagic,coastal,1,1,0,3.4,fusiform ,0
+Actinopterygii,Clupeiformes,Clupeidae,Sardinops sagax,coastal epipelagic,epipelagic,coastal,1,0,0,2.84,fusiform ,29.07
+Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,coastal epipelagic,epipelagic,coastal,1,0,0,3.12,elongated,29.2
+Actinopterygii,Clupeiformes,Engraulidae,Engraulis japonicus,coastal epipelagic,epipelagic,coastal,1,0,0,3.14,elongated,85.4
+Actinopterygii,Clupeiformes,Engraulidae,Engraulis mordax,coastal epipelagic,epipelagic,coastal,1,0,0,3.1,elongated,69.7
+Actinopterygii,Gadiformes,Gadidae,Microgadus proximus,continental demersal,demersal,continental shelf,UN,1,0,3.58,fusiform ,9.5
+Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,mesopelagic,oceanic,1,0,0,4.13,elongated,72.4
+Actinopterygii,Gadiformes,Lotidae,Gaidropsarus vulgaris,continental demersal,demersal,continental shelf,0,1,0,3.47,elongated,8
+Actinopterygii,Gadiformes,Merlucciidae,Merluccius productus,benthopelagic,benthopelagic,continental shelf,1,0,1,4.35,elongated,100
+Actinopterygii,Lampriformes,Trachipteridae,Desmodema polystictum,mesopelagic,mesopelagic,oceanic,UN,0,0,4.15,elongated,0
+Actinopterygii,Lampriformes,Trachipteridae,Trachipterus trachypterus,mesopelagic,mesopelagic,oceanic,UN,0,0,2.88,eel-like,0
+Actinopterygii,Myctophiformes,Myctophidae,Benthosema glaciale,mesopelagic,mesopelagic,oceanic,1,0,0,2.99,fusiform ,10.3
+Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus maderensis,mesopelagic,mesopelagic,oceanic,1,0,0,3.05,elongated,29.63
+Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus townsendi,mesopelagic,mesopelagic,oceanic,1,0,0,3.5,elongated,7.7
+Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus warmingii,mesopelagic,mesopelagic,oceanic,1,0,0,3.4,elongated,5.6
+Actinopterygii,Myctophiformes,Myctophidae,Diaphus luetkeni,mesopelagic,mesopelagic,oceanic,1,0,0,3.78,elongated,2.86
+Actinopterygii,Myctophiformes,Myctophidae,Diaphus theta,mesopelagic,mesopelagic,oceanic,1,0,0,3.19,fusiform ,5.6
+Actinopterygii,Myctophiformes,Myctophidae,Electrona rissoi,mesopelagic,mesopelagic,oceanic,1,0,0,3.4,elongated,5.71
+Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus alatus,mesopelagic,mesopelagic,oceanic,1,0,0,3.22,elongated,5.56
+Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus crocodilus,bathypelagic,bathypelagic,oceanic,1,0,0,3.22,elongated,48.57
+Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus intricarius,mesopelagic,mesopelagic,oceanic,1,0,0,3.4,elongated,37.04
+Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus mexicanus,mesopelagic,mesopelagic,oceanic,1,0,0,3.4,elongated,1
+Actinopterygii,Myctophiformes,Myctophidae,Lobianchia gemellarii,mesopelagic,mesopelagic,oceanic,1,0,0,3,elongated,4
+Actinopterygii,Myctophiformes,Myctophidae,Myctophum punctatum,mesopelagic,mesopelagic,oceanic,1,0,0,3.390000105,elongated,68.52
+Actinopterygii,Myctophiformes,Myctophidae,Nannobrachium regale,mesopelagic,mesopelagic,oceanic,0,0,0,3.2,elongated,1
+Actinopterygii,Myctophiformes,Myctophidae,Nannobrachium ritteri,mesopelagic,mesopelagic,oceanic,1,0,0,3.37,elongated,1.8
+Actinopterygii,Myctophiformes,Myctophidae,Notoscopelus kroyeri,mesopelagic,mesopelagic,oceanic,1,0,0,3.17,elongated,15.8
+Actinopterygii,Myctophiformes,Myctophidae,Protomyctophum crockeri,mesopelagic,mesopelagic,oceanic,0,0,0,3.2,fusiform ,2.7
+Actinopterygii,Myctophiformes,Myctophidae,Stenobrachius leucopsarus,mesopelagic,mesopelagic,oceanic,1,0,0,3.1,fusiform ,7.6
+Actinopterygii,Myctophiformes,Myctophidae,Tarletonbeania crenularis,mesopelagic,mesopelagic,oceanic,1,0,0,3.13,fusiform ,100
+Actinopterygii,Myctophiformes,Myctophidae,Triphoturus mexicanus,mesopelagic,mesopelagic,oceanic,1,0,0,3.33,elongated,6.98
+Actinopterygii,Ophidiiformes,Aphyonidae,Barathronus parfaiti,bathypelagic,bathypelagic,oceanic,UN,0,0,3.4,eel-like,1.85
+Actinopterygii,Ophidiiformes,Ophdiidae,Chilara taylori,continental demersal,demersal,continental shelf,0,1,0,4.07,eel-like,0
+Actinopterygii,Osmeriformes,Osmeridae,Thaleichthys pacificus,coastal epipelagic,epipelagic,coastal,UN,0,0,3.25,elongated,0
+Actinopterygii,Perciformes,Anarhichadidae,Anarrhichthys ocellatus,continental demersal,demersal,continental shelf,0,1,1,3.51,elongated,0
+Actinopterygii,Perciformes,Blenniidae,Blennius ocellaris,continental benthic,benthic,continental shelf,UN,1,1,3.49,elongated,5.56
+Actinopterygii,Perciformes,Bramidae,Brama brama,oceanic epipelagic,epipelagic,oceanic,1,0,0,4.08,compressiform,0
+Actinopterygii,Perciformes,Bramidae,Brama orcini,coastal epipelagic,epipelagic,coastal,1,0,0,3.9,compressiform,3
+Actinopterygii,Perciformes,Bramidae,Pterycombus petersii,oceanic epipelagic,epipelagic,oceanic,UN,0,0,4.1,compressiform,4.7
+Actinopterygii,Perciformes,Bramidae,Taractes asper,oceanic epipelagic,epipelagic,oceanic,UN,0,0,4.3,fusiform ,0
+Actinopterygii,Perciformes,Caproidae,Antigonia capros,continental demersal,demersal,continental shelf,0,0,1,4.05,compressiform,3
+Actinopterygii,Perciformes,Caproidae,Capros aper,continental demersal,demersal,continental shelf,UN,1,1,3.14,compressiform,14.28571429
+Actinopterygii,Perciformes,Carangidae,Selene setapinnis,benthopelagic,benthopelagic,continental shelf,UN,0,1,3.72,compressiform,3
+Actinopterygii,Perciformes,Carangidae,Trachinotus ovatus,coastal epipelagic,epipelagic,coastal,UN,0,1,3.73,fusiform ,1.85
+Actinopterygii,Perciformes,Carangidae,Trachurus japonicus,coastal epipelagic,epipelagic,coastal,1,0,1,3.4,fusiform ,5.6
+Actinopterygii,Perciformes,Carangidae,Trachurus symmetricus,coastal epipelagic,epipelagic,coastal,1,0,1,3.57,fusiform ,40.7
+Actinopterygii,Perciformes,Carangidae,Trachurus trachurus,coastal epipelagic,epipelagic,coastal,1,0,1,3.71,fusiform ,43
+Actinopterygii,Perciformes,Centrolophidae,Centrolophus niger,mesopelagic,mesopelagic,oceanic,UN,0,1,3.92,fusiform ,1.85
+Actinopterygii,Perciformes,Centrolophidae,Icichthys lockingtoni,oceanic epipelagic,epipelagic,oceanic,1,0,1,3.71,compressiform,1
+Actinopterygii,Perciformes,Chiasmodontidae,Chiasmodon niger,mesopelagic,mesopelagic,oceanic,UN,0,1,4.2,elongated,0.3
+Actinopterygii,Perciformes,Coryphaenidae,Coryphaena hippurus,oceanic epipelagic,epipelagic,oceanic,0,0,0,4.37,elongated,0.3
+Actinopterygii,Perciformes,Embiotocidae,Cymatogaster aggregata,continental demersal,demersal,coastal,0,1,1,2.99,compressiform,0.5
+Actinopterygii,Perciformes,Gempylidae,Diplospinus multistriatus,benthopelagic,benthopelagic,continental shelf,1,0,1,3.51,elongated,8
+Actinopterygii,Perciformes,Gempylidae,Gempylus serpens,mesopelagic,mesopelagic,oceanic,1,0,1,4.35,elongated,5.2
+Actinopterygii,Perciformes,Gempylidae,Nealotus tripes,mesopelagic,mesopelagic,oceanic,1,0,1,4.2,elongated,3
+Actinopterygii,Perciformes,Gempylidae,Nesiarchus nasutus,mesopelagic,mesopelagic,continental shelf,1,0,1,4.33,elongated,3
+Actinopterygii,Perciformes,Gobiidae,Rhinogobiops nicholsii,continental demersal,demersal,continental shelf,0,1,1,3.369999886,fusiform ,0
+Actinopterygii,Perciformes,Kyphosidae,Medialuna californiensis,reef-associated,demersal,reef-associated,1,1,1,2.67,fusiform ,1.16
+Actinopterygii,Perciformes,Labridae,Halichoeres nicholsi,reef-associated,demersal,reef-associated,UN,1,1,4,fusiform ,0
+Actinopterygii,Perciformes,Mugilidae,Mugil cephalus,coastal epipelagic,epipelagic,coastal,UN,0,1,2.48,fusiform ,0
+Actinopterygii,Perciformes,Nomeidae,Cubiceps gracilis,oceanic epipelagic,epipelagic,oceanic,UN,0,0,3.4,fusiform ,10
+Actinopterygii,Perciformes,Nomeidae,Psenes pellucidus,oceanic epipelagic,epipelagic,oceanic,UN,1,1,3.85,compressiform,3
+Actinopterygii,Perciformes,Percoidei,Mullus barbatus barbatus,continental demersal,demersal,continental shelf,UN,0,1,3.14,fusiform ,1.85
+Actinopterygii,Perciformes,Scombridae,Katsuwonus pelamis,oceanic epipelagic,epipelagic,oceanic,0,0,1,4.43,fusiform ,0.6
+Actinopterygii,Perciformes,Scombridae,Scomber japonicus,coastal epipelagic,epipelagic,coastal,1,0,1,3.38,fusiform ,3
+Actinopterygii,Perciformes,Scombridae,Scomber scombrus,coastal epipelagic,epipelagic,coastal,1,0,1,3.63,fusiform ,1.1
+Actinopterygii,Perciformes,Sparidae,Boops boops,continental demersal,demersal,continental shelf,1,1,1,2.79,fusiform ,11.11
+Actinopterygii,Perciformes,Sparidae,Diplodus sargus,reef-associated,demersal,reef-associated,0,1,1,3.38,fusiform ,2.86
+Actinopterygii,Perciformes,Sparidae,Spondyliosoma cantharus,benthopelagic,benthopelagic,coastal,0,1,1,3.34,fusiform ,1.85
+Actinopterygii,Perciformes,Stomateidae,Peprilus simillimus,benthopelagic,benthopelagic,coastal,UN,0,1,4,compressiform,0.5
+Actinopterygii,Perciformes,Tetragonuridae,Tetragonurus atlanticus,mesopelagic,mesopelagic,oceanic,1,0,1,3.64,elongated,14.29
+Actinopterygii,Perciformes,Tetragonuridae,Tetragonurus cuvieri,oceanic epipelagic,epipelagic,oceanic,1,0,1,3.78,elongated,0.6
+Actinopterygii,Pleuronectiformes,Bothidae,Arnoglossus imperialis,continental demersal,demersal,continental shelf,0,1,0,3.84,fusiform ,24.07
+Actinopterygii,Pleuronectiformes,Paralichthyidae,Citharichthys sordidus,continental demersal,demersal,continental shelf,1,1,0,3.46,fusiform ,0
+Actinopterygii,Pleuronectiformes,Pleuronectidae,Pleuronichthys decurrens,continental demersal,demersal,continental shelf,0,1,0,3.85,depressiform,1
+Actinopterygii,Pleuronectiformes,Pleutonectidae,Microstomus pacificus,continental demersal,demersal,continental shelf,1,1,0,3.22,depressiform,0
+Actinopterygii,Pleutonectiformes,Pleuronectidae,Glyptocephalus zachirus,continental demersal,demersal,continental shelf,0,1,0,3.25,depressiform,0
+Actinopterygii,Scorpaeniformes,Agonidae,Bathyagonus pentacanthus,continental demersal,demersal,continental shelf,UN,1,1,3.2,elongated,0
+Actinopterygii,Scorpaeniformes,Anoplopomatidae,Anoplopoma fimbria,deep-sea demersal,demersal,continental shelf,1,1,1,3.84,fusiform ,0
+Actinopterygii,Scorpaeniformes,Gonatidae,Helicolenus dactylopterus,continental demersal,demersal,continental shelf,UN,0,1,3.54,fusiform ,16
+Actinopterygii,Scorpaeniformes,Peristediidae,Peristedion gracile,continental demersal,demersal,continental shelf,UN,0,1,3.4,fusiform ,3
+Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes aleutianus,continental demersal,demersal,continental shelf,1,1,1,3.52,fusiform ,0
+Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes brevispinis,continental demersal,demersal,continental shelf,1,1,1,3.8,fusiform ,1
+Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes diploproa,continental demersal,demersal,continental shelf,1,1,1,3.7,fusiform ,1
+Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes helvomaculatus,continental demersal,demersal,continental shelf,1,1,1,3.7,fusiform ,0
+Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes maliger,reef-associated,demersal,reef-associated,1,1,1,3.84,fusiform ,0
+Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes miniatus,reef-associated,demersal,reef-associated,1,1,1,3.9,fusiform ,0
+Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes proriger,continental demersal,demersal,continental shelf,1,1,1,3.8,fusiform ,1
+Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes wilsoni,continental demersal,demersal,continental shelf,1,1,1,3.6,fusiform ,1
+Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes zacentrus,continental demersal,demersal,continental shelf,1,1,1,3.7,fusiform ,0
+Actinopterygii,Scorpaeniformes,Triglidae,Eutrigla gurnardus,continental demersal,demersal,continental shelf,0,1,1,3.87,elongated,4
+Actinopterygii,Stephanoberyciformes,Melamphaidae,Melamphaes lugubris,mesopelagic,mesopelagic,oceanic,1,0,1,3.8,fusiform ,5.9
+Actinopterygii,Stephanoberyciformes,Melamphaidae,Scopelogadus mizolepis bispinosus,mesopelagic,mesopelagic,oceanic,1,0,1,3.5,fusiform ,2.7
+Actinopterygii,Stomiiformes,Phosichthyidae,Vinciguerria lucetia,mesopelagic,mesopelagic,oceanic,1,0,0,3.2,elongated,20.1
+Actinopterygii,Stomiiformes,Sternoptychidae,Argyropelecus olfersii,mesopelagic,mesopelagic,oceanic,1,0,1,3.36,compressiform,100
+Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus imperatorius,mesopelagic,mesopelagic,oceanic,1,0,0,3.1,compressiform,4.2
+Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus muelleri,mesopelagic,mesopelagic,continental shelf,1,0,0,3.01,elongated,85.71
+Actinopterygii,Stomiiformes,Sternoptychidae,Sternoptyx diaphana,mesopelagic,mesopelagic,oceanic,1,0,0,3.44,compressiform,44.44
+Actinopterygii,Stomiiformes,Sternoptychidae,Sternoptyx obscura,mesopelagic,mesopelagic,oceanic,1,0,0,3.3,compressiform,1
+Actinopterygii,Stomiiformes,Stomiidae,Bathophilus flemingi,mesopelagic,mesopelagic,oceanic,1,0,0,3.5,elongated,0.5
+Actinopterygii,Stomiiformes,Stomiidae,Melanostomias valdiviae,mesopelagic,mesopelagic,oceanic,1,0,0,4.2,elongated,0
+Actinopterygii,Stomiiformes,Stomiidae,Photonectes margarita,mesopelagic,mesopelagic,oceanic,1,0,0,4.03,elongated,0
+Actinopterygii,Sygnathiformes,Centriscidae,Macroramphosus scolopax,continental demersal,demersal,continental shelf,1,1,1,3.47,elongated,30
+Actinopterygii,Syngnathiformes,Syngnathidae,Entelurus aequoreus,continental demersal,demersal,continental shelf,0,1,0,3.539999962,eel-like,41
+Actinopterygii,Syngnathiformes,Syngnathidae,Syngnathus californiensis,reef-associated,demersal,reef-associated,UN,1,0,3.37,eel-like,1
+Actinopterygii,Tetraodontiformes,Ostaciidae,Lactoria diaphana,reef-associated,demersal,reef-associated,UN,1,0,3.3,globiform,0.3
+Cephalopoda,Decapodiformes,Chtenopterygidae,Chtenopteryx sicula,mesopelagic,mesopelagic,oceanic,1,0,0,4.03,fusiform ,33.33
+Cephalopoda,Myopsida,Loliginidae,Alloteuthis subulata,continental demersal,demersal,continental shelf,0,1,0,4.5,fusiform ,1
+Cephalopoda,Myopsida,Loliginidae,Doryteuthis opalescens,coastal epipelagic,epipelagic,continental shelf,1,0,0,3.74,fusiform ,13.4
+Cephalopoda,Octopoda,Alloposidae,Haliphron atlanticus,mesopelagic,mesopelagic,continental slope,1,0,0,3.85,fusiform ,5
+Cephalopoda,Octopoda,Amphitretidae,Japetella diaphana,mesopelagic,mesopelagic,oceanic,1,0,0,3.58,globiform,4
+Cephalopoda,Octopoda,Amphitretidae,Japetella heathi,mesopelagic,mesopelagic,oceanic,1,1,0,NA,globiform,7
+Cephalopoda,Octopoda,Argonautidae,Argonauta argo,coastal epipelagic,epipelagic,coastal,1,0,1,4.5,compressiform,13.11
+Cephalopoda,Octopoda,Argonautidae,Argonauta nodosus,oceanic epipelagic,epipelagic,oceanic,1,0,1,NA,compressiform,5
+Cephalopoda,Octopoda,Argonautidae,Argonauta nouryi,coastal epipelagic,epipelagic,coastal,1,0,1,3.44,compressiform,0.5
+Cephalopoda,Octopoda,Eledonidae,Eledone cirrhosa,coastal epipelagic,epipelagic,coastal,1,1,0,3.7,globiform,8
+Cephalopoda,Octopoda,Incirrata,Octopus vulgaris,reef-associated,benthic,reef-associated,1,1,0,3.74,globiform,16.67
+Cephalopoda,Octopoda,Octopodidae,Octopus bimaculatus,reef-associated,benthic,reef-associated,0,1,0,3.44,globiform,15.9
+Cephalopoda,Octopoda,Octopodidae,Pteroctopus tetracirrhus,continental benthic,benthic,continental shelf,1,0,0,3.73,globiform,24
+Cephalopoda,Octopoda,Octopodidae,Scaeurgus unicirrhus,continental benthic,benthic,continental shelf,1,1,0,NA,globiform,5
+Cephalopoda,Octopoda,Opisthoteuthidae,Opisthoteuthis californiana,benthopelagic,benthopelagic,continental slope,1,1,0,NA,globiform,0.5
+Cephalopoda,Octopoda,Tremoctopodidae,Tremoctopus violaceus,oceanic epipelagic,epipelagic,oceanic,1,0,0,NA,unique,21.31
+Cephalopoda,Oegopsida,Ancistrocheiridae,Ancistrocheirus lesueurii,mesopelagic,mesopelagic,oceanic,1,0,0,NA,fusiform ,7
+Cephalopoda,Oegopsida,Brachioteuthidae,Brachioteuthis riisei,bathypelagic,bathypelagic,oceanic,1,0,0,3.2,fusiform ,29.63
+Cephalopoda,Oegopsida,Chiroteuthidae,Chiroteuthis veranii,mesopelagic,mesopelagic,oceanic,1,1,0,4.04,fusiform ,36.06
+Cephalopoda,Oegopsida,Cracnhiidae,Cranchia scarbra,mesopelagic,mesopelagic,oceanic,UN,0,0,3.57,globiform,0.7
+Cephalopoda,Oegopsida,Cranchiidae,Galiteuthis armata,bathypelagic,bathypelagic,oceanic,1,0,0,NA,fusiform ,54.29
+Cephalopoda,Oegopsida,Cranchiidae,Galiteuthis phyllura,bathypelagic,bathypelagic,continental slope,1,1,0,NA,fusiform ,0
+Cephalopoda,Oegopsida,Cranchiidae,Helicocranchia pfefferi,mesopelagic,mesopelagic,continental shelf,0,0,0,NA,globiform,7.41
+Cephalopoda,Oegopsida,Cranchiidae,Liocranchia reinhardti,mesopelagic,mesopelagic,oceanic,1,0,0,4.5,globiform,1.85
+Cephalopoda,Oegopsida,Cranchiidae,Teuthowenia megalops,mesopelagic,mesopelagic,oceanic,1,0,0,NA,fusiform ,16.67
+Cephalopoda,Oegopsida,Enoploteuthidae,Abralia redfieldi,oceanic epipelagic,epipelagic,oceanic,1,0,0,NA,fusiform ,5
+Cephalopoda,Oegopsida,Enoploteuthidae,Abraliopsis affinis,oceanic epipelagic,epipelagic,oceanic,1,0,0,NA,fusiform ,1.16
+Cephalopoda,Oegopsida,Enoploteuthidae,Abraliopsis felis,oceanic epipelagic,epipelagic,oceanic,1,0,0,NA,fusiform ,36.4
+Cephalopoda,Oegopsida,Gonatidae,Berryteuthis anonychus,oceanic epipelagic,epipelagic,oceanic,1,1,0,NA,fusiform ,38.5
+Cephalopoda,Oegopsida,Gonatidae,Gonatopsis borealis,mesopelagic,mesopelagic,continental shelf,1,1,0,NA,fusiform ,28.8
+Cephalopoda,Oegopsida,Gonatidae,Gonatus berryi,mesopelagic,mesopelagic,continental shelf,1,1,0,NA,fusiform ,1.5
+Cephalopoda,Oegopsida,Gonatidae,Gonatus californiensis,mesopelagic,mesopelagic,continental shelf,1,1,0,NA,fusiform ,0
+Cephalopoda,Oegopsida,Gonatidae,Gonatus onyx,mesopelagic,mesopelagic,continental shelf,1,1,0,NA,fusiform ,1
+Cephalopoda,Oegopsida,Gonatidae,Gonatus pyros,mesopelagic,mesopelagic,continental shelf,1,1,0,NA,fusiform ,0
+Cephalopoda,Oegopsida,Gonatidae,Gonatus steenstrupi,mesopelagic,mesopelagic,oceanic,1,0,0,NA,fusiform ,23.5
+Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis bonnellii,mesopelagic,mesopelagic,oceanic,1,0,0,4.16,fusiform ,63.2
+Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis heteropsis,mesopelagic,mesopelagic,oceanic,1,1,0,NA,fusiform ,1.5
+Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis reversa,mesopelagic,mesopelagic,oceanic,1,0,0,4.11,fusiform ,28
+Cephalopoda,Oegopsida,Lycoteuthidae,Lycoteuthis lorigera,mesopelagic,mesopelagic,continental slope,1,0,0,NA,fusiform ,12
+Cephalopoda,Oegopsida,Mastigoteuthidae,Mastigoteuthis dentata,mesopelagic,mesopelagic,oceanic,UN,1,0,NA,fusiform ,22.5
+Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis nielseni,mesopelagic,mesopelagic,oceanic,1,1,0,NA,fusiform ,0.33
+Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,mesopelagic,oceanic,1,0,0,NA,fusiform ,32.7
+Cephalopoda,Oegopsida,Ocythoidae,Ocythoe tuberculata,oceanic epipelagic,epipelagic,oceanic,1,0,0,NA,globiform,17.2
+Cephalopoda,Oegopsida,Ommastrephidae,Dosidicus gigas,mesopelagic,mesopelagic,continental shelf,1,0,0,4.15,fusiform ,1.16
+Cephalopoda,Oegopsida,Ommastrephidae,Eucleoteuthis luminosa,oceanic epipelagic,epipelagic,oceanic,1,0,0,4.1,fusiform ,0
+Cephalopoda,Oegopsida,Ommastrephidae,Hyaloteuthis pelagica,mesopelagic,mesopelagic,oceanic,1,0,0,3.8,fusiform ,2.9
+Cephalopoda,Oegopsida,Ommastrephidae,Illex argentinus,oceanic epipelagic,epipelagic,oceanic,1,0,0,3.82,fusiform ,12
+Cephalopoda,Oegopsida,Ommastrephidae,Illex coindetii,mesopelagic,mesopelagic,continental slope,1,0,0,3.94,fusiform ,10.3
+Cephalopoda,Oegopsida,Ommastrephidae,Ommastrephes bartramii,oceanic epipelagic,epipelagic,oceanic,1,0,0,4.37,fusiform ,5
+Cephalopoda,Oegopsida,Ommastrephidae,Ornithoteuthis antillarum,mesopelagic,mesopelagic,continental shelf,1,0,0,4.14,fusiform ,12
+Cephalopoda,Oegopsida,Ommastrephidae,Ornithoteuthis volatilis,mesopelagic,mesopelagic,continental slope,1,1,0,3.67,fusiform ,4.8
+Cephalopoda,Oegopsida,Ommastrephidae,Sthenoteuthis oualaniensis,mesopelagic,mesopelagic,oceanic,1,0,0,4.56,fusiform ,9.1
+Cephalopoda,Oegopsida,Ommastrephidae,Todarodes pacificus,oceanic epipelagic,epipelagic,oceanic,1,0,0,4.28,fusiform ,1.5
+Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,benthopelagic,continental shelf,1,0,0,4.19,fusiform ,73.7
+Cephalopoda,Oegopsida,Ommastrephidae,Todaropsis eblanae,benthopelagic,benthopelagic,continental shelf,1,0,0,4.25,fusiform ,0
+Cephalopoda,Oegopsida,Onychoteuthidae,Ancistroteuthis lichtensteini,mesopelagic,mesopelagic,continental shelf,1,0,0,NA,fusiform ,33
+Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,oceanic epipelagic,epipelagic,oceanic,1,0,0,3.79,fusiform ,83.33
+Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,oceanic epipelagic,epipelagic,oceanic,1,1,0,4.5,fusiform ,58.5
+Cephalopoda,Oegopsida,Onychoteuthidae,Onykia robusta,benthopelagic,benthopelagic,continental shelf,1,0,0,4.13,fusiform ,6
+Cephalopoda,Oegopsida,Pyroteuthidae,Pterygioteuthis giardi,mesopelagic,mesopelagic,oceanic,1,0,0,3.36,fusiform ,1.63
+Cephalopoda,Oegopsida,Pyroteuthidae,Pterygioteuthis microlampas,mesopelagic,mesopelagic,oceanic,1,1,0,NA,fusiform ,0.33
+Cephalopoda,Oegopsida,Pyroteuthidae,Pyroteuthis margaritifera,mesopelagic,mesopelagic,oceanic,1,0,0,3.1,fusiform ,1.63
+Cephalopoda,Sepiida,Sepiolidae,Heteroteuthis dispar,mesopelagic,mesopelagic,continental slope,1,0,0,3.6,globiform,66
+Cephalopoda,Sepiida,Sepiolidae,Sepietta oweniana,benthopelagic,benthopelagic,continental shelf,1,1,0,3.45,fusiform ,2.86
+Cephalopoda,Vampyromorpha,Vampyroteuthidae,Vampyroteuthis infernalis,mesopelagic,mesopelagic,oceanic,1,0,0,3.47,globiform,0.5

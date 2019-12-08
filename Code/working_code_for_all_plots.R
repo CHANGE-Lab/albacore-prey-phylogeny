@@ -39,33 +39,32 @@ library(ggnewscale)
 `%notin%` = Negate(`%in%`)
 #TASKS
 
-# 1. A plot that colours species by class 
+################# 1. A plot that colours species by class 
 ### Current Issues:
 ##### a) poorly coloured segments
 ##### b) not reproducbile ATM
 ######## Wish List
 ############ i) Coloured branches and segments - so as to look like 'prey_tree_classcollegend.pdf'
 
-# 2. A plot that colours species by maximum frequency of occurence - largely done
+################# 2. A plot that colours species by maximum frequency of occurence - largely done
 ### Current Issues:
 ##### a) Nothing explicit, but needs some tweeks, to be re-visited at some point
 ######## Wish List -- TBD
 
-# 3. A plot that shows the different frequency of occurence of prey from ocean basins
+################# 3. A plot that shows the different frequency of occurence of prey from ocean basins
 ### Current Issues:
 ##### a) data not piping into figure
 ##### b) all grey boxes where trait values should be
 ######## Wish List -- Fig. 7.4 from treedata book
 
-# 3. A plot that shows categorical or other trait values on complimentary graph to 3)
+################# 4. A plot that shows categorical or other trait values on complimentary graph to 3)
 ### Current Issues:
 ##### a) data not piping into figure ?
 ##### b) all grey boxes where trait values should be ?
 ######## Wish List -- Fig. 7.4 from treedata book
 
-#CODE
+###### Cleaning Code
 
-# 1. A plot that colours species by class 
 #data load/fix
 my_tree <- read.tree("albacore_diet_tree") #make initial tree object
 mycirc <- ggtree(my_tree, layout = "circular") #turn tree into circular
@@ -104,37 +103,10 @@ x[18,1] = y[14]; x[3,1] = y[15]; x[21,1] = y[16]
 my_prey_class = rbind(my_prey_class_keep, x)
 my_prey_class = my_prey_class %>% 
   filter(PreySP %in% my_tree_class$tip.label)
-nrow(my_prey_class);length(my_tree_class$tip.label) #okay so still problem here
+nrow(my_prey_class);length(my_tree_class$tip.label) #okay so problem is fixed
 
-#apparent problem is that there are species in the tree that aren't in the data, namely these ones:
-tree_names %>% 
-  filter(sort.my_tree_class.tip.label. %notin% my_prey_class$PreySP)
+my_prey = my_prey_class #note reassignment here - if something different required, don't run or reload from other script
 
-#my_prey$PreySP <- gsub(" ", "_", my_prey$PreySP) #replacing space in the names to matches the names in my_tree
+# 1. A plot that colours species by class 
 
-#This fixes the dimension issue -- UNSURE WHAT THIS IS DOING?
-my_prey_class = my_prey %>% 
-  filter(PreySP %in% #takes species values that equal the spp that were parsed to the tree
-rownames(my_prey2) <- my_tree$tip.label # relabel rows to match species-- UNSURE WHY WE'RE NAMING THE ROWS HERE? DEPRECIATED?
-my_prey2$PreySP <- my_tree$tip.label
 
-#make initial tree
-my_prey_class = my_prey %>% 
-  filter(PreySP %notin% test)#takes species values that equal the spp that were parsed to the tree
-           
-class_tree <- ggtree(my_tree_class, layout="fan", open.angle=0) + #can vary width with size=1.5
-  geom_tiplab2(aes(fontface = 'italic', angle = angle, ),
-               align = TRUE, size = 3) +
-  #geom_tiplab2()+
-  ggplot2::xlim(-0.6, 1.3) 
-class_tree
-class_tree %<+% my_prey + #note that %<+% is ggtree parlence for adding elements to the existing tree
-  aes(color = class) +
-  scale_colour_manual(values = c("#3366FF", "#CC6633", "#663366", 
-                                 "#FF9933", "#663300", "#CC0000", 'black'),
-                      name = "Class") #+
-#theme(legend.position = c(0.5,0.5),
-#      legend.key.size = unit(1.75, "cm"),
-#      legend.text = element_text(size = 18),
-#      legend.title = element_text(size = 20))
-unique(my_prey$class)

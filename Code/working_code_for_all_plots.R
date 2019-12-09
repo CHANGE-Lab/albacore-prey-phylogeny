@@ -37,7 +37,6 @@ library(treeio)
 library(phylobase)
 library(ggnewscale)
 `%notin%` = Negate(`%in%`)
-#demo line
 #TASKS
 
 ################# 1. A plot that colours species by class 

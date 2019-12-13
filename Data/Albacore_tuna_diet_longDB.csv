@@ -1,0 +1,433 @@
+OceanBasinQ,StudyID,YearSample,YearEnd, LocatLatitude,LocatLongitude,PreyClass,PreyOrder,PreyFamily,PreySP,vert_habitat,horz_habitat,diel_migrant,refuge,phys_defense,body_shape,MAX of pFOuse
+Mediterranean,Bello1999,1992,1992,41.096462,17.512247,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis bonnellii,mesopelagic,oceanic,1,0,0,fusiform ,6.50
+Mediterranean,Bello1999,1992,1992,41.096462,17.512247,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,25.80
+Mediterranean,Bello1999,1992,1992,41.096462,17.512247,Cephalopoda,Sepiida,Sepiolidae,Heteroteuthis dispar,mesopelagic,continental slope,1,0,0,globiform,58.10
+Mediterranean,Bello1999,1994,1994,41.096462,17.512247,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis bonnellii,mesopelagic,oceanic,1,0,0,fusiform ,63.20
+Mediterranean,Bello1999,1994,1994,41.096462,17.512247,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,73.70
+Mediterranean,Bello1999,1994,1994,41.096462,17.512247,Cephalopoda,Sepiida,Sepiolidae,Heteroteuthis dispar,mesopelagic,continental slope,1,0,0,globiform,57.90
+Mediterranean,Goni2011,2005,2005,40.158082,1.716886,Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,epipelagic,coastal,1,0,0,elongated,29.20
+Mediterranean,Goni2011,2008,2008,40.658373,11.445351,Cephalopoda,Oegopsida,Ommastrephidae,Illex coindetii,mesopelagic,continental slope,1,0,0,fusiform ,10.30
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Myopsida,Loliginidae,Alloteuthis subulata,demersal,continental shelf,0,1,0,fusiform ,1.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Octopoda,Argonautidae,Argonauta argo,epipelagic,coastal,1,0,1,compressiform,10.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Octopoda,Eledonidae,Eledone cirrhosa,epipelagic,coastal,1,1,0,globiform,1.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Octopoda,Octopodidae,Pteroctopus tetracirrhus,benthic,continental shelf,1,0,0,globiform,24.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Octopoda,Octopodidae,Scaeurgus unicirrhus,benthic,continental shelf,1,1,0,globiform,5.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Oegopsida,Ancistrocheiridae,Ancistrocheirus lesueurii,mesopelagic,oceanic,1,0,0,fusiform ,7.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis reversa,mesopelagic,oceanic,1,0,0,fusiform ,1.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Oegopsida,Ocythoidae,Ocythoe tuberculata,epipelagic,oceanic,1,0,0,globiform,4.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Oegopsida,Ommastrephidae,Illex coindetii,mesopelagic,continental slope,1,0,0,fusiform ,4.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,46.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Oegopsida,Onychoteuthidae,Ancistroteuthis lichtensteini,mesopelagic,continental shelf,1,0,0,fusiform ,33.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,epipelagic,oceanic,1,0,0,fusiform ,57.00
+Mediterranean,Romeo2012,2002–08,2008,39.337218,11.12478,Cephalopoda,Sepiida,Sepiolidae,Heteroteuthis dispar,mesopelagic,continental slope,1,0,0,globiform,66.00
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Octopoda,Argonautidae,Argonauta argo,epipelagic,coastal,1,0,1,compressiform,13.11
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Octopoda,Eledonidae,Eledone cirrhosa,epipelagic,coastal,1,1,0,globiform,1.63
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Octopoda,Octopodidae,Scaeurgus unicirrhus,benthic,continental shelf,1,1,0,globiform,1.63
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Octopoda,Tremoctopodidae,Tremoctopus violaceus,epipelagic,oceanic,1,0,0,unique,21.31
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Oegopsida,Chiroteuthidae,Chiroteuthis veranii,mesopelagic,oceanic,1,1,0,fusiform ,36.06
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis reversa,mesopelagic,oceanic,1,0,0,fusiform ,1.63
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,oceanic,1,0,0,fusiform ,11.47
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Oegopsida,Ommastrephidae,Ommastrephes bartramii,epipelagic,oceanic,1,0,0,fusiform ,4.91
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,27.80
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Oegopsida,Onychoteuthidae,Ancistroteuthis lichtensteini,mesopelagic,continental shelf,1,0,0,fusiform ,4.91
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,epipelagic,oceanic,1,0,0,fusiform ,50.81
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Oegopsida,Pyroteuthidae,Pterygioteuthis giardi,mesopelagic,oceanic,1,0,0,fusiform ,1.63
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Oegopsida,Pyroteuthidae,Pyroteuthis margaritifera,mesopelagic,oceanic,1,0,0,fusiform ,1.63
+Mediterranean,Salman&Karakulak2009,2007,2007,32.247652,31.113281,Cephalopoda,Sepiida,Sepiolidae,Heteroteuthis dispar,mesopelagic,continental slope,1,0,0,globiform,49.10
+NE Atlantic,Aloncle1973,1968–71,1971,44.632016,353.494034,Actinopterygii,Aulopiformes,Paralepididae,Arctozenus risso,mesopelagic,oceanic,1,0,0,elongated,8.25
+NE Atlantic,Aloncle1973,1968–71,1971,44.632016,353.494034,Actinopterygii,Aulopiformes,Paralepididae,Lestidiops sphyrenoides,mesopelagic,oceanic,0,0,0,elongated,8.25
+NE Atlantic,Aloncle1973,1968–71,1971,44.632016,353.494034,Actinopterygii,Aulopiformes,Paralepididae,Paralepis coregonoides,mesopelagic,oceanic,0,0,0,elongated,8.25
+NE Atlantic,Aloncle1973,1968–71,1971,44.632016,353.494034,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,16.00
+NE Atlantic,Aloncle1973,1968–71,1971,44.632016,353.494034,Actinopterygii,Perciformes,Nomeidae,Cubiceps gracilis,epipelagic,oceanic,UN,0,0,fusiform ,10.00
+NE Atlantic,Aloncle1973,1968–71,1971,44.632016,353.494034,Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus muelleri,mesopelagic,continental shelf,1,0,0,elongated,16.00
+NE Atlantic,Aloncle1973,1968–71,1971,44.632016,353.494034,Actinopterygii,Sygnathiformes,Centriscidae,Macroramphosus scolopax,demersal,continental shelf,1,1,1,elongated,30.00
+NE Atlantic,Bouxin&Legendre,1928,1928,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Argyropelecus olfersii,mesopelagic,oceanic,1,0,1,compressiform,100.00
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Lestidiops sphyrenoides,mesopelagic,oceanic,0,0,0,elongated,16.67
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Paralepis coregonoides,mesopelagic,oceanic,0,0,0,elongated,33.33
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,16.67
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,epipelagic,coastal,1,0,0,elongated,16.67
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Actinopterygii,Perciformes,Carangidae,Trachurus trachurus,epipelagic,coastal,1,0,1,fusiform ,33.33
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus muelleri,mesopelagic,continental shelf,1,0,0,elongated,50.00
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Sternoptyx diaphana,mesopelagic,oceanic,0,0,0,compressiform,33.33
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Cephalopoda,Decapodiformes,Chtenopterygidae,Chtenopteryx sicula,mesopelagic,oceanic,1,0,0,fusiform ,33.33
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Cephalopoda,Octopoda,Incirrata,Octopus vulgaris,benthic,reef-associated,1,1,0,globiform,16.67
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Cephalopoda,Oegopsida,Brachioteuthidae,Brachioteuthis riisei,bathypelagic,oceanic,1,0,0,fusiform ,16.67
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Teuthowenia megalops,mesopelagic,oceanic,1,0,0,fusiform ,16.67
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,33.33
+NE Atlantic,Bouxin&Legendre,1929,1929,61.010401,-11.680527,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,epipelagic,oceanic,1,0,0,fusiform ,66.67
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Paralepis coregonoides,mesopelagic,oceanic,0,0,0,elongated,66.67
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,22.22
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Actinopterygii,Perciformes,Carangidae,Trachurus trachurus,epipelagic,coastal,1,0,1,fusiform ,11.11
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Actinopterygii,Perciformes,Sparidae,Boops boops,demersal,continental shelf,1,1,1,fusiform ,11.11
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Actinopterygii,Pleuronectiformes,Bothidae,Arnoglossus imperialis,demersal,continental shelf,0,1,0,fusiform ,11.11
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Argyropelecus olfersii,mesopelagic,oceanic,1,0,1,compressiform,33.33
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus muelleri,mesopelagic,continental shelf,1,0,0,elongated,55.56
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Sternoptyx diaphana,mesopelagic,oceanic,0,0,0,compressiform,44.44
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Cephalopoda,Decapodiformes,Chtenopterygidae,Chtenopteryx sicula,mesopelagic,oceanic,1,0,0,fusiform ,11.11
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Cephalopoda,Oegopsida,Chiroteuthidae,Chiroteuthis veranii,mesopelagic,oceanic,1,1,0,fusiform ,11.11
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis reversa,mesopelagic,oceanic,1,0,0,fusiform ,22.22
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,44.44
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,epipelagic,oceanic,1,0,0,fusiform ,55.56
+NE Atlantic,Bouxin&Legendre,1930,1930,61.010401,-11.680527,Cephalopoda,Sepiida,Sepiolidae,Heteroteuthis dispar,mesopelagic,continental slope,1,0,0,globiform,11.11
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Aulopiformes,Anotopteridae,Anotopterus pharao,mesopelagic,oceanic,UN,0,0,elongated,11.11
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Paralepis coregonoides,mesopelagic,oceanic,0,0,0,elongated,32.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,40.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,epipelagic,coastal,1,0,0,elongated,4.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Gadiformes,Lotidae,Gaidropsarus vulgaris,demersal,continental shelf,0,1,0,elongated,8.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus maderensis,mesopelagic,oceanic,1,0,0,elongated,8.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus crocodilus,bathypelagic,oceanic,1,0,0,elongated,16.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus intricarius,mesopelagic,oceanic,1,0,0,elongated,8.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Lobianchia gemellarii,mesopelagic,oceanic,1,0,0,elongated,4.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Myctophum punctatum,mesopelagic,oceanic,1,0,0,elongated,16.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Notoscopelus kroyeri,mesopelagic,oceanic,1,0,0,elongated,4.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Perciformes,Carangidae,Trachurus trachurus,epipelagic,coastal,1,0,1,fusiform ,20.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Perciformes,Tetragonuridae,Tetragonurus atlanticus,mesopelagic,oceanic,1,0,1,elongated,8.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Pleuronectiformes,Bothidae,Arnoglossus imperialis,demersal,continental shelf,0,1,0,fusiform ,24.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Scorpaeniformes,Gonatidae,Helicolenus dactylopterus,demersal,continental shelf,UN,0,1,fusiform ,16.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Scorpaeniformes,Triglidae,Eutrigla gurnardus,demersal,continental shelf,0,1,1,elongated,4.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Argyropelecus olfersii,mesopelagic,oceanic,1,0,1,compressiform,28.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus muelleri,mesopelagic,continental shelf,1,0,0,elongated,64.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Sternoptyx diaphana,mesopelagic,oceanic,0,0,0,compressiform,4.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Decapodiformes,Chtenopterygidae,Chtenopteryx sicula,mesopelagic,oceanic,1,0,0,fusiform ,12.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Octopoda,Amphitretidae,Japetella diaphana,mesopelagic,oceanic,1,0,0,globiform,4.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Octopoda,Eledonidae,Eledone cirrhosa,epipelagic,coastal,1,1,0,globiform,8.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Octopoda,Incirrata,Octopus vulgaris,benthic,reef-associated,1,1,0,globiform,12.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Brachioteuthidae,Brachioteuthis riisei,bathypelagic,oceanic,1,0,0,fusiform ,28.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Chiroteuthidae,Chiroteuthis veranii,mesopelagic,oceanic,1,1,0,fusiform ,16.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Galiteuthis armata,bathypelagic,oceanic,1,0,0,fusiform ,28.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Helicocranchia pfefferi,mesopelagic,continental shelf,0,0,0,globiform,4.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Teuthowenia megalops,mesopelagic,oceanic,1,0,0,fusiform ,8.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis bonnellii,mesopelagic,oceanic,1,0,0,fusiform ,8.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis reversa,mesopelagic,oceanic,1,0,0,fusiform ,28.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,oceanic,1,0,0,fusiform ,4.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Ocythoidae,Ocythoe tuberculata,epipelagic,oceanic,1,0,0,globiform,4.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,32.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,epipelagic,oceanic,1,0,0,fusiform ,48.00
+NE Atlantic,Bouxin&Legendre,1931,1931,61.010401,-11.680527,Cephalopoda,Sepiida,Sepiolidae,Heteroteuthis dispar,mesopelagic,continental slope,1,0,0,globiform,48.00
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Aulopiformes,Chlorothalmidae,Chlorophthalmus agassizi,demersal,continental shelf,0,0,0,elongated,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Arctozenus risso,mesopelagic,oceanic,1,0,0,elongated,17.14
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Lestidiops sphyrenoides,mesopelagic,oceanic,0,0,0,elongated,8.57
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Paralepis coregonoides,mesopelagic,oceanic,0,0,0,elongated,65.71
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Beloniformes,Belonidae,Belone belone,epipelagic,coastal,0,0,0,elongated,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,40.00
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,epipelagic,coastal,1,0,0,elongated,14.29
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Gadiformes,Lotidae,Gaidropsarus vulgaris,demersal,continental shelf,0,1,0,elongated,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus maderensis,mesopelagic,oceanic,1,0,0,elongated,20.00
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Diaphus luetkeni,mesopelagic,oceanic,1,0,0,elongated,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Electrona rissoi,mesopelagic,oceanic,1,0,0,elongated,5.71
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus crocodilus,bathypelagic,oceanic,1,0,0,elongated,48.57
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus intricarius,mesopelagic,oceanic,1,0,0,elongated,25.71
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Myctophum punctatum,mesopelagic,oceanic,1,0,0,elongated,37.14
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Notoscopelus kroyeri,mesopelagic,oceanic,1,0,0,elongated,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Perciformes,Blenniidae,Blennius ocellaris,benthic,continental shelf,UN,1,1,elongated,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Perciformes,Caproidae,Capros aper,demersal,continental shelf,UN,1,1,compressiform,14.29
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Perciformes,Carangidae,Trachurus trachurus,epipelagic,coastal,1,0,1,fusiform ,35.19
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Perciformes,Sparidae,Boops boops,demersal,continental shelf,1,1,1,fusiform ,8.57
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Perciformes,Sparidae,Diplodus sargus,demersal,reef-associated,0,1,1,fusiform ,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Perciformes,Tetragonuridae,Tetragonurus atlanticus,mesopelagic,oceanic,1,0,1,elongated,14.29
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Pleuronectiformes,Bothidae,Arnoglossus imperialis,demersal,continental shelf,0,1,0,fusiform ,14.29
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Scorpaeniformes,Gonatidae,Helicolenus dactylopterus,demersal,continental shelf,UN,0,1,fusiform ,14.29
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Argyropelecus olfersii,mesopelagic,oceanic,1,0,1,compressiform,8.57
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus muelleri,mesopelagic,continental shelf,1,0,0,elongated,85.71
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Sternoptyx diaphana,mesopelagic,oceanic,0,0,0,compressiform,31.43
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Actinopterygii,Syngnathiformes,Syngnathidae,Entelurus aequoreus,demersal,continental shelf,0,1,0,eel-like,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Decapodiformes,Chtenopterygidae,Chtenopteryx sicula,mesopelagic,oceanic,1,0,0,fusiform ,11.43
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Octopoda,Amphitretidae,Japetella diaphana,mesopelagic,oceanic,1,0,0,globiform,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Oegopsida,Brachioteuthidae,Brachioteuthis riisei,bathypelagic,oceanic,1,0,0,fusiform ,17.14
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Oegopsida,Chiroteuthidae,Chiroteuthis veranii,mesopelagic,oceanic,1,1,0,fusiform ,17.14
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Galiteuthis armata,bathypelagic,oceanic,1,0,0,fusiform ,54.29
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Helicocranchia pfefferi,mesopelagic,continental shelf,0,0,0,globiform,5.71
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Teuthowenia megalops,mesopelagic,oceanic,1,0,0,fusiform ,2.86
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis reversa,mesopelagic,oceanic,1,0,0,fusiform ,8.57
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,oceanic,1,0,0,fusiform ,11.43
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,37.04
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,epipelagic,oceanic,1,0,0,fusiform ,80.00
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Sepiida,Sepiolidae,Heteroteuthis dispar,mesopelagic,continental slope,1,0,0,globiform,28.57
+NE Atlantic,Bouxin&Legendre,1932,1932,61.010401,-11.680527,Cephalopoda,Sepiida,Sepiolidae,Sepietta oweniana,benthopelagic,continental shelf,1,1,0,fusiform ,2.86
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Aulopiformes,Anotopteridae,Anotopterus pharao,mesopelagic,oceanic,UN,0,0,elongated,5.56
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Arctozenus risso,mesopelagic,oceanic,1,0,0,elongated,38.89
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Lestidiops sphyrenoides,mesopelagic,oceanic,0,0,0,elongated,31.48
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Aulopiformes,Paralepididae,Paralepis coregonoides,mesopelagic,oceanic,0,0,0,elongated,81.48
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,64.81
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,epipelagic,coastal,1,0,0,elongated,25.93
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Gadiformes,Lotidae,Gaidropsarus vulgaris,demersal,continental shelf,0,1,0,elongated,3.70
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus maderensis,mesopelagic,oceanic,1,0,0,elongated,29.63
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Electrona rissoi,mesopelagic,oceanic,1,0,0,elongated,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus alatus,mesopelagic,oceanic,1,0,0,elongated,5.56
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus crocodilus,bathypelagic,oceanic,1,0,0,elongated,40.74
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus intricarius,mesopelagic,oceanic,1,0,0,elongated,37.04
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Myctophiformes,Myctophidae,Myctophum punctatum,mesopelagic,oceanic,1,0,0,elongated,68.52
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Ophidiiformes,Aphyonidae,Barathronus parfaiti,bathypelagic,oceanic,UN,0,0,eel-like,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Perciformes,Blenniidae,Blennius ocellaris,benthic,continental shelf,UN,1,1,elongated,5.56
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Perciformes,Caproidae,Capros aper,demersal,continental shelf,UN,1,1,compressiform,11.11
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Perciformes,Carangidae,Trachinotus ovatus,epipelagic,coastal,0,0,1,fusiform ,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Perciformes,Carangidae,Trachurus trachurus,epipelagic,coastal,1,0,1,fusiform ,42.59
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Perciformes,Centrolophidae,Centrolophus niger,mesopelagic,oceanic,UN,0,1,fusiform ,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Perciformes,Percoidei,Mullus barbatus barbatus,demersal,continental shelf,0,0,1,fusiform ,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Perciformes,Sparidae,Spondyliosoma cantharus,benthopelagic,coastal,0,1,1,fusiform ,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Perciformes,Tetragonuridae,Tetragonurus atlanticus,mesopelagic,oceanic,1,0,1,elongated,9.26
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Pleuronectiformes,Bothidae,Arnoglossus imperialis,demersal,continental shelf,0,1,0,fusiform ,24.07
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Scorpaeniformes,Gonatidae,Helicolenus dactylopterus,demersal,continental shelf,UN,0,1,fusiform ,9.26
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Argyropelecus olfersii,mesopelagic,oceanic,1,0,1,compressiform,12.96
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus muelleri,mesopelagic,continental shelf,1,0,0,elongated,72.22
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Stomiiformes,Sternoptychidae,Sternoptyx diaphana,mesopelagic,oceanic,0,0,0,compressiform,31.48
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Actinopterygii,Syngnathiformes,Syngnathidae,Entelurus aequoreus,demersal,continental shelf,0,1,0,eel-like,5.56
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Decapodiformes,Chtenopterygidae,Chtenopteryx sicula,mesopelagic,oceanic,1,0,0,fusiform ,33.33
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Octopoda,Amphitretidae,Japetella diaphana,mesopelagic,oceanic,1,0,0,globiform,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Octopoda,Eledonidae,Eledone cirrhosa,epipelagic,coastal,1,1,0,globiform,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Octopoda,Incirrata,Octopus vulgaris,benthic,reef-associated,1,1,0,globiform,3.70
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Brachioteuthidae,Brachioteuthis riisei,bathypelagic,oceanic,1,0,0,fusiform ,29.63
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Chiroteuthidae,Chiroteuthis veranii,mesopelagic,oceanic,1,1,0,fusiform ,7.41
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Galiteuthis armata,bathypelagic,oceanic,1,0,0,fusiform ,29.63
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Helicocranchia pfefferi,mesopelagic,continental shelf,0,0,0,globiform,7.41
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Liocranchia reinhardti,mesopelagic,oceanic,1,0,0,globiform,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Cranchiidae,Teuthowenia megalops,mesopelagic,oceanic,1,0,0,fusiform ,1.85
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis reversa,mesopelagic,oceanic,1,0,0,fusiform ,25.93
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,oceanic,1,0,0,fusiform ,9.26
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,66.67
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,epipelagic,oceanic,1,0,0,fusiform ,83.33
+NE Atlantic,Bouxin&Legendre,1933,1933,61.010401,-11.680527,Cephalopoda,Sepiida,Sepiolidae,Heteroteuthis dispar,mesopelagic,continental slope,1,0,0,globiform,14.81
+NE Atlantic,Goni2011,2004,2004,48.376549,-7.516041,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,26.30
+NE Atlantic,Goni2011,2004,2004,48.376549,-7.516041,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,5.30
+NE Atlantic,Goni2011,2004,2004,48.376549,-7.516041,Actinopterygii,Myctophiformes,Myctophidae,Notoscopelus kroyeri,mesopelagic,oceanic,1,0,0,elongated,15.80
+NE Atlantic,Goni2011,2005,2005,46.307336,-4.441214,Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,epipelagic,coastal,1,0,0,elongated,21.80
+NE Atlantic,Goni2011,2005,2005,46.307336,-4.441214,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,24.50
+NE Atlantic,Goni2011,2005,2005,46.307336,-4.441214,Actinopterygii,Myctophiformes,Myctophidae,Benthosema glaciale,mesopelagic,oceanic,1,0,0,fusiform ,0.50
+NE Atlantic,Goni2011,2005,2005,46.307336,-4.441214,Actinopterygii,Perciformes,Carangidae,Trachurus trachurus,epipelagic,coastal,1,0,1,fusiform ,8.50
+NE Atlantic,Goni2011,2005,2005,46.307336,-4.441214,Actinopterygii,Perciformes,Scombridae,Scomber scombrus,epipelagic,coastal,1,0,1,fusiform ,1.10
+NE Atlantic,Goni2011,2005,2005,46.307336,-4.441214,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,0.60
+NE Atlantic,Goni2011,2005,2005,47.419028,-6.373963,Actinopterygii,Beloniformes,Belonidae,Belone belone,epipelagic,coastal,0,0,0,elongated,3.40
+NE Atlantic,Goni2011,2005,2005,47.419028,-6.373963,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,10.30
+NE Atlantic,Goni2011,2005,2005,47.419028,-6.373963,Actinopterygii,Myctophiformes,Myctophidae,Benthosema glaciale,mesopelagic,oceanic,1,0,0,fusiform ,10.30
+NE Atlantic,Goni2011,2005,2005,47.419028,-6.373963,Actinopterygii,Myctophiformes,Myctophidae,Notoscopelus kroyeri,mesopelagic,oceanic,1,0,0,elongated,6.90
+NE Atlantic,Goni2011,2005,2005,47.419028,-6.373963,Actinopterygii,Syngnathiformes,Syngnathidae,Entelurus aequoreus,demersal,continental shelf,0,1,0,eel-like,3.40
+NE Atlantic,Goni2011,2005,2005,48.376549,-7.516041,Actinopterygii,Beloniformes,Belonidae,Belone belone,epipelagic,coastal,0,0,0,elongated,7.10
+NE Atlantic,Goni2011,2005,2005,48.376549,-7.516041,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,35.70
+NE Atlantic,Goni2011,2005,2005,48.376549,-7.516041,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,28.60
+NE Atlantic,Goni2011,2005,2005,48.919341,-8.89893,Actinopterygii,Beloniformes,Belonidae,Belone belone,epipelagic,coastal,0,0,0,elongated,8.70
+NE Atlantic,Goni2011,2005,2005,48.919341,-8.89893,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,26.10
+NE Atlantic,Goni2011,2005,2005,48.919341,-8.89893,Actinopterygii,Syngnathiformes,Syngnathidae,Entelurus aequoreus,demersal,continental shelf,0,1,0,eel-like,21.70
+NE Atlantic,Goni2011,2006,2006,46.307336,-4.441214,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,1.70
+NE Atlantic,Goni2011,2006,2006,46.307336,-4.441214,Actinopterygii,Clupeiformes,Clupeidae,Sardina pilchardus,epipelagic,coastal,1,0,0,fusiform ,3.40
+NE Atlantic,Goni2011,2006,2006,46.307336,-4.441214,Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,epipelagic,coastal,1,0,0,elongated,12.10
+NE Atlantic,Goni2011,2006,2006,46.307336,-4.441214,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,72.40
+NE Atlantic,Goni2011,2006,2006,46.307336,-4.441214,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,1.70
+NE Atlantic,Goni2011,2006,2006,46.986108,-5.407589,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,17.60
+NE Atlantic,Goni2011,2006,2006,46.986108,-5.407589,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,35.30
+NE Atlantic,Goni2011,2006,2006,47.419028,-6.373963,Actinopterygii,Aulopiformes,Paralepididae,Arctozenus risso,mesopelagic,oceanic,1,0,0,elongated,3.40
+NE Atlantic,Goni2011,2006,2006,47.419028,-6.373963,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,3.40
+NE Atlantic,Goni2011,2006,2006,47.419028,-6.373963,Actinopterygii,Myctophiformes,Myctophidae,Benthosema glaciale,mesopelagic,oceanic,1,0,0,fusiform ,3.40
+NE Atlantic,Goni2011,2006,2006,47.419028,-6.373963,Cephalopoda,Oegopsida,Gonatidae,Gonatus steenstrupi,mesopelagic,oceanic,1,0,0,fusiform ,3.40
+NE Atlantic,Goni2011,2006,2006,47.419028,-6.373963,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes sagittatus,benthopelagic,continental shelf,1,0,0,fusiform ,6.90
+NE Atlantic,Goni2011,2006,2006,48.376549,-7.516041,Actinopterygii,Beloniformes,Belonidae,Belone belone,epipelagic,coastal,0,0,0,elongated,2.60
+NE Atlantic,Goni2011,2006,2006,48.376549,-7.516041,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,20.50
+NE Atlantic,Goni2011,2006,2006,48.376549,-7.516041,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,28.20
+NE Atlantic,Goni2011,2006,2006,48.376549,-7.516041,Actinopterygii,Syngnathiformes,Syngnathidae,Entelurus aequoreus,demersal,continental shelf,0,1,0,eel-like,41.00
+NE Atlantic,Goni2011,2007,2007,46.307336,-4.441214,Actinopterygii,Beloniformes,Belonidae,Belone belone,epipelagic,coastal,0,0,0,elongated,6.30
+NE Atlantic,Goni2011,2007,2007,46.307336,-4.441214,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,6.30
+NE Atlantic,Goni2011,2007,2007,46.307336,-4.441214,Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,epipelagic,coastal,1,0,0,elongated,12.50
+NE Atlantic,Goni2011,2007,2007,46.307336,-4.441214,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,62.50
+NE Atlantic,OrtizZarate1987,1968,1968,46.986108,-5.407589,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,26.00
+NE Atlantic,OrtizZarate1987,1968,1968,46.986108,-5.407589,Actinopterygii,Clupeiformes,Engraulidae,Engraulis encrasicolus,epipelagic,coastal,1,0,0,elongated,9.00
+NE Atlantic,OrtizZarate1987,1968,1968,46.986108,-5.407589,Actinopterygii,Gadiformes,Gadidae,Micromesistius poutassou,mesopelagic,oceanic,1,0,0,elongated,12.00
+NE Atlantic,OrtizZarate1987,1968,1968,46.986108,-5.407589,Actinopterygii,Perciformes,Carangidae,Trachurus trachurus,epipelagic,coastal,1,0,1,fusiform ,43.00
+NE Atlantic,OrtizZarate1987,1968,1968,46.986108,-5.407589,Actinopterygii,Perciformes,Scombridae,Scomber scombrus,epipelagic,coastal,1,0,1,fusiform ,1.00
+NE Atlantic,OrtizZarate1987,1968,1968,46.986108,-5.407589,Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus muelleri,mesopelagic,continental shelf,1,0,0,elongated,12.00
+NE Atlantic,Pusineri2005,1993,1993,46.883662,-5.277972,Actinopterygii,Aulopiformes,Paralepididae,Arctozenus risso,mesopelagic,oceanic,1,0,0,elongated,52.00
+NE Atlantic,Pusineri2005,1993,1993,46.883662,-5.277972,Actinopterygii,Aulopiformes,Paralepididae,Macroparalepis affinis,mesopelagic,oceanic,0,0,0,elongated,4.00
+NE Atlantic,Pusineri2005,1993,1993,46.883662,-5.277972,Actinopterygii,Beloniformes,Scomberesocidae,Scomberesox saurus,epipelagic,oceanic,1,0,0,elongated,48.00
+NE Atlantic,Pusineri2005,1993,1993,46.883662,-5.277972,Actinopterygii,Myctophiformes,Myctophidae,Benthosema glaciale,mesopelagic,oceanic,1,0,0,fusiform ,2.00
+NE Atlantic,Pusineri2005,1993,1993,46.883662,-5.277972,Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus muelleri,mesopelagic,continental shelf,1,0,0,elongated,46.00
+NE Atlantic,Pusineri2005,1993,1993,46.883662,-5.277972,Cephalopoda,Oegopsida,Cranchiidae,Teuthowenia megalops,mesopelagic,oceanic,1,0,0,fusiform ,4.00
+NE Atlantic,Pusineri2005,1993,1993,46.883662,-5.277972,Cephalopoda,Oegopsida,Gonatidae,Gonatus steenstrupi,mesopelagic,oceanic,1,0,0,fusiform ,20.00
+NE Atlantic,Pusineri2005,1993,1993,46.883662,-5.277972,Cephalopoda,Oegopsida,Onychoteuthidae,Ancistroteuthis lichtensteini,mesopelagic,continental shelf,1,0,0,fusiform ,12.00
+NE Pacific,Bernard1985,1983,1983,33.9666667,-122.5,Actinopterygii,Clupeiformes,Engraulidae,Engraulis mordax,epipelagic,coastal,1,0,0,elongated,69.70
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Aulopiformes,Anotopteridae,Anotopterus nikparini,bathypelagic,oceanic,UN,0,0,eel-like,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Aulopiformes,Paralepididae,Lestidiops ringens,mesopelagic,oceanic,UN,0,0,elongated,4.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,epipelagic,oceanic,0,0,0,elongated,18.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Clupeiformes,Clupeidae,Sardinops sagax,epipelagic,coastal,1,0,0,fusiform ,27.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Clupeiformes,Engraulidae,Engraulis mordax,epipelagic,coastal,1,0,0,elongated,53.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Gadiformes,Merlucciidae,Merluccius productus,benthopelagic,continental shelf,1,0,1,elongated,16.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Myctophiformes,Myctophidae,Diaphus theta,mesopelagic,oceanic,1,0,0,fusiform ,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Myctophiformes,Myctophidae,Stenobrachius leucopsarus,mesopelagic,oceanic,1,0,0,fusiform ,3.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Myctophiformes,Myctophidae,Tarletonbeania crenularis,mesopelagic,oceanic,1,0,0,fusiform ,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Perciformes,Carangidae,Trachurus symmetricus,epipelagic,oceanic,1,0,1,fusiform ,4.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Perciformes,Centrolophidae,Icichthys lockingtoni,epipelagic,oceanic,1,0,1,compressiform,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Pleuronectiformes,Pleuronectidae,Pleuronichthys decurrens,demersal,continental shelf,0,1,0,depressiform,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes brevispinis,demersal,continental shelf,1,1,1,fusiform ,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes diploproa,demersal,continental shelf,1,1,1,fusiform ,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes proriger,demersal,continental shelf,0,1,1,fusiform ,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes wilsoni,demersal,continental shelf,1,1,1,fusiform ,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Actinopterygii,Syngnathiformes,Syngnathidae,Syngnathus californiensis,demersal,reef-associated,UN,1,0,eel-like,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Cephalopoda,Myopsida,Loliginidae,Doryteuthis opalescens,epipelagic,continental shelf,1,0,0,fusiform ,9.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Cephalopoda,Octopoda,Amphitretidae,Japetella heathi,mesopelagic,oceanic,1,1,0,globiform,7.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Cephalopoda,Octopoda,Argonautidae,Argonauta argo,epipelagic,coastal,1,0,1,compressiform,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Cephalopoda,Oegopsida,Gonatidae,Gonatus onyx,mesopelagic,continental shelf,1,1,0,fusiform ,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Cephalopoda,Oegopsida,Mastigoteuthidae,Mastigoteuthis dentata,mesopelagic,oceanic,UN,1,0,fusiform ,1.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,epipelagic,oceanic,1,1,0,fusiform ,19.00
+NE Pacific,Glaser2015,2005–06,2006,39.853423,-125.202024,Cephalopoda,Oegopsida,Onychoteuthidae,Onykia robusta,benthopelagic,continental shelf,1,0,0,fusiform ,3.00
+NE Pacific,Iversen1962,1950–57,1957,18.519981,-138.942367,Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,epipelagic,oceanic,0,0,0,elongated,10.90
+NE Pacific,Iversen1962,1950–57,1957,18.519981,-138.942367,Actinopterygii,Perciformes,Bramidae,Brama orcini,epipelagic,coastal,1,0,0,compressiform,2.60
+NE Pacific,Iversen1962,1950–57,1957,18.519981,-138.942367,Actinopterygii,Perciformes,Chiasmodontidae,Chiasmodon niger,bathypelagic,oceanic,UN,0,1,elongated,0.30
+NE Pacific,Iversen1962,1950–57,1957,18.519981,-138.942367,Actinopterygii,Perciformes,Coryphaenidae,Coryphaena hippurus,epipelagic,oceanic,0,0,0,elongated,0.30
+NE Pacific,Iversen1962,1950–57,1957,18.519981,-138.942367,Actinopterygii,Perciformes,Gempylidae,Gempylus serpens,mesopelagic,oceanic,1,0,1,elongated,5.20
+NE Pacific,Iversen1962,1950–57,1957,18.519981,-138.942367,Actinopterygii,Perciformes,Scombridae,Katsuwonus pelamis,epipelagic,oceanic,0,0,1,fusiform ,0.60
+NE Pacific,Iversen1962,1950–57,1957,18.519981,-138.942367,Actinopterygii,Perciformes,Tetragonuridae,Tetragonurus cuvieri,mesopelagic,oceanic,1,0,1,elongated,0.60
+NE Pacific,Iversen1962,1950–57,1957,18.519981,-138.942367,Actinopterygii,Tetraodontiformes,Ostaciidae,Lactoria diaphana,demersal,reef-associated,UN,1,0,globiform,0.30
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,epipelagic,oceanic,0,0,0,elongated,5.81
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Actinopterygii,Clupeiformes,Clupeidae,Sardinops sagax,epipelagic,coastal,1,0,0,fusiform ,29.07
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Actinopterygii,Clupeiformes,Engraulidae,Engraulis mordax,epipelagic,coastal,1,0,0,elongated,2.33
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Actinopterygii,Myctophiformes,Myctophidae,Triphoturus mexicanus,mesopelagic,oceanic,1,0,0,elongated,6.98
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Actinopterygii,Perciformes,Carangidae,Trachurus symmetricus,epipelagic,oceanic,1,0,1,fusiform ,40.70
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Actinopterygii,Perciformes,Kyphosidae,Medialuna californiensis,demersal,reef-associated,1,1,1,fusiform ,1.16
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Actinopterygii,Perciformes,Scombridae,Scomber japonicus,epipelagic,coastal,1,0,1,fusiform ,2.33
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Cephalopoda,Myopsida,Loliginidae,Doryteuthis opalescens,epipelagic,continental shelf,1,0,0,fusiform ,3.49
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Cephalopoda,Octopoda,Argonautidae,Argonauta argo,epipelagic,coastal,1,0,1,compressiform,9.30
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Cephalopoda,Octopoda,Octopodidae,Octopus bimaculatus,benthic,reef-associated,0,1,0,globiform,11.63
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Cephalopoda,Oegopsida,Enoploteuthidae,Abraliopsis affinis,epipelagic,oceanic,1,0,0,fusiform ,1.16
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Cephalopoda,Oegopsida,Enoploteuthidae,Abraliopsis felis,epipelagic,oceanic,1,0,0,fusiform ,12.79
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,oceanic,1,0,0,fusiform ,8.14
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Cephalopoda,Oegopsida,Ocythoidae,Ocythoe tuberculata,epipelagic,oceanic,1,0,0,globiform,1.16
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Cephalopoda,Oegopsida,Ommastrephidae,Dosidicus gigas,mesopelagic,continental shelf,1,0,0,fusiform ,1.16
+NE Pacific,Madigan2015,2008–10,2010,34.633208,-124.292542,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,epipelagic,oceanic,1,1,0,fusiform ,4.65
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Beloniformes,Belonidae,Strongylura exilis,epipelagic,coastal,UN,0,0,elongated,1.00
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,epipelagic,oceanic,0,0,0,elongated,54.35
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Clupeiformes,Clupeidae,Sardinops sagax,epipelagic,coastal,1,0,0,fusiform ,1.00
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Clupeiformes,Engraulidae,Engraulis mordax,epipelagic,coastal,1,0,0,elongated,12.75
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Gadiformes,Merlucciidae,Merluccius productus,benthopelagic,continental shelf,1,0,1,elongated,15.15
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus townsendi,mesopelagic,oceanic,1,0,0,elongated,1.00
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Myctophiformes,Myctophidae,Lampanyctus mexicanus,mesopelagic,oceanic,1,0,0,elongated,1.00
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Myctophiformes,Myctophidae,Nannobrachium regale,mesopelagic,oceanic,0,0,0,elongated,1.00
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Myctophiformes,Myctophidae,Nannobrachium ritteri,mesopelagic,oceanic,1,0,0,elongated,1.00
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Myctophiformes,Myctophidae,Tarletonbeania crenularis,mesopelagic,oceanic,1,0,0,fusiform ,1.00
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Perciformes,Carangidae,Trachurus symmetricus,epipelagic,oceanic,1,0,1,fusiform ,5.35
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Perciformes,Scombridae,Scomber japonicus,epipelagic,coastal,1,0,1,fusiform ,1.00
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Stomiiformes,Phosichthyidae,Vinciguerria lucetia,mesopelagic,oceanic,1,0,0,elongated,20.10
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Actinopterygii,Stomiiformes,Sternoptychidae,Sternoptyx obscura,mesopelagic,oceanic,1,0,0,compressiform,1.00
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis nielseni,mesopelagic,oceanic,1,1,0,fusiform ,0.33
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,epipelagic,oceanic,1,0,0,fusiform ,0.33
+NE Pacific,McHugh1952,1949,1949,39.853423,-125.202024,Cephalopoda,Oegopsida,Pyroteuthidae,Pterygioteuthis microlampas,mesopelagic,oceanic,1,1,0,fusiform ,0.33
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,epipelagic,oceanic,0,0,0,elongated,42.80
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Actinopterygii,Gadiformes,Gadidae,Microgadus proximus,demersal,continental shelf,UN,1,0,fusiform ,1.50
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Actinopterygii,Perciformes,Carangidae,Trachurus symmetricus,epipelagic,oceanic,1,0,1,fusiform ,0.50
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Actinopterygii,Perciformes,Scombridae,Scomber japonicus,epipelagic,coastal,1,0,1,fusiform ,3.00
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Actinopterygii,Perciformes,Stomateidae,Peprilus simillimus,benthopelagic,coastal,UN,1,1,compressiform,0.50
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Cephalopoda,Myopsida,Loliginidae,Doryteuthis opalescens,epipelagic,continental shelf,1,0,0,fusiform ,13.40
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Cephalopoda,Octopoda,Octopodidae,Octopus bimaculatus,benthic,reef-associated,0,1,0,globiform,15.90
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Cephalopoda,Oegopsida,Enoploteuthidae,Abraliopsis felis,epipelagic,oceanic,1,0,0,fusiform ,13.90
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Cephalopoda,Oegopsida,Gonatidae,Gonatus steenstrupi,mesopelagic,oceanic,1,0,0,fusiform ,1.50
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis heteropsis,mesopelagic,oceanic,1,1,0,fusiform ,1.50
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,oceanic,1,0,0,fusiform ,12.40
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Cephalopoda,Oegopsida,Ocythoidae,Ocythoe tuberculata,epipelagic,oceanic,1,0,0,globiform,1.50
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,epipelagic,oceanic,1,1,0,fusiform ,27.40
+NE Pacific,Pinkas1971,1968,1968,33.088521,-121.805378,Cephalopoda,Oegopsida,Onychoteuthidae,Onykia robusta,benthopelagic,continental shelf,1,0,0,fusiform ,6.00
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Argentiniformes,Bathylagidae,Leuroglossus stilbius,mesopelagic,oceanic,1,0,0,fusiform ,0.40
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Aulopiformes,Paralepididae,Magnisudis atlantica,mesopelagic,oceanic,0,0,0,elongated,6.50
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,epipelagic,oceanic,0,0,0,elongated,16.40
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Clupeiformes,Engraulidae,Engraulis mordax,epipelagic,coastal,1,0,0,elongated,8.40
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Gadiformes,Gadidae,Microgadus proximus,demersal,continental shelf,UN,1,0,fusiform ,9.50
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Gadiformes,Merlucciidae,Merluccius productus,benthopelagic,continental shelf,1,0,1,elongated,0.40
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Myctophiformes,Myctophidae,Diaphus theta,mesopelagic,oceanic,1,0,0,fusiform ,2.90
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Myctophiformes,Myctophidae,Nannobrachium ritteri,mesopelagic,oceanic,1,0,0,elongated,1.80
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Myctophiformes,Myctophidae,Protomyctophum crockeri,mesopelagic,oceanic,0,0,0,fusiform ,0.40
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Myctophiformes,Myctophidae,Stenobrachius leucopsarus,mesopelagic,oceanic,1,0,0,fusiform ,7.60
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Myctophiformes,Myctophidae,Tarletonbeania crenularis,mesopelagic,oceanic,1,0,0,fusiform ,16.70
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Stephanoberyciformes,Melamphaidae,Melamphaes lugubris,mesopelagic,oceanic,1,0,1,fusiform ,0.40
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Actinopterygii,Stephanoberyciformes,Melamphaidae,Scopelogadus mizolepis bispinosus,mesopelagic,oceanic,1,0,1,fusiform ,0.70
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Oegopsida,Cracnhiidae,Cranchia scarbra,mesopelagic,oceanic,1,0,0,globiform,0.70
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Oegopsida,Mastigoteuthidae,Mastigoteuthis dentata,mesopelagic,oceanic,UN,1,0,fusiform ,22.50
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Myopsida,Loliginidae,Doryteuthis opalescens,epipelagic,continental shelf,1,0,0,fusiform ,7.60
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Octopoda,Argonautidae,Argonauta nouryi,epipelagic,coastal,1,0,1,compressiform,0.40
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Octopoda,Octopodidae,Octopus bimaculatus,benthic,reef-associated,0,1,0,globiform,13.10
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Oegopsida,Enoploteuthidae,Abraliopsis felis,epipelagic,oceanic,1,0,0,fusiform ,18.20
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Oegopsida,Gonatidae,Berryteuthis anonychus,epipelagic,oceanic,1,1,0,fusiform ,0.70
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Oegopsida,Gonatidae,Gonatus steenstrupi,mesopelagic,oceanic,1,0,0,fusiform ,11.60
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis heteropsis,mesopelagic,oceanic,1,1,0,fusiform ,0.70
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,oceanic,1,0,0,fusiform ,32.70
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Oegopsida,Ocythoidae,Ocythoe tuberculata,epipelagic,oceanic,1,0,0,globiform,5.10
+NE Pacific,Pinkas1971,1968,1968,36.472236,-122.95087,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,epipelagic,oceanic,1,1,0,fusiform ,58.50
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Actinopterygii,Aulopiformes,Paralepididae,Magnisudis atlantica,mesopelagic,oceanic,0,0,0,elongated,1.30
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,epipelagic,oceanic,0,0,0,elongated,12.60
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Actinopterygii,Clupeiformes,Engraulidae,Engraulis mordax,epipelagic,coastal,1,0,0,elongated,26.50
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Actinopterygii,Myctophiformes,Myctophidae,Diaphus theta,mesopelagic,oceanic,1,0,0,fusiform ,0.70
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Actinopterygii,Myctophiformes,Myctophidae,Nannobrachium ritteri,mesopelagic,oceanic,1,0,0,elongated,0.70
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Actinopterygii,Myctophiformes,Myctophidae,Protomyctophum crockeri,mesopelagic,oceanic,0,0,0,fusiform ,2.00
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Actinopterygii,Myctophiformes,Myctophidae,Stenobrachius leucopsarus,mesopelagic,oceanic,1,0,0,fusiform ,0.70
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Actinopterygii,Myctophiformes,Myctophidae,Tarletonbeania crenularis,mesopelagic,oceanic,1,0,0,fusiform ,15.20
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Actinopterygii,Stephanoberyciformes,Melamphaidae,Melamphaes lugubris,mesopelagic,oceanic,1,0,1,fusiform ,0.70
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Cephalopoda,Myopsida,Loliginidae,Doryteuthis opalescens,epipelagic,continental shelf,1,0,0,fusiform ,7.30
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Cephalopoda,Octopoda,Octopodidae,Octopus bimaculatus,benthic,reef-associated,0,1,0,globiform,0.70
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Cephalopoda,Oegopsida,Enoploteuthidae,Abraliopsis felis,epipelagic,oceanic,1,0,0,fusiform ,10.60
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Cephalopoda,Oegopsida,Gonatidae,Berryteuthis anonychus,epipelagic,oceanic,1,1,0,fusiform ,8.60
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Cephalopoda,Oegopsida,Gonatidae,Gonatus steenstrupi,mesopelagic,oceanic,1,0,0,fusiform ,15.20
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Cephalopoda,Oegopsida,Mastigoteuthidae,Mastigoteuthis dentata,mesopelagic,oceanic,UN,1,0,fusiform ,2.60
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,oceanic,1,0,0,fusiform ,6.00
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Cephalopoda,Oegopsida,Ocythoidae,Ocythoe tuberculata,epipelagic,oceanic,1,0,0,globiform,17.20
+NE Pacific,Pinkas1971,1968,1968,44.739905,-126.2182,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,epipelagic,oceanic,1,1,0,fusiform ,15.20
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Aulopiformes,Paralepididae,Magnisudis atlantica,mesopelagic,oceanic,0,0,0,elongated,3.70
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,epipelagic,oceanic,0,0,0,elongated,45.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Clupeiformes,Engraulidae,Engraulis mordax,epipelagic,coastal,1,0,0,elongated,23.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Gadiformes,Gadidae,Microgadus proximus,demersal,continental shelf,UN,1,0,fusiform ,3.20
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Myctophiformes,Myctophidae,Diaphus theta,mesopelagic,oceanic,1,0,0,fusiform ,1.10
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Myctophiformes,Myctophidae,Nannobrachium ritteri,mesopelagic,oceanic,1,0,0,elongated,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Myctophiformes,Myctophidae,Protomyctophum crockeri,mesopelagic,oceanic,0,0,0,fusiform ,2.70
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Myctophiformes,Myctophidae,Stenobrachius leucopsarus,mesopelagic,oceanic,1,0,0,fusiform ,1.60
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Myctophiformes,Myctophidae,Tarletonbeania crenularis,mesopelagic,oceanic,1,0,0,fusiform ,4.30
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Myctophiformes,Myctophidae,Triphoturus mexicanus,mesopelagic,oceanic,1,0,0,elongated,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Perciformes,Embiotocidae,Cymatogaster aggregata,demersal,coastal,0,1,1,compressiform,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Stephanoberyciformes,Melamphaidae,Melamphaes lugubris,mesopelagic,oceanic,1,0,1,fusiform ,5.90
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Stephanoberyciformes,Melamphaidae,Scopelogadus mizolepis bispinosus,mesopelagic,oceanic,1,0,1,fusiform ,2.70
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Stomiiformes,Phosichthyidae,Vinciguerria lucetia,mesopelagic,oceanic,1,0,0,elongated,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Stomiiformes,Sternoptychidae,Sternoptyx diaphana,mesopelagic,oceanic,0,0,0,compressiform,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Actinopterygii,Stomiiformes,Stomiidae,Bathophilus flemingi,mesopelagic,oceanic,1,0,0,elongated,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Myopsida,Loliginidae,Doryteuthis opalescens,epipelagic,continental shelf,1,0,0,fusiform ,10.20
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Octopoda,Argonautidae,Argonauta nouryi,epipelagic,coastal,1,0,1,compressiform,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Octopoda,Octopodidae,Octopus bimaculatus,benthic,reef-associated,0,1,0,globiform,2.80
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Octopoda,Opisthoteuthidae,Opisthoteuthis californiana,benthopelagic,continental slope,1,1,0,globiform,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Oegopsida,Enoploteuthidae,Abraliopsis felis,epipelagic,oceanic,1,0,0,fusiform ,36.40
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Oegopsida,Gonatidae,Gonatus steenstrupi,mesopelagic,oceanic,1,0,0,fusiform ,23.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Oegopsida,Histioteuthidae,Histioteuthis heteropsis,mesopelagic,oceanic,1,1,0,fusiform ,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Oegopsida,Mastigoteuthidae,Mastigoteuthis dentata,mesopelagic,oceanic,UN,1,0,fusiform ,4.80
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Oegopsida,Octopoteuthidae,Octopoteuthis sicula,mesopelagic,oceanic,1,0,0,fusiform ,17.60
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Oegopsida,Ocythoidae,Ocythoe tuberculata,epipelagic,oceanic,1,0,0,globiform,8.60
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Oegopsida,Ommastrephidae,Dosidicus gigas,mesopelagic,continental shelf,1,0,0,fusiform ,0.50
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,epipelagic,oceanic,1,1,0,fusiform ,44.90
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Oegopsida,Onychoteuthidae,Onykia robusta,benthopelagic,continental shelf,1,0,0,fusiform ,5.30
+NE Pacific,Pinkas1971,1969,1969,33.088521,-121.805378,Cephalopoda,Vampyromorpha,Vampyroteuthidae,Vampyroteuthis infernalis,mesopelagic,oceanic,1,0,0,globiform,0.50
+NE Pacific,Pinkas1971,1969,1969,44.739905,-126.2182,Actinopterygii,Beloniformes,Scomberesocidae,Cololabis saira,epipelagic,oceanic,0,0,0,elongated,15.40
+NE Pacific,Pinkas1971,1969,1969,44.739905,-126.2182,Actinopterygii,Clupeiformes,Engraulidae,Engraulis mordax,epipelagic,coastal,1,0,0,elongated,15.40
+NE Pacific,Pinkas1971,1969,1969,44.739905,-126.2182,Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus townsendi,mesopelagic,oceanic,1,0,0,elongated,7.70
+NE Pacific,Pinkas1971,1969,1969,44.739905,-126.2182,Actinopterygii,Myctophiformes,Myctophidae,Tarletonbeania crenularis,mesopelagic,oceanic,1,0,0,fusiform ,7.70
+NE Pacific,Pinkas1971,1969,1969,44.739905,-126.2182,Cephalopoda,Oegopsida,Gonatidae,Berryteuthis anonychus,epipelagic,oceanic,1,1,0,fusiform ,38.50
+NE Pacific,Pinkas1971,1969,1969,44.739905,-126.2182,Cephalopoda,Oegopsida,Gonatidae,Gonatus steenstrupi,mesopelagic,oceanic,1,0,0,fusiform ,15.40
+NE Pacific,Pinkas1971,1969,1969,44.739905,-126.2182,Cephalopoda,Oegopsida,Ocythoidae,Ocythoe tuberculata,epipelagic,oceanic,1,0,0,globiform,7.70
+NE Pacific,Pinkas1971,1969,1969,44.739905,-126.2182,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,epipelagic,oceanic,1,1,0,fusiform ,7.70
+NE Pacific,Watanabe-etal2004,2001,2001,44.45829,-173.695221,Actinopterygii,Clupeiformes,Engraulidae,Engraulis japonicus,epipelagic,coastal,1,0,0,elongated,27.80
+NE Pacific,Watanabe-etal2004,2001,2001,44.45829,-173.695221,Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus warmingii,mesopelagic,oceanic,1,0,0,elongated,5.60
+NE Pacific,Watanabe-etal2004,2001,2001,44.45829,-173.695221,Actinopterygii,Myctophiformes,Myctophidae,Diaphus theta,mesopelagic,oceanic,1,0,0,fusiform ,5.60
+NE Pacific,Watanabe-etal2004,2001,2001,44.45829,-173.695221,Actinopterygii,Perciformes,Carangidae,Trachurus japonicus,epipelagic,coastal,1,0,1,fusiform ,5.60
+NE Pacific,Watanabe-etal2004,2001,2001,44.45829,-173.695221,Cephalopoda,Oegopsida,Gonatidae,Gonatopsis borealis,mesopelagic,continental shelf,1,1,0,fusiform ,5.60
+NE Pacific,Watanabe-etal2004,2001,2001,44.45829,-173.695221,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,epipelagic,oceanic,1,1,0,fusiform ,11.10
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Actinopterygii,Clupeiformes,Engraulidae,Engraulis japonicus,epipelagic,coastal,1,0,0,elongated,85.40
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Actinopterygii,Myctophiformes,Myctophidae,Ceratoscopelus warmingii,mesopelagic,oceanic,1,0,0,elongated,2.10
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Actinopterygii,Stomiiformes,Sternoptychidae,Maurolicus imperatorius,mesopelagic,oceanic,1,0,0,compressiform,4.20
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Cephalopoda,Oegopsida,Enoploteuthidae,Abraliopsis felis,epipelagic,oceanic,1,0,0,fusiform ,1.50
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Cephalopoda,Oegopsida,Gonatidae,Gonatopsis borealis,mesopelagic,continental shelf,1,1,0,fusiform ,28.80
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Cephalopoda,Oegopsida,Gonatidae,Gonatus berryi,mesopelagic,continental shelf,1,1,0,fusiform ,1.50
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Cephalopoda,Oegopsida,Ommastrephidae,Ommastrephes bartramii,epipelagic,oceanic,1,0,0,fusiform ,1.50
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Cephalopoda,Oegopsida,Ommastrephidae,Sthenoteuthis oualaniensis,mesopelagic,oceanic,1,0,0,fusiform ,4.50
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Cephalopoda,Oegopsida,Ommastrephidae,Todarodes pacificus,epipelagic,oceanic,1,0,0,fusiform ,1.50
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis banksii,epipelagic,oceanic,1,0,0,fusiform ,1.50
+NE Pacific,Watanabe-etal2004,2002,2002,44.45829,-173.695221,Cephalopoda,Oegopsida,Onychoteuthidae,Onychoteuthis borealijaponica,epipelagic,oceanic,1,1,0,fusiform ,7.60
+SW Pacific,Williams2015,2010,2010,-37.132951,173.747085,Cephalopoda,Oegopsida,Ommastrephidae,Sthenoteuthis oualaniensis,mesopelagic,oceanic,1,0,0,fusiform ,9.1
+SW Pacific,Williams2015,2010,2010,-21.097984,-175.093115,Actinopterygii,Aulopiformes,Omusdidae,Omosudis lowii,mesopelagic,oceanic,1,0,0,elongated,2.6
+SW Pacific,Williams2015,2010,2010,-21.097984,-175.093115,Actinopterygii,Perciformes,Bramidae,Pterycombus petersii,epipelagic,oceanic,UN,0,0,compressiform,4.7
+SW Pacific,Williams2015,2010,2010,-21.097984,-175.093115,Cephalopoda,Octopoda,Amphitretidae,Japetella heathi,mesopelagic,oceanic,1,1,0,globiform,1.8
+SW Pacific,Williams2015,2010,2010,-21.097984,-175.093115,Cephalopoda,Oegopsida,Ommastrephidae,Hyaloteuthis pelagica,mesopelagic,oceanic,1,0,0,fusiform ,2.9
+SW Pacific,Williams2015,2010,2010,-21.097984,-175.093115,Cephalopoda,Oegopsida,Ommastrephidae,Ornithoteuthis volatilis,mesopelagic,continental slope,1,1,0,fusiform ,3.8
+SW Pacific,Williams2015,2010,2010,-21.097984,-175.093115,Cephalopoda,Oegopsida,Ommastrephidae,Sthenoteuthis oualaniensis,mesopelagic,oceanic,1,0,0,fusiform ,3.2
+SW Pacific,Williams2015,2010,2010,-20.900192,165.629883,Actinopterygii,Aulopiformes,Omusdidae,Omosudis lowii,mesopelagic,oceanic,1,0,0,elongated,16.7
+SW Pacific,Williams2015,2010,2010,-20.900192,165.629883,Actinopterygii,Perciformes,Bramidae,Pterycombus petersii,epipelagic,oceanic,UN,0,0,compressiform,2.4
+SW Pacific,Williams2015,2010,2010,-20.900192,165.629883,Cephalopoda,Octopoda,Amphitretidae,Japetella heathi,mesopelagic,oceanic,1,1,0,globiform,2.4
+SW Pacific,Williams2015,2010,2010,-20.900192,165.629883,Cephalopoda,Oegopsida,Ommastrephidae,Hyaloteuthis pelagica,mesopelagic,oceanic,1,0,0,fusiform ,2.4
+SW Pacific,Williams2015,2010,2010,-20.900192,165.629883,Cephalopoda,Oegopsida,Ommastrephidae,Ornithoteuthis volatilis,mesopelagic,continental slope,1,1,0,fusiform ,4.8

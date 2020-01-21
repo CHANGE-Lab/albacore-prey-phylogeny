@@ -4,31 +4,6 @@
 ##### b) all grey boxes where trait values should be ?
 ######## Wish List -- Fig. 7.4 from treedata book
 
-library(tidyverse)
-library(ggtree)
-library(taxize)
-library(rotl)
-library(ape)
-library(ggimage)
-library(ggstance)
-library(Biostrings)
-library(phytools)
-library(phangorn)
-library(geiger)
-library(treeio)
-library(phylobase)
-library(ggnewscale)
-"%notin%" = Negate('%in%')
-
-my_tree <- read.tree("albacore_diet_tree")
-
-# name a tree object
-mycirc <- ggtree(my_tree, layout = "circular")
-
-# load my data
-my_prey <- read_csv("Prey_list_fo.csv")
-
-my_prey_traits <- read.csv("prey_traits_maxfo.csv")
 #replacing the spaces with an underscore so the prey_species in the dataset match those in the tree data
 my_prey_traits$PreySP <- gsub(" ", "_", my_prey_traits$PreySP)
 
@@ -77,5 +52,11 @@ p9 <- gheatmap(p8, my_prey_traits[ ,c(4,10)], offset=0.21, width=0.10,
 p10 <- p9 + new_scale_fill()
 p11 <- gheatmap(p10, trophic_level, offset=0.31, width=0.05,
                 colnames_angle=95, colnames_offset_y = .25, colnames = F) +
-  scale_fill_viridis_c(name = "Trophic Level", option = 'A', na.value = 'white')
+  scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white') +
+  theme(legend.key.size = unit(2,'mm'),
+        legend.text = element_text(size = 5),
+        legend.title = element_text(size = 5),
+        legend.spacing = unit(0.02,'cm'),
+        legend.position = c(0.99,0.5))
 p11
+

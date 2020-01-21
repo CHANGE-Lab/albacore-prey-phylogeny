@@ -70,7 +70,7 @@ prey_tree_fo
 
 
 ##Now I will use a different database to create the same tree, but rows for each ocean basin
-my_prey_basin <- read_csv("Albacore_tuna_diet_ocean_basin.csv")
+my_prey_basin <- read_csv("Data/Albacore_tuna_diet_ocean_basin.csv")
 
 my_prey_basin$PreySP <- gsub(" ", "_", my_prey_basin$PreySP)
 #there are 3 additional columns which are unneccessary for this
@@ -158,8 +158,14 @@ names(my_tree_ne_indian) <- "NE Indian"
 #with to heatmaps on it and so on and so forth. for each choosing another ocean basin
 #then increasing the offset by 0.15, because that is the width we specified.
 #we repeat until all of the ocean basin are created
-p1 <- gheatmap(mycirc, my_tree_ne_pacific, offset=0, width=0.15,
-         colnames_angle=95, colnames_offset_y = .25)
+
+
+############# CURRENT ISSUE: zeros are filling as grey, not the value I want them to fill with
+
+
+p.1 <- gheatmap(mycirc, my_tree_ne_pacific, offset=0, width=0.15,
+         colnames_angle=95, colnames_offset_y = .25) +
+  scale_fill_viridis('plasma', limits = c(-1,101))
 p2 <- gheatmap(p1, my_tree_ne_atlantic, offset=0.15, width=0.15,
            colnames_angle=95, colnames_offset_y = .16)
 p3 <-  gheatmap(p2, my_tree_mediterranean, offset=0.3, width=0.15,

@@ -160,24 +160,55 @@ names(my_tree_ne_indian) <- "NE Indian"
 #we repeat until all of the ocean basin are created
 
 
-############# CURRENT ISSUE: zeros are filling as grey, not the value I want them to fill with
-
-
 p.1 <- gheatmap(mycirc, my_tree_ne_pacific, offset=0, width=0.15,
          colnames_angle=95, colnames_offset_y = .25) +
-  scale_fill_viridis('plasma', limits = c(-1,101))
+  scale_fill_gradient2('Max. Frequency of Occurence',
+    low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+    midpoint = 50,
+    guide = guide_colorbar(title.position = 'top')
+  )
 p2 <- gheatmap(p1, my_tree_ne_atlantic, offset=0.15, width=0.15,
-           colnames_angle=95, colnames_offset_y = .16)
+           colnames_angle=95, colnames_offset_y = .16)+
+  scale_fill_gradient2('Max. Frequency of Occurence',
+                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+                       midpoint = 50,
+                       guide = guide_colorbar(title.position = 'top')
+  )
 p3 <-  gheatmap(p2, my_tree_mediterranean, offset=0.3, width=0.15,
-           colnames_angle=95, colnames_offset_y = .15)
+           colnames_angle=95, colnames_offset_y = .15)+
+  scale_fill_gradient2('Max. Frequency of Occurence',
+                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+                       midpoint = 50,
+                       guide = guide_colorbar(title.position = 'top')
+  )
 p4 <-  gheatmap(p3, my_tree_nw_atlantic, offset=0.45, width=0.15,
-           colnames_angle=95, colnames_offset_y = .15)
+           colnames_angle=95, colnames_offset_y = .15)+
+  scale_fill_gradient2('Max. Frequency of Occurence',
+                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+                       midpoint = 50,
+                       guide = guide_colorbar(title.position = 'top')
+  )
 p5 <-  gheatmap(p4, my_tree_sw_atlantic, offset=0.6, width=0.15,
-           colnames_angle=95, colnames_offset_y = .15)
+           colnames_angle=95, colnames_offset_y = .15)+
+  scale_fill_gradient2('Max. Frequency of Occurence',
+                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+                       midpoint = 50,
+                       guide = guide_colorbar(title.position = 'top')
+  )
 p6 <-  gheatmap(p5, my_tree_sw_pacific, offset=0.75, width=0.15,
-           colnames_angle=95, colnames_offset_y = .15)
+           colnames_angle=95, colnames_offset_y = .15)+
+  scale_fill_gradient2('Max. Frequency of Occurence',
+                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+                       midpoint = 50,
+                       guide = guide_colorbar(title.position = 'top')
+  )
 p7 <-  gheatmap(p6, my_tree_ne_indian, offset=0.9, width=0.15,
-           colnames_angle=95, colnames_offset_y = .15)
+           colnames_angle=95, colnames_offset_y = .15)+
+  scale_fill_gradient2('Max. Frequency of Occurence',
+                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+                       midpoint = 50,
+                       guide = guide_colorbar(title.position = 'top')
+  )
 p7
 #Now we have the final product(for now) with each of the ocean basins and the 
 #species max fo. I would like to point out when one species was in multiple ocean basins

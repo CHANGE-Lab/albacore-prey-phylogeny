@@ -67,3 +67,5 @@ p11 <- gheatmap(p10, trophic_level, offset=0.31, width=0.05, font.size=2,
   annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2)
 
 p11
+task4finalplot = p11
+

@@ -15,42 +15,42 @@ trophic_level<- as.data.frame(my_prey_traits[ , 11])
 rownames(trophic_level) <- my_prey_traits$PreySP
 names(trophic_level) <- "Trophic Level"
 #the selection of the 4th column of data is the species, which is used to pipe the other data onto the tree
-p1 <- gheatmap(mycirc, my_prey_traits[, c(4,6)], offset=-0.04, width=0.10,font.size=2,
+p1_4 <- gheatmap(mycirc, my_prey_traits[, c(4,6)], offset=-0.04, width=0.10,font.size=2,
                colnames_angle=95, colnames_offset_y = .25, colnames = F) +
   scale_fill_viridis_d(name = "Vertical Habitat", breaks = c("benthic", "demersal", "benthopelagic",
                                                              "epipelagic", "mesopelagic", "bathypelagic"),
                        limits = c("benthic", "demersal", "benthopelagic", "epipelagic",
                                   "mesopelagic", "bathypelagic"))
-p2 <- p1 + new_scale_fill()
-p3 <- gheatmap(p2, my_prey_traits[ , c(4,7)], offset=0.01, width=0.10,font.size=2,
+p2_4 <- p1_4 + new_scale_fill()
+p3_4 <- gheatmap(p2_4, my_prey_traits[ , c(4,7)], offset=0.01, width=0.10,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Horizontal Habitat", option = "C",
                        breaks = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        limits = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"))
-p4 <- p3 + new_scale_fill()
-p5 <- gheatmap(p4, my_prey_traits[ ,c(4,12)], offset=0.06, width=0.10,font.size=2,
-               ccolnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+p4_4 <- p3_4 + new_scale_fill()
+p5_4 <- gheatmap(p4_4, my_prey_traits[ ,c(4,12)], offset=0.06, width=0.10,font.size=2,
+               colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Body Shape", option = 'magma',
                        breaks = c("eel-like", "elongated", "fusiform ", "globiform","compressiform", "depressiform", "unique"),
                        limits = c("eel-like", "elongated", "fusiform ", "globiform","compressiform", "depressiform", "unique"))
-p6 <- p5 +new_scale_fill()
-p7 <- gheatmap(p6, my_prey_traits[ ,c(4,8)], offset=0.11, width=0.10,font.size=2,
+p6_4 <- p5_4 +new_scale_fill()
+p7_4 <- gheatmap(p6_4, my_prey_traits[ ,c(4,8)], offset=0.11, width=0.10,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Diel Migrant\nRefuge\nPhysical Defense", option = "B",
                        breaks = c("0", "1", "UN"),
                        limits = c("0", "1", "UN"))
-p8 <- gheatmap(p7, my_prey_traits[ ,c(4,9)], offset=0.16, width=0.10,font.size=2,
+p8_4 <- gheatmap(p7_4, my_prey_traits[ ,c(4,9)], offset=0.16, width=0.10,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F)+
   scale_fill_viridis_d(name = "Diel Migrant\nRefuge\nPhysical Defense", option = "B",
                        breaks = c("0", "1", "UN"),
                        limits = c("0", "1", "UN"))
-p9 <- gheatmap(p8, my_prey_traits[ ,c(4,10)], offset=0.21, width=0.10,font.size=2,
+p9_4 <- gheatmap(p8_4, my_prey_traits[ ,c(4,10)], offset=0.21, width=0.10,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Diel Migrant\nRefuge\nPhysical Defense", option = "B",
                        breaks = c("0","1","UN"),
                        limits = c("0","1","UN"))
-p10 <- p9 + new_scale_fill()
-p11 <- gheatmap(p10, trophic_level, offset=0.31, width=0.05, font.size=2,
+p10_4 <- p9_4 + new_scale_fill()
+p11_4 <- gheatmap(p10_4, trophic_level, offset=0.31, width=0.05, font.size=2,
                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white') +
   theme(legend.key.size = unit(2,'mm'),
@@ -66,6 +66,5 @@ p11 <- gheatmap(p10, trophic_level, offset=0.31, width=0.05, font.size=2,
   annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2)+
   annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2)
 
-p11
-task4finalplot = p11
+task4finalplot = p11_4
 

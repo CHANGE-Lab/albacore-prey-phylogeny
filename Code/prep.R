@@ -15,20 +15,20 @@ library(ggnewscale)
 library(viridis)
 library(PNWColors)
 library(RColorBrewer)
+library(here)
 "%notin%" = Negate('%in%')
+here::here()
 
-my_tree <- read.tree("Data/albacore_diet_tree")
+
+my_tree <- read.tree(here("Data/albacore_diet_tree"))
 
 # name a tree object
 mycirc <- ggtree(my_tree, layout = "circular")
 
-# load my data
-my_prey <- read_csv("Data/Prey_list_fo.csv")
+# load data
+my_prey <- read_csv(here("Data/Prey_list_fo.csv"))
+my_prey_traits <- read.csv(here("Data/prey_traits_maxfo.csv"))
 
-my_prey_traits <- read.csv("Data/prey_traits_maxfo.csv")
-
-my_prey <- read_csv("Data/Prey_list_fo.csv")
-my_tree <- read.tree("Data/albacore_diet_tree")
 
 ##All of the below is from task 3, this is to create the "my_prey" dataframe, in which all
 #of the prey species in the table match exactly what is on the tree

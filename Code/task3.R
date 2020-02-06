@@ -3,31 +3,8 @@
 ##### a) data not piping into figure
 ##### b) all grey boxes where trait values should be
 ######## Wish List -- Fig. 7.4 from treedata book
-
-library(tidyverse)
-library(ggtree)
-library(taxize)
-library(rotl)
-library(ape)
-library(ggimage)
-library(ggstance)
-library(Biostrings)
-library(phytools)
-library(phangorn)
-library(geiger)
-library(treeio)
-library(phylobase)
-library(ggnewscale)
-"%notin%" = Negate('%in%')
-
-
-my_tree <- read.tree("albacore_diet_tree")
-
 # name a tree object
 mycirc <- ggtree(my_tree, layout = "circular")
-
-# load my data
-my_prey <- read_csv("Prey_list_fo.csv")
 
 my_tree_class = my_tree 
 my_prey$PreySP <- gsub(" ", "_", my_prey$PreySP) #for ease of plotting take away " "
@@ -70,7 +47,7 @@ prey_tree_fo
 
 
 ##Now I will use a different database to create the same tree, but rows for each ocean basin
-my_prey_basin <- read_csv("Data/Albacore_tuna_diet_ocean_basin.csv")
+my_prey_basin <- read_csv(here("Data/Albacore_tuna_diet_ocean_basin.csv"))
 
 my_prey_basin$PreySP <- gsub(" ", "_", my_prey_basin$PreySP)
 #there are 3 additional columns which are unneccessary for this
@@ -159,57 +136,75 @@ names(my_tree_ne_indian) <- "NE Indian"
 #then increasing the offset by 0.15, because that is the width we specified.
 #we repeat until all of the ocean basin are created
 
-
-p.1 <- gheatmap(mycirc, my_tree_ne_pacific, offset=0, width=0.15,
+brewer.pal(n = 8, name = "BrBG") 
+p1_3 <- gheatmap(mycirc, my_tree_ne_pacific, offset=0, width=0.15, colnames = FALSE, #oranges
          colnames_angle=95, colnames_offset_y = .25) +
-  scale_fill_gradient2('Max. Frequency of Occurence',
-    low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+  scale_fill_gradient2('Max. FO - NE Pacific (1)',
+    low = '#FFF5EB', high = '#8C2D04', mid = '#FDAE6B', na.value = 'grey90', limits= c(0.0000001, 100),
     midpoint = 50,
     guide = guide_colorbar(title.position = 'top')
   )
-p2 <- gheatmap(p1, my_tree_ne_atlantic, offset=0.15, width=0.15,
+p1_3 <- p1_3 + new_scale_fill() 
+p2_3 <- gheatmap(p1_3, my_tree_ne_atlantic, offset=0.15, width=0.15, colnames = FALSE, #blues
            colnames_angle=95, colnames_offset_y = .16)+
-  scale_fill_gradient2('Max. Frequency of Occurence',
-                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+  scale_fill_gradient2('Max. FO - NE Atlantic (2)',
+                       low = '#F7FBFF', high = '#084594', mid = '#9ECAE1', na.value = 'grey90', limits= c(0.0000001, 100),
                        midpoint = 50,
                        guide = guide_colorbar(title.position = 'top')
   )
-p3 <-  gheatmap(p2, my_tree_mediterranean, offset=0.3, width=0.15,
+p2_3 <- p2_3 + new_scale_fill()
+p3_3 <-  gheatmap(p2_3, my_tree_mediterranean, offset=0.3, width=0.15, colnames = FALSE, #purples
            colnames_angle=95, colnames_offset_y = .15)+
-  scale_fill_gradient2('Max. Frequency of Occurence',
-                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+  scale_fill_gradient2('Max. FO - Mediterranean (3)',
+                       low = '#FCFBFD', high = '#4A1486', mid = '#BCBDDC', na.value = 'grey90', limits= c(0.0000001, 100),
                        midpoint = 50,
                        guide = guide_colorbar(title.position = 'top')
   )
-p4 <-  gheatmap(p3, my_tree_nw_atlantic, offset=0.45, width=0.15,
+p3_3 <- p3_3 + new_scale_fill()
+p4_3 <-  gheatmap(p3_3, my_tree_nw_atlantic, offset=0.45, width=0.15, colnames = FALSE, #greens
            colnames_angle=95, colnames_offset_y = .15)+
-  scale_fill_gradient2('Max. Frequency of Occurence',
-                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+  scale_fill_gradient2('Max. FO - NW Atlantic (4)',
+                       low = '#F7FCF5', high = '#005A32', mid = '#A1D99B', na.value = 'grey90', limits= c(0.0000001, 100),
                        midpoint = 50,
                        guide = guide_colorbar(title.position = 'top')
   )
-p5 <-  gheatmap(p4, my_tree_sw_atlantic, offset=0.6, width=0.15,
+p4_3 <- p4_3 + new_scale_fill() 
+p5_3 <-  gheatmap(p4_3, my_tree_sw_atlantic, offset=0.6, width=0.15, colnames = FALSE, #reds
            colnames_angle=95, colnames_offset_y = .15)+
-  scale_fill_gradient2('Max. Frequency of Occurence',
-                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+  scale_fill_gradient2('Max. FO - SW Atlantic (5)',
+                       low = '#FFF5F0', high = '#99000D', mid = '#FC9272', na.value = 'grey90', limits= c(0.0000001, 100),
                        midpoint = 50,
                        guide = guide_colorbar(title.position = 'top')
   )
-p6 <-  gheatmap(p5, my_tree_sw_pacific, offset=0.75, width=0.15,
+p5_3 <- p5_3 + new_scale_fill()
+p6_3 <-  gheatmap(p5_3, my_tree_sw_pacific, offset=0.75, width=0.15, colnames = FALSE, #greys
            colnames_angle=95, colnames_offset_y = .15)+
-  scale_fill_gradient2('Max. Frequency of Occurence',
-                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+  scale_fill_gradient2('Max. FO - SW Pacific (6)',
+                       low = '#FFFFFF', high = '#252525', mid = '#BDBDBD', na.value = 'grey90', limits= c(0.0000001, 100),
                        midpoint = 50,
                        guide = guide_colorbar(title.position = 'top')
   )
-p7 <-  gheatmap(p6, my_tree_ne_indian, offset=0.9, width=0.15,
+p6_3 <- p6_3 + new_scale_fill()
+p7_3 <-  gheatmap(p6_3, my_tree_ne_indian, offset=0.9, width=0.15, colnames = FALSE, #browns
            colnames_angle=95, colnames_offset_y = .15)+
-  scale_fill_gradient2('Max. Frequency of Occurence',
-                       low = 'blue3', high = 'red', mid = 'yellow2', na.value = 'grey90', limits= c(0.0000001, 100),
+  scale_fill_gradient2('Max. FO - NE Indian (7)',
+                       low = '#C7EAE5', high = '#8C510A', mid = '#DFC27D', na.value = 'grey90', limits= c(0.0000001, 100),
                        midpoint = 50,
-                       guide = guide_colorbar(title.position = 'top')
-  )
-p7
+                       guide = guide_colorbar(title.position = 'top'))+
+  theme(legend.key.size = unit(2,'mm'),
+         legend.text = element_text(size = 5),
+         legend.title = element_text(size = 5),
+         legend.spacing = unit(0.02,'cm'),
+         legend.position = c(0.99,0.5)) +
+  annotate('text', x = 1.15, y = 5.5, label = '1', angle = 0, size = 3)+
+  annotate('text', x = 1.3, y = 5.5, label = '2', angle = 0, size = 3)+
+  annotate('text', x = 1.45, y = 5.5, label = '3', angle = 0, size = 3)+
+  annotate('text', x = 1.6, y = 5.5, label = '4', angle = 0, size = 3)+
+  annotate('text', x = 1.75, y = 5.5, label = '5', angle = 0, size = 3)+
+  annotate('text', x = 1.9, y = 5.5, label = '6', angle = 0, size = 3)+
+  annotate('text', x = 2.05, y = 5.5, label = '7', angle = 0, size = 3)
+p7_3 <- p7_3 + new_scale_fill()
+task3finalplot = p7_3
 #Now we have the final product(for now) with each of the ocean basins and the 
 #species max fo. I would like to point out when one species was in multiple ocean basins
 #the fo is the same for both and do not have different FOs for each basin

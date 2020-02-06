@@ -50,9 +50,15 @@ tree_names %>%
 
 
 ##this is splitting the prey according to class
-prey_class_info<-split(x=my_prey$PreySP,f=my_prey$class)
+my_prey_t1 = my_prey
+my_prey_t1$PreySP <- gsub("_", " ", my_prey_t1$PreySP)
+rownames(my_prey_t1) = my_prey_t1$PreySP
+prey_class_info<-split(x=my_prey_t1$PreySP,f=my_prey_t1$class)
 #using that split prey to group the species in the tree by class
-my_tree_class<-groupOTU(my_tree,prey_class_info)
+my_tree_t1 = my_tree
+my_tree_t1$tip.label = gsub("_", " ", my_tree_t1$tip.label)
+my_tree_class<-groupOTU(my_tree_t1,prey_class_info)
+
 #creating the tree, colored by class
 pal = brewer.pal(7, 'Dark2')
 pal[1] = 'black'; pal[2] = 'pink2';pal[3] = 'red3'
@@ -60,7 +66,8 @@ pal[4] = 'royalblue1'; pal[5] = 'green4';pal[6] = 'orange3';pal[7] = 'brown4'
 tree3 <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
   scale_colour_manual('Class', values = pal,
                       breaks = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca"),
-                      labels = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca"))
+                      labels = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca")) + 
+  geom_tiplab(size = 2)
 tree3
 task1 = tree3
 

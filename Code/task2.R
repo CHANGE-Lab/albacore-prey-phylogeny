@@ -14,5 +14,5 @@ rownames(my_prey_maxfo) <- my_prey$PreySP
 prey_tree_maxfo <- gheatmap(mycirc, my_prey_maxfo, offset=0, width=0.15,
          colnames_angle=95, colnames_offset_y = .25,colnames = F) + 
   scale_fill_viridis_c(name='Maximum Frequency\nof Occurance(%)')
-
+task2 = prey_tree_maxfo
 

@@ -191,11 +191,11 @@ p7_3 <-  gheatmap(p6_3, my_tree_ne_indian, offset=0.9, width=0.15, colnames = FA
                        low = '#C7EAE5', high = '#8C510A', mid = '#DFC27D', na.value = 'grey90', limits= c(0.0000001, 100),
                        midpoint = 50,
                        guide = guide_colorbar(title.position = 'top'))+
-  theme(legend.key.size = unit(2,'mm'),
-         legend.text = element_text(size = 5),
-         legend.title = element_text(size = 5),
-         legend.spacing = unit(0.02,'cm'),
-         legend.position = c(0.99,0.5)) +
+  theme(legend.key.size = unit(3,'mm'),
+        legend.text = element_text(size = 6.5),
+        legend.title = element_text(size = 6.5),
+        legend.spacing = unit(0.02,'cm'),
+        legend.position = c(0.99,0.5)) +
   annotate('text', x = 1.15, y = 5.5, label = '1', angle = 0, size = 3)+
   annotate('text', x = 1.3, y = 5.5, label = '2', angle = 0, size = 3)+
   annotate('text', x = 1.45, y = 5.5, label = '3', angle = 0, size = 3)+
@@ -205,6 +205,8 @@ p7_3 <-  gheatmap(p6_3, my_tree_ne_indian, offset=0.9, width=0.15, colnames = FA
   annotate('text', x = 2.05, y = 5.5, label = '7', angle = 0, size = 3)
 p7_3 <- p7_3 + new_scale_fill()
 task3finalplot = p7_3
+ggsave('frequency_occurence_values.png', task3finalplot, dpi = 300, width = 10, height = 7.5)
+
 #Now we have the final product(for now) with each of the ocean basins and the 
 #species max fo. I would like to point out when one species was in multiple ocean basins
 #the fo is the same for both and do not have different FOs for each basin

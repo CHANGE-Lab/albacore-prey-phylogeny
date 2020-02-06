@@ -60,16 +60,23 @@ my_tree_t1$tip.label = gsub("_", " ", my_tree_t1$tip.label)
 my_tree_class<-groupOTU(my_tree_t1,prey_class_info)
 
 #creating the tree, colored by class
-pal = brewer.pal(7, 'Dark2')
-pal[1] = 'black'; pal[2] = 'pink2';pal[3] = 'red3'
-pal[4] = 'royalblue1'; pal[5] = 'green4';pal[6] = 'orange3';pal[7] = 'brown4'
+brewer.pal(n = 11, name = "Spectral") 
+pal = c()
+pal[1] = 'black'; pal[2] = '#9E0142';pal[3] = '#F46D43'
+pal[4] = '#FDAE61'; pal[5] = '#ABDDA4';pal[6] = '#66C2A5';pal[7] = '#5E4FA2'
 tree3 <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
-  scale_colour_manual('Class', values = pal,
+  scale_colour_manual('Class', aesthetics = c('colour', 'fill'), values = pal,
                       breaks = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca"),
                       labels = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca")) + 
-  geom_tiplab(size = 2)
+  geom_tiplab(size = 2, show.legend = FALSE)
+  #scale_size(range=c(1, 2), guide=FALSE) +
+  #theme(legend.key = element_rect(colour = fill, fill = fill, size = 0.5, linetype='solid'), 
+        #legend.key.height = unit(.2, 'cm'))+
+  #guides(linetype = guide_legend(override.aes = list(size = 0.2)))
 tree3
-task1 = tree3
+task1finalplot = tree3
+ggsave('species_by_class.png', task1finalplot, dpi = 300, width = 10, height = 7.5)
+
 
 
 

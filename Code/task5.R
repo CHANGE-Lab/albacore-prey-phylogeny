@@ -2,16 +2,7 @@
 ### NOTE: data is from the phylogpic.com(?) website, there will be species missing 
 ### NOTE: the 'how-to' is from the manual that Tash sent before 
 ### NOTE: do it by order 
-library(tidyverse)
-library(rphylopic)
-library(png)
-library(RCurl)
-library(ggimage)
 
-
-
-my_prey <- read_csv("Prey_list_fo.csv")
-my_tree <- read.tree("albacore_diet_tree")
 mycircs<-ggtree(my_tree)##not circular 
 mycirc<-ggtree(my_tree, layout='circular')##circular 
 

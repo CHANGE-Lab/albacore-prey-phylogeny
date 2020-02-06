@@ -20,13 +20,14 @@ p1_4 <- gheatmap(mycirc, my_prey_traits[, c(4,6)], offset=-0.04, width=0.10,font
   scale_fill_viridis_d(name = "Vertical Habitat", breaks = c("benthic", "demersal", "benthopelagic",
                                                              "epipelagic", "mesopelagic", "bathypelagic"),
                        limits = c("benthic", "demersal", "benthopelagic", "epipelagic",
-                                  "mesopelagic", "bathypelagic"))
+                                  "mesopelagic", "bathypelagic"), na.translate = TRUE)
 p2_4 <- p1_4 + new_scale_fill()
 p3_4 <- gheatmap(p2_4, my_prey_traits[ , c(4,7)], offset=0.01, width=0.10,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Horizontal Habitat", option = "C",
                        breaks = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
-                       limits = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"))
+                       limits = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
+                       na.translate = TRUE)
 p4_4 <- p3_4 + new_scale_fill()
 p5_4 <- gheatmap(p4_4, my_prey_traits[ ,c(4,12)], offset=0.06, width=0.10,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
@@ -53,9 +54,9 @@ p10_4 <- p9_4 + new_scale_fill()
 p11_4 <- gheatmap(p10_4, trophic_level, offset=0.31, width=0.05, font.size=2,
                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white') +
-  theme(legend.key.size = unit(2,'mm'),
-        legend.text = element_text(size = 5),
-        legend.title = element_text(size = 5),
+  theme(legend.key.size = unit(3,'mm'),
+        legend.text = element_text(size = 6.5),
+        legend.title = element_text(size = 6.5),
         legend.spacing = unit(0.02,'cm'),
         legend.position = c(0.99,0.5)) +
   annotate('text', x = 1.37, y = 5.5, label = 'Trophic Level', angle = -85, size = 2)+
@@ -67,4 +68,4 @@ p11_4 <- gheatmap(p10_4, trophic_level, offset=0.31, width=0.05, font.size=2,
   annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2)
 
 task4finalplot = p11_4
-
+ggsave('categorical_trait_values.png', task4finalplot, dpi = 300, width = 10, height = 7.5)

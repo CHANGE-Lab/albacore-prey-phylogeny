@@ -76,14 +76,14 @@ ggsave('categorical_trait_values.png', task4finalplot, dpi = 300, width = 10, he
 
 p1_5 <- gheatmap(mycirc, my_prey_traits[, c(4,6)], offset=-0.04, width=0.10,font.size=2,
                  colnames_angle=95, colnames_offset_y = .25, colnames = F) +
-  scale_fill_viridis_d(name = "Vertical Habitat", breaks = c("benthic", "demersal", "benthopelagic",
+  scale_fill_viridis_d(name = "Vertical Habitat", direction = -1, breaks = c("benthic", "demersal", "benthopelagic",
                                                              "epipelagic", "mesopelagic", "bathypelagic"),
                        limits = c("benthic", "demersal", "benthopelagic", "epipelagic",
                                   "mesopelagic", "bathypelagic"), na.translate = TRUE)
 p2_5 <- p1_5 + new_scale_fill()
 p3_5 <- gheatmap(p2_5, my_prey_traits[ , c(4,7)], offset=0.01, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Horizontal Habitat", option = "C",
+  scale_fill_viridis_d(name = "Horizontal Habitat", option = "C", direction = -1,
                        breaks = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        limits = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        na.translate = TRUE)
@@ -107,10 +107,6 @@ habitat_traits_finalplot = p6_5
 ggsave('habitat_trait_values.png', habitat_traits_finalplot, dpi = 300, width = 10, height = 7.5)
 
 #morphology/trophic plot
-
-
-
-
 p1_6 <- gheatmap(mycirc, my_prey_traits[ ,c(4,12)], offset=-0.04, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Body Shape", option = 'magma',

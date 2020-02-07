@@ -62,7 +62,7 @@ my_tree_class<-groupOTU(my_tree_t1,prey_class_info)
 #creating the tree, colored by class
 brewer.pal(n = 11, name = "Spectral") 
 pal = c()
-pal[1] = 'white'; pal[2] = '#00FFFF';pal[3] = '#751308'
+pal[1] = 'grey40'; pal[2] = '#00FFFF';pal[3] = '#751308'
 pal[4] = '#4B0082'; pal[5] = '#F05E23';pal[6] = '#013220';pal[7] = '#B80F0A'
 tree3 <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
   scale_colour_manual('Class', aesthetics = c('colour', 'fill'), values = pal,
@@ -70,7 +70,7 @@ tree3 <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
                       labels = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca")) + 
   geom_tiplab(size = 2, show.legend = FALSE) +
   theme(panel.background = element_rect(fill = 'black', colour = NA),
-        plot.background = element_rect(fill = 'black'),
+        plot.background = element_rect(fill = 'black', colour = 'black'),
         panel.border = element_blank(),
         legend.background = element_rect(fill = 'black'),
         legend.text = element_text(colour = 'white'),
@@ -81,7 +81,7 @@ tree3 <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
   #guides(linetype = guide_legend(override.aes = list(size = 0.2)))
 tree3
 task1finalplot = tree3
-ggsave('species_by_class.png', task1finalplot, dpi = 300, width = 10, height = 7.5)
+ggsave('species_by_class.png', task1finalplot, dpi = 500, width = 10, height = 7.5)
 
 
 

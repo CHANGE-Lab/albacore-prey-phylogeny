@@ -62,13 +62,19 @@ my_tree_class<-groupOTU(my_tree_t1,prey_class_info)
 #creating the tree, colored by class
 brewer.pal(n = 11, name = "Spectral") 
 pal = c()
-pal[1] = 'black'; pal[2] = '#9E0142';pal[3] = '#F46D43'
-pal[4] = '#FDAE61'; pal[5] = '#ABDDA4';pal[6] = '#66C2A5';pal[7] = '#5E4FA2'
+pal[1] = 'white'; pal[2] = '#00FFFF';pal[3] = '#751308'
+pal[4] = '#4B0082'; pal[5] = '#F05E23';pal[6] = '#013220';pal[7] = '#B80F0A'
 tree3 <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
   scale_colour_manual('Class', aesthetics = c('colour', 'fill'), values = pal,
                       breaks = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca"),
                       labels = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca")) + 
-  geom_tiplab(size = 2, show.legend = FALSE)
+  geom_tiplab(size = 2, show.legend = FALSE) +
+  theme(panel.background = element_rect(fill = 'black', colour = NA),
+        plot.background = element_rect(fill = 'black'),
+        panel.border = element_blank(),
+        legend.background = element_rect(fill = 'black'),
+        legend.text = element_text(colour = 'white'),
+        legend.key = element_rect(fill = 'black'))
   #scale_size(range=c(1, 2), guide=FALSE) +
   #theme(legend.key = element_rect(colour = fill, fill = fill, size = 0.5, linetype='solid'), 
         #legend.key.height = unit(.2, 'cm'))+

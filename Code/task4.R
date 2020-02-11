@@ -94,13 +94,13 @@ p5_5 <- gheatmap(p4_5, my_prey_traits[ ,c(4,8)], offset=0.06, width=0.10,font.si
   scale_fill_viridis_d(name = "Diel Migrant\nRefuge", option = "D",
                     breaks = c("0", "1", "UN"),
                     limits = c("0", "1", "UN"),
-                    begin = 0.2, end = 0.95)
+                    begin = 0.25, end = 0.95)
 p6_5 <- gheatmap(p5_5, my_prey_traits[ ,c(4,9)], offset=0.11, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F)+
   scale_fill_viridis_d(name = "Diel Migrant\nRefuge", option = "D",
                     breaks = c("0", "1", "UN"),
                     limits = c("0", "1", "UN"),
-                    begin = 0.2, end = 0.95)+
+                    begin = 0.25, end = 0.95)+
   annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
   annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2.8)+
   annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+

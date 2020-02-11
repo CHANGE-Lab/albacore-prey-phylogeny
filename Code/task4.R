@@ -107,31 +107,32 @@ p6_5 <- gheatmap(p5_5, my_prey_traits[ ,c(4,9)], offset=0.11, width=0.10,font.si
   annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 habitat_traits_finalplot = p6_5
 ggsave('habitat_trait_values.png', habitat_traits_finalplot, dpi = 300, width = 10, height = 7.5)
-
+?scale_fill_viridis_d
 #morphology/trophic plot
 p1_6 <- gheatmap(mycirc, my_prey_traits[ ,c(4,12)], offset=-0.04, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Body Shape", option = 'magma',
+  scale_fill_viridis_d(name = "Body Shape", option = 'A',
                        breaks = c("eel-like", "elongated", "fusiform ", "globiform","compressiform", "depressiform", "unique"),
                        limits = c("eel-like", "elongated", "fusiform ", "globiform","compressiform", "depressiform", "unique"))
 p2_6 <- p1_6 + new_scale_fill()
 p3_6 <- gheatmap(p2_6, my_prey_traits[ ,c(4,10)], offset=0.01, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Physical Defense", option = "B",
+  scale_fill_viridis_d(name = "Physical Defense", option = "A",
                        breaks = c("0","1"),
-                       limits = c("0","1"))
+                       limits = c("0","1"),
+                       begin = 0.25, end = 0.80)
 p4_6 <- p3_6 + new_scale_fill()
 p5_6 <- gheatmap(p4_6, trophic_level, offset=0.11, width=0.05, font.size=2,
                   colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white') +
-  theme(legend.key.size = unit(3,'mm'),
-        legend.text = element_text(size = 6.5),
-        legend.title = element_text(size = 6.5),
-        legend.spacing = unit(0.02,'cm'),
-        legend.position = c(0.99,0.5)) +
-  annotate('text', x = 1.17, y = 5.5, label = 'Trophic Level', angle = -85, size = 2)+
-  annotate('text', x = 1.12, y = 5.8, label = 'Physical Defence', angle = -85, size = 2)+
-  annotate('text', x = 1.07, y = 5.5, label = 'Body Shape', angle = -85, size = 2)
+#  theme(legend.key.size = unit(3,'mm'),
+#        legend.text = element_text(size = 6.5),
+#        legend.title = element_text(size = 6.5),
+#        legend.spacing = unit(0.02,'cm'),
+#        legend.position = c(0.99,0.5)) +
+  annotate('text', x = 1.17, y = 6.4, label = 'Trophic Level', angle = -85, size = 2.8)+
+  annotate('text', x = 1.12, y = 6.7, label = 'Physical Defence', angle = -85, size = 2.8)+
+  annotate('text', x = 1.07, y = 6.4, label = 'Body Shape', angle = -85, size = 2.8)
   
 
 morph_troph_finalplot = p5_6

@@ -213,8 +213,32 @@ ggsave('frequency_occurence_values.png', task3finalplot, dpi = 300, width = 10, 
 #This is what I have so far. But we will need to discuss how this should be changed to look better
 
 
+#Below is the species maxfo for the NE Pacifc, NE Atlanitc, and the Mediterranean with viridis palate
 
+p12_3 <- gheatmap(mycirc, my_tree_ne_pacific, offset=0, width=0.15, colnames = FALSE, #oranges
+                 colnames_angle=95, colnames_offset_y = .25) +
+  scale_fill_viridis_c('Max. FO\nNE Pacific (NPAC)\nNE Atlantic (NATL)\nMediterranean (MED)',
+                       na.value = 'grey90', limits= c(0.0000001, 100),
+                       guide = guide_colorbar(title.position = 'top')
+  )
+p22_3 <- gheatmap(p12_3, my_tree_ne_atlantic, offset=0.15, width=0.15, colnames = FALSE, #blues
+                 colnames_angle=95, colnames_offset_y = .16)+
+  scale_fill_viridis_c('Max. FO\nNE Pacific (NPAC)\nNE Atlantic (NATL)\nMediterranean (MED)',
+                       na.value = 'grey90', limits= c(0.0000001, 100),
+                       guide = guide_colorbar(title.position = 'top')
+  )
+p32_3 <-  gheatmap(p22_3, my_tree_mediterranean, offset=0.3, width=0.15, colnames = FALSE, #purples
+                  colnames_angle=95, colnames_offset_y = .15)+
+  scale_fill_viridis_c('Max. FO\nNE Pacific (NPAC)\nNE Atlantic (NATL)\nMediterranean (MED)',
+                       na.value = 'grey90', limits= c(0.0000001, 100),
+                       guide = guide_colorbar(title.position = 'top')
+  )+
+  annotate('text', x = 1.15, y = 2.5, label = 'NPAC', angle = 0, size = 2.75)+
+  annotate('text', x = 1.31, y = 2.2, label = 'NATL', angle = 0, size = 2.75)+
+  annotate('text', x = 1.46, y = 2.0, label = 'MED', angle = 0, size = 2.75)
+task3_3basinfinalplot = p32_3
 
+ggsave('frequency_occurence_3basin.png', task3_3basinfinalplot, dpi = 300, width = 10, height = 7.5)
 
 
 

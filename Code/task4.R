@@ -79,11 +79,11 @@ p1_5 <- gheatmap(mycirc, my_prey_traits[, c(4,6)], offset=-0.04, width=0.10,font
   scale_fill_viridis_d(name = "Vertical Habitat", direction = -1, breaks = c("benthic", "demersal", "benthopelagic",
                                                              "epipelagic", "mesopelagic", "bathypelagic"),
                        limits = c("benthic", "demersal", "benthopelagic", "epipelagic",
-                                  "mesopelagic", "bathypelagic"), na.translate = TRUE)
+                                  "mesopelagic", "bathypelagic"), na.translate = TRUE, option = 'D')
 p2_5 <- p1_5 + new_scale_fill()
 p3_5 <- gheatmap(p2_5, my_prey_traits[ , c(4,7)], offset=0.01, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Horizontal Habitat", option = "C", direction = -1,
+  scale_fill_viridis_d(name = "Horizontal Habitat", option = "D", direction = -1,
                        breaks = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        limits = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        na.translate = TRUE)
@@ -91,18 +91,20 @@ p4_5 <- p3_5 + new_scale_fill()
 
 p5_5 <- gheatmap(p4_5, my_prey_traits[ ,c(4,8)], offset=0.06, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Diel Migrant\nRefuge", option = "B",
-                       breaks = c("0", "1", "UN"),
-                       limits = c("0", "1", "UN"))
+  scale_fill_viridis_d(name = "Diel Migrant\nRefuge", option = "D",
+                    breaks = c("0", "1", "UN"),
+                    limits = c("0", "1", "UN"),
+                    begin = 0.2, end = 0.95)
 p6_5 <- gheatmap(p5_5, my_prey_traits[ ,c(4,9)], offset=0.11, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F)+
-  scale_fill_viridis_d(name = "Diel Migrant\nRefuge", option = "B",
-                       breaks = c("0", "1", "UN"),
-                       limits = c("0", "1", "UN"))+
-  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2)+
-  annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2)+
-  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2)+
-  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2)
+  scale_fill_viridis_d(name = "Diel Migrant\nRefuge", option = "D",
+                    breaks = c("0", "1", "UN"),
+                    limits = c("0", "1", "UN"),
+                    begin = 0.2, end = 0.95)+
+  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
+  annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2.8)+
+  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
+  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 habitat_traits_finalplot = p6_5
 ggsave('habitat_trait_values.png', habitat_traits_finalplot, dpi = 300, width = 10, height = 7.5)
 

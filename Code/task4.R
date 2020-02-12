@@ -67,8 +67,8 @@ p11_4 <- gheatmap(p10_4, trophic_level, offset=0.31, width=0.05, font.size=2,
   annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2)+
   annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2)
 
-task4finalplot = p11_4
-ggsave('categorical_trait_values.png', task4finalplot, dpi = 300, width = 10, height = 7.5)
+#task4finalplot = p11_4
+#ggsave('categorical_trait_values.png', task4finalplot, dpi = 300, width = 10, height = 7.5)
 
 
 
@@ -105,13 +105,35 @@ p6_5 <- gheatmap(p5_5, my_prey_traits[ ,c(4,9)], offset=0.11, width=0.10,font.si
                     limits = c("0", "1", "UN"),
                     begin = 0.25, end = 0.95)+
   annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2.8)
-habitat_traits_iter1 = p1_5
+habitat_traits_iter1_noleg = p1_5 +
+  theme(legend.position = 'none')
+habitat_traits_iter2_noleg = p3_5 +
+  theme(legend.position = 'none')
+habitat_traits_iter3_noleg = p5_5 +
+  theme(legend.position = 'none')
+habitat_traits_finalplot_noleg = p6_5 +
+  theme(legend.position = 'none')
+habitat_traits_iter1_leg = get_legend(p1_5)
+habitat_traits_iter2_leg = get_legend(p3_5)
+habitat_traits_iter3_leg = get_legend(p5_5)
+habitat_traits_iterfinal_leg = get_legend(p6_5)
+
+habitat_traits_iter1_leg_grid = cowplot::plot_grid(habitat_traits_iter1_leg, align = "v", nrow = 3)
+habitat_traits_legends = habitat_traits_iter1_leg_grid +
+  ggplot2::annotation_custom(
+    grob = legend2,
+    xmin = 0.5, xmax = 0.5, ymin = 0.55, ymax = 0.55
+  )
+habitat_traits_iter1 = ggdraw()+
+  draw_plot(habitat_traits_iter1_noleg) + 
+  draw_plot(habitat_traits_iter1_leg_grid, x=0.702, y=0.72, width=0.18, height=0.1)
+
+
 ggsave('habitat_trait_iterative1.png', habitat_traits_iter1, dpi = 300, width = 10, height = 7.5)
 
-habitat_traits_iter2 = p3_5
+
 ggsave('habitat_trait_iterative2.png', habitat_traits_iter2, dpi = 300, width = 10, height = 7.5)
 
-habitat_traits_iter3 = p5_5
 ggsave('habitat_trait_iterative3.png', habitat_traits_iter3, dpi = 300, width = 10, height = 7.5)
 
 habitat_traits_finalplot = p6_5

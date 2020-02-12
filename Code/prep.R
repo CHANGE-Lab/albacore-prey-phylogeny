@@ -16,6 +16,8 @@ library(viridis)
 library(PNWColors)
 library(RColorBrewer)
 library(here)
+library(cowplot)
+library(gtable)
 "%notin%" = Negate('%in%')
 here::here()
 

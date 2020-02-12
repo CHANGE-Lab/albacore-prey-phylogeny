@@ -93,17 +93,19 @@ p4_5 <- p3_5 + new_scale_fill()
 
 p5_5 <- gheatmap(p4_5, my_prey_traits[ ,c(4,8)], offset=0.06, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Diel Migrant\nRefuge", option = "D",
+  scale_fill_manual(name = "Diel Migrant",
                     breaks = c("0", "1", "UN"),
                     limits = c("0", "1", "UN"),
-                    begin = 0.25, end = 0.95)+
+                    values = c("0"="#FDE725FF", "1"="#39568CFF", "UN"='gray70'))+
   annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)
-p6_5 <- gheatmap(p5_5, my_prey_traits[ ,c(4,9)], offset=0.11, width=0.10,font.size=2,
+p5_5.5 <- p5_5 + new_scale_fill()
+
+p6_5 <- gheatmap(p5_5.5, my_prey_traits[ ,c(4,9)], offset=0.11, width=0.10,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F)+
-  scale_fill_viridis_d(name = "Diel Migrant\nRefuge", option = "D",
-                    breaks = c("0", "1", "UN"),
-                    limits = c("0", "1", "UN"),
-                    begin = 0.25, end = 0.95)+
+  scale_fill_manual(name = "Refuge",
+                    breaks = c("0", "1"),
+                    limits = c("0", "1"),
+                    values = c("1"="#FDE725FF", "0"="#39568CFF"))+
   annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2.8)
 habitat_traits_iter1_noleg = p1_5 +
   theme(legend.position = 'none')

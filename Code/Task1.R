@@ -62,9 +62,9 @@ my_tree_class<-groupOTU(my_tree_t1,prey_class_info)
 #creating the tree, colored by class
 brewer.pal(n = 11, name = "Spectral") 
 pal = c()
-pal[1] = 'grey40'; pal[2] = '#00FFFF';pal[3] = '#751308'
+pal[1] = 'grey40'; pal[2] = '#0047ab';pal[3] = '#751308'
 pal[4] = '#4B0082'; pal[5] = '#F05E23';pal[6] = '#013220';pal[7] = '#B80F0A'
-tree3 <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
+tree3_black <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
   scale_colour_manual('Class', aesthetics = c('colour', 'fill'), values = pal,
                       breaks = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca"),
                       labels = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca")) + 
@@ -79,9 +79,29 @@ tree3 <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
   #theme(legend.key = element_rect(colour = fill, fill = fill, size = 0.5, linetype='solid'), 
         #legend.key.height = unit(.2, 'cm'))+
   #guides(linetype = guide_legend(override.aes = list(size = 0.2)))
-tree3
-task1finalplot = tree3
-ggsave('species_by_class.png', task1finalplot, dpi = 500, width = 10, height = 7.5)
+tree3_black
+task1finalplot_black = tree3_black
+ggsave('species_by_class_black.png', task1finalplot_black, dpi = 500, width = 10, height = 7.5)
+
+tree3_white <- ggtree(my_tree_class, aes(color=group), layout = 'circular') +
+  scale_colour_manual('Class', aesthetics = c('colour', 'fill'), values = pal,
+                      breaks = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca"),
+                      labels = c("Actinopterygii","Branchiopoda","Cephalopoda","Gastropoda","Hexanauplia","Malacostraca")) + 
+  geom_tiplab(size = 2, show.legend = FALSE) +
+  theme(panel.background = element_rect(fill = 'white', colour = NA),
+        plot.background = element_rect(fill = 'white', colour = 'white'),
+        panel.border = element_blank(),
+        legend.background = element_rect(fill = 'white'),
+        legend.text = element_text(colour = 'black'),
+        legend.key = element_rect(fill = 'white'))
+#scale_size(range=c(1, 2), guide=FALSE) +
+#theme(legend.key = element_rect(colour = fill, fill = fill, size = 0.5, linetype='solid'), 
+#legend.key.height = unit(.2, 'cm'))+
+#guides(linetype = guide_legend(override.aes = list(size = 0.2)))
+tree3_white
+task1finalplot_white = tree3_white
+ggsave('species_by_class_white.png', task1finalplot_white, dpi = 500, width = 10, height = 7.5)
+
 
 
 

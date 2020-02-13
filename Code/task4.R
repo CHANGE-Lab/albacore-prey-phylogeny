@@ -89,7 +89,8 @@ p3_5 <- gheatmap(p2_5, my_prey_traits[ , c(4,7)], offset=0.01, width=0.10,font.s
                        breaks = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        limits = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        na.translate = TRUE, guide = guide_legend(order = 2))+theme(legend.position = c(1,0.683))+
-  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)
+  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
+  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 p4_5 <- p3_5 + new_scale_fill()
 
 p5_5 <- gheatmap(p4_5, my_prey_traits[ ,c(4,8)], offset=0.06, width=0.10,font.size=2,
@@ -99,7 +100,9 @@ p5_5 <- gheatmap(p4_5, my_prey_traits[ ,c(4,8)], offset=0.06, width=0.10,font.si
                     limits = c("0", "1", "UN"),
                     values = c("0"="#FDE725FF", "1"="#39568CFF", "UN"='gray70'),
                     guide = guide_legend(order = 3))+theme(legend.position = c(1,0.5985))+
-  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)
+  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
+  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
+  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 p5_5.5 <- p5_5 + new_scale_fill()
 
 p6_5 <- gheatmap(p5_5.5, my_prey_traits[ ,c(4,9)], offset=0.11, width=0.10,font.size=2,
@@ -109,29 +112,32 @@ p6_5 <- gheatmap(p5_5.5, my_prey_traits[ ,c(4,9)], offset=0.11, width=0.10,font.
                     limits = c("0", "1"),
                     values = c("1"="#FDE725FF", "0"="#39568CFF"),
                     guide = guide_legend(order = 4))+theme(legend.position = c(1,0.531))+
-  annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2.8)
-habitat_traits_iter1_noleg = p1_5 +
-  theme(legend.position = 'none')
-habitat_traits_iter2_noleg = p3_5 +
-  theme(legend.position = 'none')
-habitat_traits_iter3_noleg = p5_5 +
-  theme(legend.position = 'none')
-habitat_traits_finalplot_noleg = p6_5 +
-  theme(legend.position = 'none')
-habitat_traits_iter1_leg = get_legend(p1_5)
-habitat_traits_iter2_leg = get_legend(p3_5)
-habitat_traits_iter3_leg = get_legend(p5_5)
-habitat_traits_iterfinal_leg = get_legend(p6_5)
-
-habitat_traits_iter1_leg_grid = cowplot::plot_grid(habitat_traits_iter1_leg, align = "v", nrow = 3)
-habitat_traits_legends = habitat_traits_iter1_leg_grid +
-  ggplot2::annotation_custom(
-    grob = legend2,
-    xmin = 0.5, xmax = 0.5, ymin = 0.55, ymax = 0.55
-  )
-habitat_traits_iter1 = ggdraw()+
-  draw_plot(habitat_traits_iter1_noleg) + 
-  draw_plot(habitat_traits_iter1_leg_grid, x=0.702, y=0.72, width=0.18, height=0.1)
+  annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2.8)+
+  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
+  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
+  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
+# habitat_traits_iter1_noleg = p1_5 +
+#   theme(legend.position = 'none')
+# habitat_traits_iter2_noleg = p3_5 +
+#   theme(legend.position = 'none')
+# habitat_traits_iter3_noleg = p5_5 +
+#   theme(legend.position = 'none')
+# habitat_traits_finalplot_noleg = p6_5 +
+#   theme(legend.position = 'none')
+# habitat_traits_iter1_leg = get_legend(p1_5)
+# habitat_traits_iter2_leg = get_legend(p3_5)
+# habitat_traits_iter3_leg = get_legend(p5_5)
+# habitat_traits_iterfinal_leg = get_legend(p6_5)
+# 
+# habitat_traits_iter1_leg_grid = cowplot::plot_grid(habitat_traits_iter1_leg, align = "v", nrow = 3)
+# habitat_traits_legends = habitat_traits_iter1_leg_grid +
+#   ggplot2::annotation_custom(
+#     grob = legend2,
+#     xmin = 0.5, xmax = 0.5, ymin = 0.55, ymax = 0.55
+#   )
+# habitat_traits_iter1 = ggdraw()+
+#   draw_plot(habitat_traits_iter1_noleg) + 
+#   draw_plot(habitat_traits_iter1_leg_grid, x=0.702, y=0.72, width=0.18, height=0.1)
 
 
 habitat_traits_iter1 = p1_5 
@@ -140,13 +146,8 @@ habitat_traits_iter3 = p5_5
 habitat_traits_finalplot = p6_5
 
 ggsave('habitat_trait_iterative1.png', habitat_traits_iter1, dpi = 300, width = 10, height = 7.5)
-
-
 ggsave('habitat_trait_iterative2.png', habitat_traits_iter2, dpi = 300, width = 10, height = 7.5)
-
 ggsave('habitat_trait_iterative3.png', habitat_traits_iter3, dpi = 300, width = 10, height = 7.5)
-
-habitat_traits_finalplot = p6_5
 ggsave('habitat_trait_values.png', habitat_traits_finalplot, dpi = 300, width = 10, height = 7.5)
 
 #morphology/trophic plot
@@ -167,7 +168,8 @@ p3_6 <- gheatmap(p2_6, my_prey_traits[ ,c(4,10)], offset=0.01, width=0.10,font.s
                        begin = 0.25, end = 0.80,
                        guide = guide_legend(order = 2))+
   theme(legend.position = c(1.1,0.616))+
-  annotate('text', x = 1.12, y = 6.7, label = 'Physical Defence', angle = -85, size = 2.8)
+  annotate('text', x = 1.12, y = 6.7, label = 'Physical Defence', angle = -85, size = 2.8)+
+  annotate('text', x = 1.07, y = 6.4, label = 'Body Shape', angle = -85, size = 2.8)
 p4_6 <- p3_6 + new_scale_fill()
 p5_6 <- gheatmap(p4_6, trophic_level, offset=0.11, width=0.05, font.size=2,
                   colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
@@ -179,7 +181,9 @@ p5_6 <- gheatmap(p4_6, trophic_level, offset=0.11, width=0.05, font.size=2,
 #        legend.title = element_text(size = 6.5),
 #        legend.spacing = unit(0.02,'cm'),
 #        legend.position = c(0.99,0.5)) +
-  annotate('text', x = 1.17, y = 6.4, label = 'Trophic Level', angle = -85, size = 2.8)
+  annotate('text', x = 1.17, y = 6.4, label = 'Trophic Level', angle = -85, size = 2.8)+
+  annotate('text', x = 1.12, y = 6.7, label = 'Physical Defence', angle = -85, size = 2.8)+
+  annotate('text', x = 1.07, y = 6.4, label = 'Body Shape', angle = -85, size = 2.8)
   
 
 morph_troph_iter1plot = p1_6

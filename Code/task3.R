@@ -6,6 +6,7 @@
 # name a tree object
 mycirc <- ggtree(my_tree, layout = "circular")
 
+#sort data and make sure the species in the tree are the ones in the data
 my_tree_class = my_tree 
 my_prey$PreySP <- gsub(" ", "_", my_prey$PreySP) #for ease of plotting take away " "
 tree_names = data.frame(sort(my_tree_class$tip.label))
@@ -233,8 +234,8 @@ p32_3 <-  gheatmap(p22_3, my_tree_mediterranean, offset=0.3, width=0.15, colname
                        na.value = 'grey90', limits= c(0.0000001, 100),
                        guide = guide_colorbar(title.position = 'top')
   )+
-  annotate('text', x = 1.15, y = 2.5, label = 'NPAC', angle = 0, size = 2.75)+
-  annotate('text', x = 1.31, y = 2.2, label = 'NATL', angle = 0, size = 2.75)+
+  annotate('text', x = 1.15, y = 2.2, label = 'NPAC', angle = 0, size = 2.75)+
+  annotate('text', x = 1.31, y = 2.1, label = 'NATL', angle = 0, size = 2.75)+
   annotate('text', x = 1.46, y = 2.0, label = 'MED', angle = 0, size = 2.75)
 task3_3basinfinalplot = p32_3
 

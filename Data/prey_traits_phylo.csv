@@ -1,0 +1,242 @@
+"","prey_class","prey_order","prey_family","prey_sp","life_stage","vert_habitat","horz_habitat","diel_migrant","refuge","season_migrant","body_shape","phys_defense","transparent","col_disrupt","countershade","photophore_PA","gregarious_primary","trophic_level","b_shape_r","eye_body_r"
+"1","Actinopterygii","Argentiniformes","Bathylagidae","Bathylagoides wesethi","adult","mesopelagic","oceanic",1,0,NA,"elongated",0,0,0,1,0,"schooling",3.4,7.92871055707051,0.0851471527538938
+"2","Actinopterygii","Argentiniformes","Bathylagidae","Leuroglossus stilbius","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,0,1,0,"schooling",3.26,6.35849986175434,0.0748307766300024
+"3","Actinopterygii","Atheriniformes","Atherinidae","Atherinopsis californiensis","adult","epipelagic","coastal",0,0,1,"elongated",1,0,0,1,0,"schooling",2.33,6.09834362688903,0.0363555406490541
+"4","Actinopterygii","Aulopiformes","Anotopteridae","Anotopterus nikparini","adult","bathypelagic","oceanic",NA,0,1,"elongated",0,0,0,1,0,"solitary",4.5,14.4532010035774,0.0191500360332225
+"5","Actinopterygii","Aulopiformes","Anotopteridae","Anotopterus pharao","adult","mesopelagic","oceanic",NA,0,1,"elongated",0,0,0,1,0,"solitary",4.34,14.6096575085178,0.0312489094290915
+"6","Actinopterygii","Aulopiformes","Chlorothalmidae","Chlorophthalmus agassizi","adult","demersal","continental shelf",0,0,1,"elongated",0,0,1,0,0,"schooling",3.66,6.81361815791799,0.108228349664037
+"7","Actinopterygii","Aulopiformes","Omusdidae","Omosudis lowii","adult","mesopelagic","oceanic",1,0,NA,"elongated",0,0,0,0,0,"solitary",4.29,4.93248870371009,0.0584575693656471
+"8","Actinopterygii","Aulopiformes","Paralepididae","Arctozenus risso","adult","mesopelagic","oceanic",1,0,1,"elongated",0,0,0,0,0,"solitary",3.22,12.4530609400937,0.0323250392304657
+"9","Actinopterygii","Aulopiformes","Paralepididae","Lestidiops ringens","adult","mesopelagic","oceanic",1,0,NA,"elongated",0,1,0,0,0,"schooling",4.05,10.9267422766572,0.038725176277448
+"10","Actinopterygii","Aulopiformes","Paralepididae","Lestidiops sphyrenoides","adult","mesopelagic","oceanic",1,0,1,"elongated",0,1,0,0,0,"schooling",4.5,10.7016711183486,0.0407237757339047
+"11","Actinopterygii","Aulopiformes","Paralepididae","Macroparalepis affinis","adult","mesopelagic","oceanic",1,0,NA,"elongated",0,1,0,0,0,"schooling",4.1,16.7564516218196,0.0290080287429031
+"12","Actinopterygii","Aulopiformes","Paralepididae","Magnisudis atlantica","adult","mesopelagic","oceanic",NA,0,NA,"elongated",0,1,0,0,0,"schooling",3.65,9.83538452813067,0.042269768404308
+"13","Actinopterygii","Aulopiformes","Paralepididae","Paralepis coregonoides","adult","mesopelagic","oceanic",NA,0,NA,"elongated",0,1,0,0,0,"schooling",4.07,9.11732947285103,0.0420302984296932
+"14","Actinopterygii","Aulopiformes","Paralepididae","Paralepis speciosa","adult","mesopelagic","oceanic",NA,0,NA,"elongated",0,1,0,0,0,"schooling",3.15,9.41601673958531,0.0483636363636364
+"15","Actinopterygii","Aulopiformes","Paralepididae","Sudis hyalina","adult","mesopelagic","oceanic",NA,0,1,"elongated",0,1,0,0,0,"schooling",4.2,9.70704049675939,0.0457048130152387
+"16","Actinopterygii","Beloniformes","Belonidae","Belone belone","adult","epipelagic","coastal",0,0,1,"elongated",0,0,0,1,0,"schooling",4.16,16.3983190950015,0.0219122180342821
+"17","Actinopterygii","Beloniformes","Belonidae","Strongylura exilis","adult","epipelagic","coastal",NA,0,1,"elongated",0,0,0,1,0,"schooling",4.5,18.1057444039238,0.025670736370686
+"18","Actinopterygii","Beloniformes","Scomberesocidae","Cololabis saira","adult","epipelagic","oceanic",0,0,1,"elongated",0,0,0,1,0,"schooling",3.71,9.03582151762649,0.0332378318582026
+"19","Actinopterygii","Beloniformes","Scomberesocidae","Scomberesox saurus","adult","epipelagic","oceanic",1,0,1,"elongated",0,0,0,1,0,"schooling",3.91,10.3315696037922,0.0262189768619551
+"20","Actinopterygii","Clupeiformes","Clupeidae","Clupea pallasii pallasii","adult","epipelagic","coastal",1,0,1,"fusiform",0,0,0,1,0,"schooling",3.16,5.16144116568024,0.0492092403658467
+"21","Actinopterygii","Clupeiformes","Clupeidae","Sardina pilchardus","adult","epipelagic","coastal",1,0,1,"fusiform",0,0,0,1,0,"schooling",3.06,5.52416628507582,0.0494539643593156
+"22","Actinopterygii","Clupeiformes","Clupeidae","Sardinella aurita","adult","epipelagic","coastal",1,0,1,"fusiform",0,0,0,1,0,"schooling",3.4,5.25062848849049,0.0488212072480578
+"23","Actinopterygii","Clupeiformes","Clupeidae","Sardinops sagax","adult","epipelagic","coastal",1,0,1,"fusiform",0,0,1,1,0,"schooling",2.84,5.28424858257628,0.046666533809967
+"24","Actinopterygii","Clupeiformes","Engraulidae","Engraulis encrasicolus","adult","epipelagic","coastal",1,0,1,"elongated",0,0,0,1,0,"schooling",3.12,6.72883909033486,0.0483196821248878
+"25","Actinopterygii","Clupeiformes","Engraulidae","Engraulis japonicus","adult","epipelagic","coastal",1,0,1,"elongated",0,0,1,1,0,"schooling",3.14,6.18229376580409,0.0544114512876651
+"26","Actinopterygii","Clupeiformes","Engraulidae","Engraulis mordax","adult","epipelagic","coastal",1,0,1,"elongated",0,0,0,1,0,"schooling",3.1,5.79779303580188,0.0524181845539445
+"27","Actinopterygii","Gadiformes","Gadidae","Microgadus proximus","adult","demersal","continental shelf",1,1,1,"fusiform",0,0,0,1,0,"schooling",3.58,5.14562294838919,0.0392546878503993
+"28","Actinopterygii","Gadiformes","Gadidae","Micromesistius poutassou","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,0,1,0,"schooling",4.13,5.88468967149822,0.0616873794237251
+"29","Actinopterygii","Gadiformes","Lotidae","Gaidropsarus vulgaris","adult","demersal","continental shelf",0,1,0,"elongated",0,0,1,1,0,"solitary",3.47,6.49033802085943,0.0242876953771721
+"30","Actinopterygii","Gadiformes","Merlucciidae","Merluccius productus","adult","demersal","continental shelf",1,0,1,"elongated",0,0,0,1,0,"schooling",4.35,6.50731290949899,0.0508789485957379
+"31","Actinopterygii","Lampriformes","Trachipteridae","Desmodema polystictum","adult","mesopelagic","oceanic",NA,0,NA,"eel-like",0,0,1,1,0,"solitary",4.15,8.33711955730304,0.0331871932367994
+"32","Actinopterygii","Lampriformes","Trachipteridae","Trachipterus trachypterus","adult","mesopelagic","oceanic",NA,0,NA,"eel-like",0,1,1,0,0,"solitary",2.88,7.87179210696571,0.0243140692848239
+"33","Actinopterygii","Myctophiformes","Myctophidae","Benthosema glaciale","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,0,1,"schooling",2.99,4.76476275912759,0.0736014455771224
+"34","Actinopterygii","Myctophiformes","Myctophidae","Ceratoscopelus maderensis","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.05,6.06701226016498,0.0821401092138896
+"35","Actinopterygii","Myctophiformes","Myctophidae","Ceratoscopelus townsendi","adult","mesopelagic","oceanic",1,0,0,"fusiform",0,0,1,1,1,"schooling",3.5,5.81513131122695,0.0788782600263703
+"36","Actinopterygii","Myctophiformes","Myctophidae","Ceratoscopelus warmingii","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.4,5.95781718722297,0.0724574795615877
+"37","Actinopterygii","Myctophiformes","Myctophidae","Diaphus luetkeni","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,1,1,"schooling",3.78,4.85469642677195,0.0705134041398228
+"38","Actinopterygii","Myctophiformes","Myctophidae","Diaphus theta","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.19,5.14028586553732,0.0657912804668726
+"39","Actinopterygii","Myctophiformes","Myctophidae","Electrona rissoi","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.4,3.54336293064622,0.128152574649213
+"40","Actinopterygii","Myctophiformes","Myctophidae","Lampanyctus alatus","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.22,6.48688475278482,0.0574909992070695
+"41","Actinopterygii","Myctophiformes","Myctophidae","Lampanyctus crocodilus","adult","bathypelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.22,6.24192062819474,0.0356419098526163
+"42","Actinopterygii","Myctophiformes","Myctophidae","Lampanyctus intricarius","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.4,5.93910938139156,0.0429093175792463
+"43","Actinopterygii","Myctophiformes","Myctophidae","Lampanyctus mexicanus","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,1,1,"schooling",3.4,NA,NA
+"44","Actinopterygii","Myctophiformes","Myctophidae","Lobianchia gemellarii","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3,4.7823579782878,0.0560148088412441
+"45","Actinopterygii","Myctophiformes","Myctophidae","Myctophum punctatum","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.390000105,5.39207959741222,0.0841438916517687
+"46","Actinopterygii","Myctophiformes","Myctophidae","Nannobrachium regale","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.2,5.72670154950447,0.0410531596736369
+"47","Actinopterygii","Myctophiformes","Myctophidae","Nannobrachium ritteri","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.37,5.21744566341612,0.0420794358013496
+"48","Actinopterygii","Myctophiformes","Myctophidae","Notoscopelus kroyeri","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,1,1,"schooling",3.17,6.41400154014783,0.0494813687309994
+"49","Actinopterygii","Myctophiformes","Myctophidae","Protomyctophum crockeri","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,1,1,"schooling",3.2,3.93924568433697,0.119637258922155
+"50","Actinopterygii","Myctophiformes","Myctophidae","Stenobrachius leucopsarus","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,1,1,"schooling",3.1,5.5383693832168,0.0679173368029301
+"51","Actinopterygii","Myctophiformes","Myctophidae","Tarletonbeania crenularis","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,1,1,"schooling",3.13,5.13415883301798,0.0655551038074522
+"52","Actinopterygii","Myctophiformes","Myctophidae","Triphoturus mexicanus","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,1,1,"schooling",3.33,5.55390276754484,0.0608311483693511
+"53","Actinopterygii","Ophidiiformes","Aphyonidae","Barathronus parfaiti","adult","bathypelagic","oceanic",NA,0,NA,"eel-like",0,1,0,0,0,"solitary",3.4,5.5112925170068,0
+"54","Actinopterygii","Ophidiiformes","Ophdiidae","Chilara taylori","adult","demersal","continental shelf",NA,1,NA,"eel-like",0,0,1,0,0,"solitary",4.07,6.88156117034533,0.0412050112269502
+"55","Actinopterygii","Osmeriformes","Osmeridae","Thaleichthys pacificus","adult","epipelagic","coastal",1,0,1,"elongated",0,0,0,1,0,"schooling",3.25,6.51129904064781,0.0309236480764529
+"56","Actinopterygii","Perciformes","Ammodytidae","Ammodytes tobianus","adult","demersal","continental shelf",1,1,0,"elongated",0,0,0,1,0,"schooling",3.08,11.2734477346448,0.0285982780221221
+"57","Actinopterygii","Perciformes","Anarhichadidae","Anarrhichthys ocellatus","adult","demersal","continental shelf",0,1,0,"eel-like",1,0,1,0,0,"solitary",3.51,9.95716814159292,0.0166020832592698
+"58","Actinopterygii","Perciformes","Blenniidae","Blennius ocellaris","adult","benthic","continental shelf",0,1,NA,"elongated",1,0,1,0,0,"solitary",3.49,4.33919636365312,0.141243235895908
+"59","Actinopterygii","Perciformes","Bramidae","Brama brama","adult","epipelagic","oceanic",1,0,1,"compressiform",0,0,0,1,0,"schooling",4.08,2.82339727807413,0.0480358168333271
+"60","Actinopterygii","Perciformes","Bramidae","Brama orcini","adult","epipelagic","continental shelf",1,0,1,"compressiform",0,0,0,1,0,"schooling",3.9,2.62699843761499,0.0643731790160915
+"61","Actinopterygii","Perciformes","Bramidae","Pterycombus petersii","adult","epipelagic","oceanic",NA,0,1,"compressiform",0,0,0,1,0,"schooling",4.1,2.96981173040935,0.0862309669288003
+"62","Actinopterygii","Perciformes","Bramidae","Taractes asper","adult","epipelagic","oceanic",NA,0,1,"compressiform",0,0,0,0,0,NA,4.3,3.15609358756909,0.0807292244352098
+"63","Actinopterygii","Perciformes","Caproidae","Antigonia capros","adult","demersal","continental shelf",NA,0,NA,"compressiform",1,0,0,0,0,"shoaling",4.05,1.12771273850606,0.0968472205146392
+"64","Actinopterygii","Perciformes","Caproidae","Capros aper","adult","demersal","continental shelf",NA,1,NA,"compressiform",1,0,0,0,0,"schooling",3.14,2.27818963769386,0.112741024675445
+"65","Actinopterygii","Perciformes","Carangidae","Selene setapinnis","adult","demersal","coastal",NA,0,0,"compressiform",1,0,0,0,0,"schooling",3.72,1.75583383305247,0.0757441687907596
+"66","Actinopterygii","Perciformes","Carangidae","Trachinotus ovatus","adult","epipelagic","coastal",0,0,1,"fusiform",1,0,0,0,0,"schooling",3.73,3.41655218911033,0.0867186953400686
+"67","Actinopterygii","Perciformes","Carangidae","Trachurus japonicus","adult","epipelagic","coastal",1,0,1,"fusiform",1,0,0,1,0,"schooling",3.4,4.57395744596306,0.0596575370519232
+"68","Actinopterygii","Perciformes","Carangidae","Trachurus symmetricus","adult","epipelagic","oceanic",1,0,1,"fusiform",1,0,0,1,0,"schooling",3.57,5.36501851609172,0.0598738622660984
+"69","Actinopterygii","Perciformes","Carangidae","Trachurus trachurus","adult","epipelagic","coastal",1,0,1,"fusiform",1,0,0,1,0,"schooling",3.71,4.8924913607044,0.0638386100486608
+"70","Actinopterygii","Perciformes","Centrolophidae","Centrolophus niger","adult","mesopelagic","oceanic",1,1,NA,"fusiform",1,0,0,1,0,"schooling",3.92,4.21287657930399,0.0392653862748612
+"71","Actinopterygii","Perciformes","Centrolophidae","Icichthys lockingtoni","adult","epipelagic","oceanic",1,1,NA,"fusiform",1,1,0,0,0,"shoaling",3.71,3.54896159476423,0.0656971369433667
+"72","Actinopterygii","Perciformes","Chiasmodontidae","Chiasmodon niger","adult","bathypelagic","oceanic",1,0,NA,"elongated",1,0,0,0,0,"solitary",4.2,7.10089705682314,0.0393137161462354
+"73","Actinopterygii","Perciformes","Coryphaenidae","Coryphaena hippurus","adult","epipelagic","oceanic",0,0,1,"elongated",0,0,1,1,0,"schooling",4.37,5.51635496998878,0.0235667971020648
+"74","Actinopterygii","Perciformes","Embiotocidae","Cymatogaster aggregata","adult","demersal","coastal",0,1,1,"compressiform",1,0,1,0,0,"shoaling",2.99,3.1503431685667,0.0739855639090602
+"75","Actinopterygii","Perciformes","Gempylidae","Diplospinus multistriatus","adult","mesopelagic","continental shelf",1,0,0,"elongated",1,0,0,0,0,"solitary",3.51,15.8237749515274,0.0353998750341759
+"76","Actinopterygii","Perciformes","Gempylidae","Gempylus serpens","adult","mesopelagic","oceanic",1,0,NA,"elongated",1,0,0,1,0,"solitary",4.35,16.096758173603,0.0279243884399916
+"77","Actinopterygii","Perciformes","Gempylidae","Nealotus tripes","adult","mesopelagic","oceanic",1,0,NA,"elongated",1,0,0,0,0,"solitary",4.2,8.06911300205598,0.0470649853807232
+"78","Actinopterygii","Perciformes","Gempylidae","Nesiarchus nasutus","adult","mesopelagic","continental shelf",1,0,NA,"elongated",1,0,0,0,0,NA,4.33,10.4610468016228,0.0300330742436332
+"79","Actinopterygii","Perciformes","Gobiidae","Rhinogobiops nicholsii","adult","benthic","continental shelf",0,1,1,"elongated",1,0,1,0,0,"shoaling",3.369999886,5.63686205836922,0.0488123461669955
+"80","Actinopterygii","Perciformes","Kyphosidae","Medialuna californiensis","adult","demersal","reef-associated",0,1,1,"fusiform",1,0,1,1,0,"schooling",2.67,3.08839014026356,0.0498436642015934
+"81","Actinopterygii","Perciformes","Labridae","Halichoeres nicholsi","adult","demersal","reef-associated",0,1,0,"fusiform",1,0,1,0,0,"solitary",4,3.33595883377439,0.0275370152009165
+"82","Actinopterygii","Perciformes","Mugilidae","Mugil cephalus","adult","epipelagic","coastal",1,0,1,"fusiform",1,0,0,1,0,"schooling",2.48,5.09611456871635,0.0391410213820271
+"83","Actinopterygii","Perciformes","Mullidae","Mullus barbatus barbatus","adult","demersal","continental shelf",0,1,1,"fusiform",1,0,1,1,0,"shoaling",3.14,4.60048406271458,0.0515851966242557
+"84","Actinopterygii","Perciformes","Nomeidae","Cubiceps gracilis","adult","epipelagic","oceanic",NA,1,1,"fusiform",0,0,0,0,0,"shoaling",3.4,4.70486891748184,0.064820854814245
+"85","Actinopterygii","Perciformes","Nomeidae","Psenes pellucidus","adult","epipelagic","oceanic",NA,1,NA,"compressiform",1,1,0,0,0,"shoaling",3.85,3.04465989591971,0.0760521483428216
+"86","Actinopterygii","Perciformes","Pomacentridae","Chromis punctipinnis","adult","demersal","reef-associated",1,1,0,"fusiform",1,0,1,0,0,"schooling",2.73,3.12504655788991,0.0580003218007776
+"87","Actinopterygii","Perciformes","Scombridae","Katsuwonus pelamis","adult","epipelagic","oceanic",1,0,1,"fusiform",1,0,1,1,0,"schooling",4.43,3.44994762126013,0.0406443676925152
+"88","Actinopterygii","Perciformes","Scombridae","Scomber japonicus","adult","epipelagic","continental shelf",1,0,1,"fusiform",1,0,1,1,0,"schooling",3.38,5.27640220348731,0.0549093095841902
+"89","Actinopterygii","Perciformes","Scombridae","Scomber scombrus","adult","epipelagic","continental shelf",1,0,1,"fusiform",1,0,1,1,0,"schooling",3.63,5.59875407891976,0.0405678588414715
+"90","Actinopterygii","Perciformes","Sparidae","Boops boops","adult","demersal","continental shelf",1,0,1,"fusiform",1,0,1,1,0,"schooling",2.79,4.60492093625265,0.0729206706343984
+"91","Actinopterygii","Perciformes","Sparidae","Diplodus sargus","adult","demersal","reef-associated",0,1,1,"fusiform",1,0,1,0,0,"schooling",3.38,2.63509861483204,0.0749153993574693
+"92","Actinopterygii","Perciformes","Sparidae","Spondyliosoma cantharus","adult","demersal","coastal",0,1,1,"fusiform",1,0,1,0,0,"schooling",3.34,2.88852115283044,0.066314842902408
+"93","Actinopterygii","Perciformes","Stomateidae","Peprilus simillimus","adult","demersal","coastal",NA,1,NA,"compressiform",1,0,0,1,0,"schooling",4,2.67638457483476,0.0398956312331938
+"94","Actinopterygii","Perciformes","Tetragonuridae","Tetragonurus atlanticus","adult","mesopelagic","oceanic",1,0,1,"elongated",1,0,0,0,0,"shoaling",3.64,7.24046845217968,0.0483880250161362
+"95","Actinopterygii","Perciformes","Tetragonuridae","Tetragonurus cuvieri","adult","mesopelagic","oceanic",1,0,1,"elongated",1,0,0,0,0,"shoaling",3.78,6.80747038333902,0.0328919100197897
+"96","Actinopterygii","Pleuronectiformes","Bothidae","Arnoglossus imperialis","adult","benthic","continental shelf",1,1,1,"depressiform",0,0,1,0,0,"solitary",3.84,2.95441146071645,0.0599844519592284
+"97","Actinopterygii","Pleuronectiformes","Paralichthyidae","Citharichthys sordidus","adult","demersal","continental shelf",1,1,1,"depressiform",0,0,1,0,0,"solitary",3.46,2.93054645784564,0.0699995352175937
+"98","Actinopterygii","Pleuronectiformes","Pleuronectidae","Pleuronichthys decurrens","adult","demersal","continental shelf",0,1,NA,"depressiform",0,0,1,0,0,"solitary",3.85,2.1799529508605,0.065297094107974
+"99","Actinopterygii","Pleuronectiformes","Pleutonectidae","Microstomus pacificus","adult","demersal","continental shelf",1,1,1,"depressiform",0,0,1,0,0,"shoaling",3.22,3.33598042731566,0.048624191413943
+"100","Actinopterygii","Pleutonectiformes","Pleuronectidae","Glyptocephalus zachirus","adult","demersal","continental shelf",0,1,1,"depressiform",0,0,1,0,0,"solitary",3.25,3.20643526562793,0.0510409726282482
+"101","Actinopterygii","Scorpaeniformes","Agonidae","Bathyagonus pentacanthus","adult","demersal","continental shelf",0,1,NA,"elongated",1,0,0,1,0,"solitary",3.2,10.6985590489582,0.0476157551175962
+"102","Actinopterygii","Scorpaeniformes","Anoplopomatidae","Anoplopoma fimbria","adult","demersal","continental shelf",1,1,1,"fusiform",1,0,1,0,0,"solitary",3.84,5.49400454017178,0.025770554222543
+"103","Actinopterygii","Scorpaeniformes","Gonatidae","Helicolenus dactylopterus","adult","demersal","continental shelf",NA,1,1,"fusiform",1,0,1,0,0,"schooling",3.54,3.49296865793186,0.0794858134476809
+"104","Actinopterygii","Scorpaeniformes","Peristediidae","Peristedion gracile","adult","demersal","continental shelf",NA,1,NA,"fusiform",1,0,1,0,0,NA,3.4,7.00839036763546,0.0661479846879822
+"105","Actinopterygii","Scorpaeniformes","Sebastidae","Sebastes aleutianus","adult","demersal","continental shelf",1,1,1,"fusiform",1,0,0,0,0,"shoaling",3.52,3.44809626048679,0.0660787827980167
+"106","Actinopterygii","Scorpaeniformes","Sebastidae","Sebastes brevispinis","adult","demersal","continental shelf",0,1,1,"fusiform",1,0,0,1,0,"shoaling",3.8,3.74817999354883,0.0555224430396963
+"107","Actinopterygii","Scorpaeniformes","Sebastidae","Sebastes diploproa","adult","demersal","continental shelf",0,1,1,"fusiform",1,0,1,1,0,"shoaling",3.7,3.2001424656578,0.0962271871124142
+"108","Actinopterygii","Scorpaeniformes","Sebastidae","Sebastes helvomaculatus","adult","demersal","continental shelf",1,1,1,"fusiform",1,0,1,1,0,"shoaling",3.7,3.65131847656066,0.0888970999841436
+"109","Actinopterygii","Scorpaeniformes","Sebastidae","Sebastes maliger","adult","demersal","reef-associated",NA,1,1,"fusiform",1,0,1,0,0,"solitary",3.84,2.55848974485882,0.128272497439332
+"110","Actinopterygii","Scorpaeniformes","Sebastidae","Sebastes miniatus","adult","demersal","reef-associated",1,1,NA,"fusiform",1,0,1,0,0,"shoaling",3.9,3.11814213891553,0.0659201289968243
+"111","Actinopterygii","Scorpaeniformes","Sebastidae","Sebastes proriger","adult","demersal","continental shelf",0,1,1,"fusiform",1,0,1,1,0,"shoaling",3.8,3.98093459417965,0.0736123813950779
+"112","Actinopterygii","Scorpaeniformes","Sebastidae","Sebastes wilsoni","adult","demersal","continental shelf",1,1,1,"fusiform",1,0,1,0,0,"shoaling",3.6,4.25182606249106,0.0949194939912277
+"113","Actinopterygii","Scorpaeniformes","Sebastidae","Sebastes zacentrus","adult","demersal","continental shelf",1,1,1,"fusiform",1,0,1,0,0,"shoaling",3.7,3.50499877110133,0.083320882385046
+"114","Actinopterygii","Scorpaeniformes","Triglidae","Eutrigla gurnardus","adult","demersal","continental shelf",0,1,1,"elongated",1,0,1,1,0,"shoaling",3.87,6.40579869340426,0.060218774433454
+"115","Actinopterygii","Stephanoberyciformes","Melamphaidae","Melamphaes lugubris","adult","mesopelagic","oceanic",1,0,NA,"fusiform",1,0,0,0,0,NA,3.8,3.87518889264811,0.0493359857294563
+"116","Actinopterygii","Stephanoberyciformes","Melamphaidae","Scopelogadus mizolepis bispinosus","adult","mesopelagic","oceanic",1,0,0,"fusiform",1,0,1,1,0,NA,3.5,3.85864859777903,0.0443393005219258
+"117","Actinopterygii","Stomiiformes","Phosichthyidae","Vinciguerria lucetia","adult","mesopelagic","oceanic",1,0,1,"elongated",0,0,0,1,1,"schooling",3.2,5.53215235536349,0.0595314725534083
+"118","Actinopterygii","Stomiiformes","Sternoptychidae","Argyropelecus olfersii","adult","mesopelagic","oceanic",1,0,NA,"compressiform",1,0,0,0,1,NA,3.36,1.97490268389402,0.0879707210291231
+"119","Actinopterygii","Stomiiformes","Sternoptychidae","Maurolicus imperatorius","adult","mesopelagic","oceanic",1,0,1,"compressiform",0,0,0,0,1,"schooling",3.1,1.62245269286754,0.123359874397219
+"120","Actinopterygii","Stomiiformes","Sternoptychidae","Maurolicus muelleri","adult","mesopelagic","continental shelf",1,0,1,"elongated",0,0,0,0,1,"schooling",3.01,5.03508090392664,0.0826075046451456
+"121","Actinopterygii","Stomiiformes","Sternoptychidae","Sternoptyx diaphana","adult","mesopelagic","oceanic",0,0,0,"compressiform",0,0,0,0,1,"solitary",3.44,1.57227674194265,0.120860900180055
+"122","Actinopterygii","Stomiiformes","Sternoptychidae","Sternoptyx obscura","adult","mesopelagic","oceanic",1,0,0,"compressiform",0,0,0,0,1,"solitary",3.3,1.59759037290437,0.130206598280655
+"123","Actinopterygii","Stomiiformes","Stomiidae","Bathophilus flemingi","adult","mesopelagic","oceanic",1,0,NA,"elongated",0,0,1,0,1,"solitary",3.5,NA,NA
+"124","Actinopterygii","Stomiiformes","Stomiidae","Melanostomias valdiviae","adult","mesopelagic","oceanic",1,0,0,"elongated",0,0,1,0,1,"solitary",4.2,8.47983700997611,0.0198836804692549
+"125","Actinopterygii","Stomiiformes","Stomiidae","Photonectes margarita","adult","mesopelagic","oceanic",1,0,0,"elongated",0,0,1,0,1,"solitary",4.03,11.7264705882353,0.0231251567594683
+"126","Actinopterygii","Sygnathiformes","Centriscidae","Macroramphosus scolopax","adult","demersal","continental shelf",1,1,1,"compressiform",1,0,0,1,0,"schooling",3.47,4.02148169247519,0.0741889716201368
+"127","Actinopterygii","Syngnathiformes","Syngnathidae","Entelurus aequoreus","adult","demersal","continental shelf",0,1,1,"eel-like",0,0,1,0,0,"solitary",3.539999962,43.631488910718,0.0116382908534644
+"128","Actinopterygii","Syngnathiformes","Syngnathidae","Syngnathus californiensis","adult","demersal","reef-associated",NA,1,1,"eel-like",0,0,0,0,0,"solitary",3.37,34.5846153846154,0.00677935943060498
+"129","Actinopterygii","Tetraodontiformes","Ostaciidae","Lactoria diaphana","adult","demersal","reef-associated",NA,1,1,"globiform",1,0,1,0,0,"solitary",3.3,3.13194765672293,0.0822626805167756
+"130","Branchiopoda","Onychopoda","Podonidae","Pseudevadne tergestina","adult","epipelagic","oceanic",0,0,0,"globiform",0,1,0,0,0,"schooling",NA,NA,NA
+"131","Cephalopoda","Decapodiformes","Chtenopterygidae","Chtenopteryx sicula","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,1,1,0,1,NA,4.03,4.00746699789215,0.0953674603350102
+"132","Cephalopoda","Myopsida","Loliginidae","Alloteuthis subulata","adult","demersal","continental shelf",NA,1,1,"fusiform",0,0,1,0,0,"schooling",4.5,6.85719515198938,0.0599401169871552
+"133","Cephalopoda","Myopsida","Loliginidae","Doryteuthis opalescens","adult","epipelagic","continental shelf",1,0,1,"fusiform",0,0,1,0,0,"schooling",3.74,6.31693142528862,0.0786409870842665
+"134","Cephalopoda","Octopoda","Alloposidae","Haliphron atlanticus","adult","mesopelagic","continental slope",1,0,NA,"fusiform",0,0,0,0,0,"solitary",3.85,3.27946328826949,0.0528961640774332
+"135","Cephalopoda","Octopoda","Amphitretidae","Japetella diaphana","adult","mesopelagic","oceanic",1,0,NA,"globiform",0,1,1,0,0,"solitary",3.58,2.41712281201264,0.0766423343499764
+"136","Cephalopoda","Octopoda","Amphitretidae","Japetella heathi","adult","mesopelagic","oceanic",1,0,NA,"globiform",0,1,1,0,0,"solitary",NA,1.98090428740958,0.102032559540751
+"137","Cephalopoda","Octopoda","Argonautidae","Argonauta argo","adult","epipelagic","oceanic",0,0,1,"compressiform",1,0,1,0,0,"schooling",4.5,2.74869298199953,0.0717256801937033
+"138","Cephalopoda","Octopoda","Argonautidae","Argonauta nodosus","adult","epipelagic","oceanic",0,0,1,"compressiform",1,0,1,0,0,"schooling",NA,1.56871457177574,0.13374258285892
+"139","Cephalopoda","Octopoda","Argonautidae","Argonauta nouryi","adult","epipelagic","oceanic",0,0,NA,"compressiform",1,0,1,0,0,"schooling",3.44,NA,NA
+"140","Cephalopoda","Octopoda","Eledonidae","Eledone cirrhosa","adult","benthic","continental shelf",1,1,1,"fusiform",0,0,1,0,0,"solitary",3.7,3.98217144225223,0.0425537474504989
+"141","Cephalopoda","Octopoda","Octopodidae","Octopus bimaculatus","adult","benthic","reef-associated",0,1,NA,"fusiform",0,0,1,0,0,"solitary",3.44,4.01432225063939,0.0663863404689093
+"142","Cephalopoda","Octopoda","Octopodidae","Octopus vulgaris","adult","benthic","reef-associated",0,1,1,"fusiform",0,0,1,0,0,"solitary",3.74,6.52453730177638,0.0233508186917683
+"143","Cephalopoda","Octopoda","Octopodidae","Pteroctopus tetracirrhus","adult","benthic","continental shelf",1,1,1,"fusiform",0,0,1,0,0,"solitary",3.73,4.82967096180396,0.0220143646013075
+"144","Cephalopoda","Octopoda","Octopodidae","Scaeurgus unicirrhus","adult","benthic","continental shelf",1,1,1,"fusiform",0,0,1,0,0,"solitary",NA,6.1724518582117,0.0138303791431524
+"145","Cephalopoda","Octopoda","Opisthoteuthidae","Opisthoteuthis californiana","adult","benthic","continental slope",1,1,0,"fusiform",0,1,1,0,0,"solitary",NA,1.39466848559743,0.0853680723882555
+"146","Cephalopoda","Octopoda","Tremoctopodidae","Tremoctopus violaceus","adult","epipelagic","oceanic",NA,0,1,"unique",0,0,0,0,0,"solitary",NA,6.50036170453261,0.0462090507426056
+"147","Cephalopoda","Oegopsida","Ancistrocheiridae","Ancistrocheirus lesueurii","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,0,1,NA,NA,6.53047405456493,0.061975080524751
+"148","Cephalopoda","Oegopsida","Brachioteuthidae","Brachioteuthis riisei","adult","bathypelagic","oceanic",1,0,1,"fusiform",0,1,0,0,0,NA,3.2,6.88311987541197,0.0672734395555167
+"149","Cephalopoda","Oegopsida","Chiroteuthidae","Chiroteuthis veranii","adult","mesopelagic","oceanic",1,0,NA,"elongated",0,0,1,0,0,"shoaling",4.04,10.6683708248125,0.0643110443755791
+"150","Cephalopoda","Oegopsida","Cranchiidae","Cranchia scabra","adult","mesopelagic","oceanic",NA,0,NA,"globiform",0,1,0,0,1,NA,3.57,2.48704495751306,0.0715990637300047
+"151","Cephalopoda","Oegopsida","Cranchiidae","Galiteuthis armata","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,1,1,0,1,NA,NA,6.80263065764327,0.0601899022076079
+"152","Cephalopoda","Oegopsida","Cranchiidae","Galiteuthis phyllura","adult","mesopelagic","oceanic",NA,0,NA,"fusiform",0,1,1,0,1,NA,NA,6.28911979408742,0.064238662141488
+"153","Cephalopoda","Oegopsida","Cranchiidae","Helicocranchia pfefferi","adult","mesopelagic","oceanic",NA,0,NA,"globiform",0,1,1,0,1,NA,NA,2.66207029879792,0.0722190795639528
+"154","Cephalopoda","Oegopsida","Cranchiidae","Liocranchia reinhardti","adult","mesopelagic","oceanic",1,0,NA,"globiform",0,1,1,0,1,NA,4.5,NA,NA
+"155","Cephalopoda","Oegopsida","Cranchiidae","Teuthowenia megalops","adult","mesopelagic","oceanic",1,0,NA,"globiform",0,1,1,0,1,NA,NA,5.12632416624686,0.103745523816315
+"156","Cephalopoda","Oegopsida","Enoploteuthidae","Abralia redfieldi","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,1,1,0,1,NA,NA,3.88714518430068,0.101190015266379
+"157","Cephalopoda","Oegopsida","Enoploteuthidae","Abraliopsis affinis","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,1,1,0,1,NA,NA,5.01623655913979,0.0646717112173373
+"158","Cephalopoda","Oegopsida","Enoploteuthidae","Abraliopsis felis","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,1,1,0,1,NA,NA,5.6447858008476,0.0559490422266042
+"159","Cephalopoda","Oegopsida","Gonatidae","Berryteuthis anonychus","adult","mesopelagic","oceanic",1,1,1,"fusiform",0,0,1,0,0,"schooling",NA,5.41472492378602,0.0539866024917514
+"160","Cephalopoda","Oegopsida","Gonatidae","Gonatopsis borealis","adult","mesopelagic","oceanic",1,1,0,"fusiform",0,0,0,0,0,"schooling",NA,5.73254993754707,0.0384026692367724
+"161","Cephalopoda","Oegopsida","Gonatidae","Gonatus berryi","adult","mesopelagic","oceanic",0,0,NA,"fusiform",0,0,0,0,0,"solitary",NA,8.8392927096408,0.0481629457034818
+"162","Cephalopoda","Oegopsida","Gonatidae","Gonatus californiensis","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,0,0,"solitary",NA,7.64137849917666,0.0310465313158988
+"163","Cephalopoda","Oegopsida","Gonatidae","Gonatus onyx","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,0,0,"solitary",NA,5.9270547176939,0.0455767863445179
+"164","Cephalopoda","Oegopsida","Gonatidae","Gonatus pyros","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,0,0,1,"solitary",NA,NA,NA
+"165","Cephalopoda","Oegopsida","Gonatidae","Gonatus steenstrupi","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,1,1,0,0,"solitary",NA,3.94644452955445,0.112527294783664
+"166","Cephalopoda","Oegopsida","Histioteuthidae","Histioteuthis bonnellii","adult","mesopelagic","oceanic",1,0,0,"fusiform",0,0,1,0,1,"schooling",4.16,4.80025381139663,0.0678386134947785
+"167","Cephalopoda","Oegopsida","Histioteuthidae","Histioteuthis heteropsis","adult","mesopelagic","oceanic",1,0,0,"fusiform",0,0,1,0,1,"schooling",NA,6.07445805843544,0.0655546935608999
+"168","Cephalopoda","Oegopsida","Histioteuthidae","Histioteuthis reversa","adult","mesopelagic","oceanic",1,0,0,"fusiform",0,0,1,0,1,"schooling",4.11,5.76056303265641,0.0609477678475602
+"169","Cephalopoda","Oegopsida","Lycoteuthidae","Lycoteuthis lorigera","adult","mesopelagic","oceanic",1,1,0,"fusiform",0,0,0,0,1,"schooling",NA,4.85314656542367,0.071224518035833
+"170","Cephalopoda","Oegopsida","Mastigoteuthidae","Mastigoteuthis dentata","adult","mesopelagic","oceanic",1,0,NA,"elongated",0,0,0,0,1,NA,NA,8.08183161004431,0.0694886135175641
+"171","Cephalopoda","Oegopsida","Octopoteuthidae","Octopoteuthis nielseni","adult","mesopelagic","oceanic",1,NA,NA,"fusiform",0,0,0,0,0,NA,NA,NA,NA
+"172","Cephalopoda","Oegopsida","Octopoteuthidae","Octopoteuthis sicula","adult","mesopelagic","oceanic",1,0,0,"fusiform",0,1,0,0,0,NA,NA,4.32852802332454,0.0725709708565433
+"173","Cephalopoda","Oegopsida","Ocythoidae","Ocythoe tuberculata","adult","epipelagic","oceanic",0,0,1,"fusiform",0,0,1,0,0,"solitary",NA,4.32433412070227,0.0367493929573423
+"174","Cephalopoda","Oegopsida","Ommastrephidae","Dosidicus gigas","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,0,0,1,"shoaling",4.15,6.10988879928827,0.0351109199672532
+"175","Cephalopoda","Oegopsida","Ommastrephidae","Eucleoteuthis luminosa","adult","epipelagic","oceanic",1,0,1,"elongated",0,0,1,0,1,"schooling",4.1,6.65774427040697,0.0431747140637589
+"176","Cephalopoda","Oegopsida","Ommastrephidae","Hyaloteuthis pelagica","adult","mesopelagic","oceanic",1,0,0,"fusiform",0,0,1,0,1,"schooling",3.8,6.26446132976346,0.0701413851650422
+"177","Cephalopoda","Oegopsida","Ommastrephidae","Illex argentinus","adult","epipelagic","continental slope",1,0,1,"fusiform",0,0,0,0,0,"schooling",3.82,4.79456468737363,0.0352931289616114
+"178","Cephalopoda","Oegopsida","Ommastrephidae","Illex coindetii","adult","demersal","continental shelf",1,0,1,"fusiform",0,0,1,0,0,"schooling",3.94,7.2133822595978,0.0446783028763321
+"179","Cephalopoda","Oegopsida","Ommastrephidae","Ommastrephes bartramii","adult","epipelagic","oceanic",1,0,1,"fusiform",0,0,1,0,1,"schooling",4.37,5.4397831924483,0.0444721752854827
+"180","Cephalopoda","Oegopsida","Ommastrephidae","Ornithoteuthis antillarum","adult","mesopelagic","oceanic",1,0,0,"fusiform",0,0,0,0,1,"schooling",4.14,5.90089853098952,0.0388295107102733
+"181","Cephalopoda","Oegopsida","Ommastrephidae","Ornithoteuthis volatilis","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,0,1,"schooling",3.67,6.13416581293054,0.0376154406600266
+"182","Cephalopoda","Oegopsida","Ommastrephidae","Sthenoteuthis oualaniensis","adult","mesopelagic","oceanic",1,0,1,"fusiform",0,0,1,0,1,"schooling",4.56,6.15369311646247,0.0357295813213554
+"183","Cephalopoda","Oegopsida","Ommastrephidae","Todarodes pacificus","adult","demersal","oceanic",1,1,1,"fusiform",0,0,1,0,0,"schooling",4.28,6.9114212436383,0.0315245420305166
+"184","Cephalopoda","Oegopsida","Ommastrephidae","Todarodes sagittatus","adult","demersal","continental shelf",1,1,1,"fusiform",0,0,1,0,0,"schooling",4.19,6.97387627964491,0.0396052792434291
+"185","Cephalopoda","Oegopsida","Ommastrephidae","Todaropsis eblanae","adult","demersal","continental shelf",1,1,1,"fusiform",0,0,1,0,0,"schooling",4.25,6.00919969091938,0.0394334555221583
+"186","Cephalopoda","Oegopsida","Onychoteuthidae","Ancistroteuthis lichtensteini","adult","demersal","continental shelf",1,1,1,"fusiform",0,0,1,0,0,"schooling",NA,8.5954906829967,0.0444991105543041
+"187","Cephalopoda","Oegopsida","Onychoteuthidae","Onychoteuthis banksii","adult","epipelagic","oceanic",1,0,1,"fusiform",0,0,1,0,1,"schooling",3.79,4.40696937697994,0.0719557195571956
+"188","Cephalopoda","Oegopsida","Onychoteuthidae","Onychoteuthis borealijaponica","adult","epipelagic","oceanic",1,0,1,"fusiform",0,0,1,0,1,"schooling",4.5,5.51464830988076,0.0376681492439816
+"189","Cephalopoda","Oegopsida","Onychoteuthidae","Onykia robusta","adult","demersal","oceanic",1,0,NA,"fusiform",0,0,0,0,0,"shoaling",4.13,7.59720930232558,0.0114076976449941
+"190","Cephalopoda","Oegopsida","Pyroteuthidae","Pterygioteuthis giardi","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,0,1,"shoaling",3.36,3.99166136745917,0.0806502478736237
+"191","Cephalopoda","Oegopsida","Pyroteuthidae","Pterygioteuthis microlampas","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,0,1,"shoaling",NA,4.93404320118071,0.134298201650453
+"192","Cephalopoda","Oegopsida","Pyroteuthidae","Pyroteuthis margaritifera","adult","mesopelagic","oceanic",1,0,NA,"fusiform",0,0,1,0,1,"shoaling",3.1,4.9697387293836,0.0988369343952422
+"193","Cephalopoda","Sepiida","Sepiolidae","Heteroteuthis dispar","adult","mesopelagic","continental slope",1,0,NA,"globiform",0,0,1,0,1,"shoaling",3.6,2.43486997081401,0.14446594292175
+"194","Cephalopoda","Sepiida","Sepiolidae","Sepietta oweniana","adult","benthic","continental shelf",1,1,1,"fusiform",0,0,1,0,0,"shoaling",3.45,4.2631609310817,0.0814221770004817
+"195","Cephalopoda","Vampyromorpha","Vampyroteuthidae","Vampyroteuthis infernalis","adult","mesopelagic","oceanic",1,0,0,"globiform",0,0,0,0,1,"solitary",3.47,4.15856094977087,0.051641815272667
+"196","Gastropoda","Caenogastropoda","Epitoniodea","Janthina exigua","adult","epipelagic","oceanic",0,0,0,"globiform",1,0,0,0,0,"solitary",NA,1.1240360521013,0
+"197","Gastropoda","Littorinimorpha","Atlantidae","Atlanta peronii","adult","epipelagic","oceanic",1,0,0,"compressiform",1,1,0,0,0,"solitary",3.4,1.60584737315353,0.0560006141674438
+"198","Gastropoda","Littorinimorpha","Carinariidae","Carinaria lamarckii","adult","epipelagic","oceanic",NA,0,NA,"fusiform",1,1,0,0,0,"solitary",NA,NA,NA
+"199","Hexanauplia","Calanoida","Calanidae","Calanus finmarchicus","adult","epipelagic","oceanic",1,0,1,"fusiform",1,1,0,0,0,"schooling",2.37,4.41741207100471,0
+"200","Hexanauplia","Calanoida","Calanidae","Cosmocalanus darwinii","adult","epipelagic","continental shelf",1,0,1,"fusiform",1,0,0,0,0,"schooling",NA,3.94700421940928,0.0228555546053194
+"201","Hexanauplia","Calanoida","Clausocalanidae","Clausocalanus furcatus","adult","epipelagic","continental shelf",1,0,0,"fusiform",1,1,0,0,0,"schooling",NA,4.03448793250886,0
+"202","Hexanauplia","Cyclopoida","Corycaeidae","Farranula gibbula","adult","epipelagic","continental shelf",1,0,1,"fusiform",1,0,0,0,0,"schooling",NA,3.7756882733746,0.0761757413642264
+"203","Hydrozoa","Siphonophorae","Diphyidae","Chelophyes appendiculata","adult","epipelagic","continental shelf",1,0,1,"fusiform",1,1,0,0,0,"schooling",NA,NA,NA
+"204","Malacostraca","Amphipoda","Brachyscelidae","Brachyscelus crusculum","adult","epipelagic","continental shelf",1,0,0,"fusiform",1,0,0,0,0,"schooling",NA,NA,NA
+"205","Malacostraca","Amphipoda","Brachyscelidae","Brachyscelus macrocephalus","adult","epipelagic","continental shelf",1,0,NA,"fusiform",1,0,0,0,0,"schooling",NA,NA,NA
+"206","Malacostraca","Amphipoda","Eupronoidae","Parapronoe crustulum","adult","epipelagic","continental shelf",1,0,0,"fusiform",1,0,0,0,1,"schooling",NA,NA,NA
+"207","Malacostraca","Amphipoda","Hyperiidae","Hyperia galba","adult","epipelagic","oceanic",1,1,1,"fusiform",1,0,1,0,0,"schooling",NA,4.69319399349884,0.0968771529059825
+"208","Malacostraca","Amphipoda","Hyperiidae","Themisto gaudichaudii","adult","epipelagic","oceanic",1,0,1,"fusiform",1,0,0,0,0,"schooling",3.96,6.253510605069,0.084038670850957
+"209","Malacostraca","Amphipoda","Lanceolidae","Lanceola sayana","adult","bathypelagic","oceanic",1,0,NA,"fusiform",1,0,0,0,0,"schooling",NA,5.06864028282298,0.0132703636009912
+"210","Malacostraca","Amphipoda","Oxyccephalidae","Leptocotis tenuirostris","adult","epipelagic","oceanic",1,0,1,"elongated",1,0,0,0,0,"schooling",NA,5.67648148148148,0.034580628323492
+"211","Malacostraca","Amphipoda","Oxyccephalidae","Streetsia challengeri","adult","epipelagic","continental shelf",1,0,1,"elongated",1,0,0,0,0,"schooling",NA,9.18028628440375,0.0117965884421563
+"212","Malacostraca","Amphipoda","Phrosinidae","Anchylomera blossevillei","adult","epipelagic","continental shelf",1,0,1,"fusiform",1,0,0,0,0,"schooling",NA,NA,NA
+"213","Malacostraca","Amphipoda","Phrosinidae","Phrosina semilunata","adult","epipelagic","continental shelf",1,0,1,"globiform",1,1,1,0,0,"schooling",NA,NA,NA
+"214","Malacostraca","Amphipoda","Phrosinidae","Primno macropa","adult","epipelagic","oceanic",1,0,NA,"fusiform",1,0,0,0,0,"schooling",NA,3.70950477265428,0.0491261849121946
+"215","Malacostraca","Amphipoda","Platyscelidae","Platyscelus armatus","adult","epipelagic","continental shelf",1,0,NA,"globiform",1,0,0,0,0,"schooling",NA,3.10384242810967,0.109736081540246
+"216","Malacostraca","Amphipoda","Platyscelidae","Platyscelus ovoides","adult","epipelagic","continental shelf",NA,0,NA,"globiform",1,0,0,0,0,"schooling",NA,NA,NA
+"217","Malacostraca","Amphipoda","Platyscelidae","Platyscelus serratulus","adult","epipelagic","continental shelf",1,0,1,"globiform",1,0,0,0,0,"schooling",NA,NA,NA
+"218","Malacostraca","Amphipoda","Vibiliidae","Vibilia gibbosa","adult","epipelagic","continental shelf",1,0,0,"fusiform",1,0,0,0,0,"schooling",NA,NA,NA
+"219","Malacostraca","Decapoda","Acanthephyridae","Acanthephyra pelagica","adult","mesopelagic","oceanic",1,0,1,"elongated",1,0,0,0,0,"schooling",NA,6.23689823634113,0.0221350540819975
+"220","Malacostraca","Decapoda","Alpheidae","Alpheus glaber","adult","benthic","coastal",1,1,0,"elongated",1,0,0,0,0,"shoaling",NA,5.77050626325852,0.0282413575644858
+"221","Malacostraca","Decapoda","Axiidae","Axius stirhynchus","adult","benthic","coastal",NA,1,NA,"elongated",1,0,0,0,0,"shoaling",NA,5.39923976608187,0.0108310678349779
+"222","Malacostraca","Decapoda","Benthesicymidae","Gennadas elegans","adult","demersal","continental shelf",1,0,0,"elongated",1,0,0,0,0,"schooling",NA,7.52261743704383,0.0328718173577257
+"223","Malacostraca","Decapoda","Munididae","Pleuroncodes planipes","adult","demersal","continental shelf",1,1,1,"unique",1,0,0,0,0,"schooling",2.88,2.74899471236732,0.0767141487508042
+"224","Malacostraca","Decapoda","Oplophpridae","Systellaspis debilis","adult","mesopelagic","oceanic",1,0,1,"elongated",1,0,0,0,1,"schooling",3.32,7.81597432689384,0.0249804201806472
+"225","Malacostraca","Decapoda","Palinuridae","Palinurus mauritanicus","adult","benthic","continental shelf",0,1,1,"unique",1,0,1,0,0,"solitary",3.54,4.01482482547993,0.0330115290631278
+"226","Malacostraca","Decapoda","Pasiphaeidae","Parapasiphae sulcatifrons","adult","mesopelagic","oceanic",1,0,NA,"elongated",1,0,0,0,0,"schooling",NA,NA,NA
+"227","Malacostraca","Decapoda","Polybiidae","Polybius henslowii","adult","epipelagic","continental shelf",NA,1,0,"depressiform",1,0,1,0,0,"shoaling",3.46,NA,NA
+"228","Malacostraca","Decapoda","Scyllaridae","Scyllarus arctus","adult","benthic","reef-associated",1,1,1,"fusiform",1,0,1,0,0,"solitary",NA,3.76006116774791,0.0373896340363202
+"229","Malacostraca","Decapoda","Sergestidae","Eusergestes arcticus","adult","demersal","continental shelf",1,1,1,"elongated",1,1,0,0,0,"schooling",3.2,8.85790904632666,0.0309856142712387
+"230","Malacostraca","Decapoda","Sergestidae","Eusergestes similis","adult","epipelagic","oceanic",1,0,1,"elongated",1,1,0,0,0,"schooling",NA,7.66769506301903,0.0250275231218243
+"231","Malacostraca","Decapoda","Sergestidae","Robustosergia robusta","adult","bathypelagic","oceanic",1,0,NA,"elongated",1,0,0,0,0,"schooling",NA,8.60511864055538,0.0279356516713226
+"232","Malacostraca","Euphausiacea","Euphausiidae","Euphausia pacifica","adult","epipelagic","oceanic",1,0,0,"elongated",1,0,0,0,1,"schooling",2.32,9.70600389643529,0.0619506789150273
+"233","Malacostraca","Euphausiacea","Euphausiidae","Meganyctiphanes norvegica","adult","epipelagic","continental shelf",1,0,1,"elongated",1,1,0,0,1,"schooling",2.97,10.5812713746459,0.0471842172510918
+"234","Malacostraca","Euphausiacea","Euphausiidae","Nematoscelis megalops","adult","epipelagic","continental shelf",1,0,1,"elongated",1,1,0,0,1,"schooling",NA,NA,NA
+"235","Malacostraca","Euphausiacea","Euphausiidae","Nyctiphanes australis","adult","epipelagic","coastal",1,0,1,"elongated",1,0,0,0,1,"schooling",NA,10.6371793397538,0.0429457147233443
+"236","Malacostraca","Euphausiacea","Euphausiidae","Stylocheiron abbreviatum","adult","epipelagic","coastal",0,0,1,"elongated",1,1,0,0,1,"schooling",NA,NA,NA
+"237","Malacostraca","Isopoda","Idoteidae","Idotea metallica","adult","epipelagic","continental shelf",0,1,1,"fusiform",1,0,0,0,0,"schooling",NA,3.04632875035222,0.0682620162526046
+"238","Malacostraca","Lophogastrida","Gnathophausiidae","Neognathophausia gigas","adult","bathypelagic","oceanic",1,0,NA,"fusiform",1,0,0,0,0,"schooling",NA,7.99308687937197,0.0194400737402269
+"239","Malacostraca","Lophogastrida","Gnathophausiidae","Neognathophausia ingens","adult","bathypelagic","oceanic",NA,0,NA,"fusiform",1,0,0,0,0,"schooling",NA,5.81787112717589,0.0244752166523665
+"240","Malacostraca","Stomatopoda","Odontodactylidae","Odontodactylus hansenii","adult","benthic","coastal",0,1,NA,"elongated",1,0,1,0,0,"solitary",NA,NA,NA
+"241","Malacostraca","Stromatopoda","Protosquillidae","Echinosquilla guerinii","adult","benthic","reef-associated",0,1,NA,"elongated",1,0,0,0,0,"shoaling",NA,5.32534678436318,0.0503196779540611

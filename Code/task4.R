@@ -4,8 +4,54 @@
 ##### b) all grey boxes where trait values should be ?
 ######## Wish List -- Fig. 7.4 from treedata book
 
+##note: make sure to run all of the prep.R as this code needs it
+
 #replacing the spaces with an underscore so the prey_species in the dataset match those in the tree data
-my_prey_traits$prey_sp <- gsub(" ", "_", my_prey_traits$prey_sp)
+my_prey_traits_start$prey_sp <- gsub(" ", "_", my_prey_traits_start$prey_sp)
+
+##some name inconsistencies between tree and this database
+my_prey_traits_name<-my_prey_traits_start %>% 
+  select(prey_sp)
+
+not_in_tree<-my_prey_traits_name %>% 
+  filter(prey_sp %notin% tree_names$sort.my_tree_class.tip.label.)
+
+not_in_prey_traits<-tree_names %>% 
+  filter(sort.my_tree_class.tip.label. %notin% my_prey_traits_name$prey_sp)
+
+##we can see the following names are synonymous
+
+#prey_traits_phylo                    tree
+
+#Ancistroteuthis_lichtensteini	      Ancistroteuthis_lichtensteinii  1
+#Axius_stirhynchus                   	Axius_stirynchus                2
+#Chiroteuthis_veranii	                Chiroteuthis_veranyi            4
+#Clupea_pallasii_pallasii	            Clupea_pallasii                 5
+#Electrona_rissoi	                    Electrona_risso                 6
+#Liocranchia_reinhardti	              Liocranchia_reinhardtii         10
+#Mullus_barbatus_barbatus	            Mullus_barbatus                 12
+#Neognathophausia_gigas	              Gnathophausia_gigas             7
+#Neognathophausia_ingens	            Gnathophausia_ingens            8
+#Scopelogadus_mizolepis_bispinosus	  Scopelogadus_bispinosus         15
+
+#these are also the same species, but under different names
+
+#Leuroglossus_stilbius	              Bathylagus_stilbius             3
+#Onykia_robusta	                      Moroteuthis_robusta             11
+#Berryteuthis_anonychus	              Okutania_anonycha               14
+
+##changing the names to 'z' and 'w' for ease of typing this part
+
+z = my_prey_traits_start
+z$prey_sp<-as.character(z$prey_sp)
+w = as.vector(names_not_in_prey$sort.my_tree_class.tip.label.)
+
+z[186,5] = w[1]; z[221,5] =w[2]; z[2,5] =w[3]; z[149,5] =w[4]; z[20,5] =w[5]
+z[39,'prey_sp'] =w[6]; z[238,'prey_sp'] =w[7]; z[239,'prey_sp'] =w[8]; z[154,'prey_sp'] =w[10]; z[189,'prey_sp'] =w[11];
+z[83,'prey_sp'] =w[12]; z[159,'prey_sp'] =w[14]; z[116,'prey_sp'] =w[15]
+
+z$prey_sp<-as.factor(z$prey_sp)
+my_prey_traits = z
 
 rownames(my_prey_traits) <- my_prey_traits$prey_sp
 
@@ -61,13 +107,13 @@ p11_4 <- gheatmap(p10_4, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.3
         legend.title = element_text(size = 6.5),
         legend.spacing = unit(0.02,'cm'),
         legend.position = c(0.99,0.5))# +
-  annotate('text', x = 1.37, y = 5.5, label = 'Trophic Level', angle = -85, size = 2)+
-  annotate('text', x = 1.32, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2)+
-  annotate('text', x = 1.27, y = 5.5, label = 'Refuge', angle = -85, size = 2)+
-  annotate('text', x = 1.22, y = 5.8, label = 'Physical Defence', angle = -85, size = 2)+
-  annotate('text', x = 1.17, y = 5.5, label = 'Body Shape', angle = -85, size = 2)+
-  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2)+
-  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2)
+#  annotate('text', x = 1.37, y = 5.5, label = 'Trophic Level', angle = -85, size = 2)+
+#  annotate('text', x = 1.32, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2)+
+#  annotate('text', x = 1.27, y = 5.5, label = 'Refuge', angle = -85, size = 2)+
+#  annotate('text', x = 1.22, y = 5.8, label = 'Physical Defence', angle = -85, size = 2)+
+#  annotate('text', x = 1.17, y = 5.5, label = 'Body Shape', angle = -85, size = 2)+
+#  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2)+
+#  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2)
 
 #task4finalplot = p11_4
 #ggsave('categorical_trait_values.png', task4finalplot, dpi = 300, width = 10, height = 7.5)

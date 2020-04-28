@@ -9,7 +9,7 @@
 #replacing the spaces with an underscore so the prey_species in the dataset match those in the tree data
 my_prey_traits_start$prey_sp <- gsub(" ", "_", my_prey_traits_start$prey_sp)
 
-##some name inconsistencies between tree and this database
+#######some name inconsistencies between tree and this database#######
 my_prey_traits_name<-my_prey_traits_start %>% 
   select(prey_sp)
 
@@ -62,7 +62,7 @@ my_prey_traits[,c("diel_migrant","refuge","season_migrant","phys_defense","trans
                            "col_disrupt","countershade","photophore_PA")],as.factor)
 sapply(my_prey_traits,class)##there, should work now
 
-#the selection of the 4th column of data is the species, which is used to pipe the other data onto the tree
+ ########phylogenetic trees##########
 p1_4 <- gheatmap(mycirc, my_prey_traits[,"vert_habitat",drop=FALSE], offset=0, width=0.05,font.size=2,
                colnames_angle=95, colnames_offset_y = .25, colnames = F) +
   scale_fill_viridis_d(name = "Vertical Habitat", breaks = c("benthic", "demersal",
@@ -119,7 +119,7 @@ p11_4 <- gheatmap(p10_4, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.3
 #ggsave('categorical_trait_values.png', task4finalplot, dpi = 300, width = 10, height = 7.5)
 
 
-##Habitat traits plot   With the new category of seasonal migration
+##########Habitat traits plot   With the new category of seasonal migration#########
 
 p1_5 <- gheatmap(mycirc, my_prey_traits[, 'vert_habitat',drop=FALSE], offset= 0, width=0.05,font.size=2,
                  colnames_angle=95, colnames_offset_y = .25, colnames = F) +
@@ -207,7 +207,7 @@ ggsave('habitat_trait_iterative3.png', habitat_traits_iter3, dpi = 300, width = 
 ggsave('habitat_trait_iterative4.png', habitat_traits_iter4, dpi = 300, width = 10, height = 7.5)
 ggsave('habitat_trait_values.png', habitat_traits_finalplot, dpi = 300, width = 10, height = 7.5)
 
-#morphology/trophic plot
+##########morphology/trophic plot#########
 p1_6 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',drop=FALSE], offset=0, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Body Shape", option = 'A',
@@ -253,3 +253,30 @@ morph_troph_finalplot = p5_6
 ggsave('Morphology_Trophic_values.png', morph_troph_finalplot, dpi = 300, width = 10, height = 7.5)
 
 
+morphology_comparison_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',drop=FALSE], offset=0, width=0.05,font.size=2,
+                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_viridis_d(name = "Body Shape", option = 'A',
+                       breaks = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"),
+                       limits = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"),
+                       guide = guide_legend(order = 1))+
+  theme(legend.position = c(1.1,0.71))
+
+morphology_comparison_iter1.5 <- morphology_comparison_iter1 + new_scale_fill()
+
+morphology_comparison_iter2 <- gheatmap(morphology_comparison_iter1.5, my_prey_traits[ ,'b_shape_r',drop=FALSE], offset=0.05, width=0.05,font.size=2,
+                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_viridis_c(name = "Body Shape Ratio", option = 'C', limits=c(0,40))+
+  theme(legend.position = c(1.1,0.605))
+
+morphology_comparison_iter2.5 <- morphology_comparison_iter2 + new_scale_fill()
+
+morphology_comparison_final <- gheatmap(morphology_comparison_iter2.5, my_prey_traits[ ,'eye_body_r',drop=FALSE], offset=0.10, width=0.05,font.size=2,
+                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_viridis_c(name = "Eye-Body Ratio", option = 'D',limits=c(0,0.15),breaks=c(0.00,0.05,0.10,0.15))+
+  theme(legend.position = c(1.1,0.499))
+
+
+
+ggsave('morphology_comparison_iterative1.png', morphology_comparison_iter1, dpi = 300, width = 10, height = 7.5)
+ggsave('morphology_comparison_iterative2.png', morphology_comparison_iter2, dpi = 300, width = 10, height = 7.5)
+ggsave('morphology_comparison_final.png', morphology_comparison_final, dpi = 300, width = 10, height = 7.5)

@@ -312,3 +312,19 @@ morphology_binary_4 <- gheatmap(morphology_binary_iter3, my_prey_traits[ ,'photo
                        guide = guide_legend(order = 1))
 
 ggsave('morphology_binary_final.png', morphology_binary_final, dpi = 300, width = 10, height = 7.5)
+
+###########Behavior and Trophic Traits############
+
+behav_trophic_iter1 <- gheatmap(mycirc, my_prey_traits[,"trophic_level",drop=FALSE], offset=0, width=0.05, font.size=2,
+                                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple5'), na.value = 'white')
+
+behav_trophic_iter1.5 <- behav_trophic_iter1 + new_scale_fill()
+
+behav_trophic_final <- gheatmap(behav_trophic_iter1.5, my_prey_traits[,"gregarious_primary",drop=FALSE], offset=0.05, width=0.05, font.size=2,
+                                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_viridis_d(name = "Gregariousness", direction = -1, breaks = c("solitary", "shoaling","schooling"),
+                       limits = c("solitary", "shoaling","schooling"), na.translate = TRUE, option = 'magma',begin = 0.2,end = 0.8,
+                       guide = guide_legend(order = 1))
+
+ggsave('behaviour_trophic_final.png', behav_trophic_final, dpi = 300, width = 10, height = 7.5)

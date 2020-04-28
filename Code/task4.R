@@ -119,7 +119,7 @@ p11_4 <- gheatmap(p10_4, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.3
 #ggsave('categorical_trait_values.png', task4finalplot, dpi = 300, width = 10, height = 7.5)
 
 
-##Habitat traits plot
+##Habitat traits plot   With the new category of seasonal migration
 
 p1_5 <- gheatmap(mycirc, my_prey_traits[, 'vert_habitat',drop=FALSE], offset= 0, width=0.05,font.size=2,
                  colnames_angle=95, colnames_offset_y = .25, colnames = F) +
@@ -142,7 +142,7 @@ p4_5 <- p3_5 + new_scale_fill()
 
 p5_5 <- gheatmap(p4_5, my_prey_traits[ , 'diel_migrant',drop=FALSE], offset=0.10, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_manual(name = "Diel Migrant",
+  scale_fill_manual(name = "Diel Migrant\nSeasonal Migrant",
                     breaks = c("0", "1"),
                     limits = c("0", "1"),
                     values = c("0"="#FDE725FF", "1"="#39568CFF"),
@@ -150,9 +150,17 @@ p5_5 <- gheatmap(p4_5, my_prey_traits[ , 'diel_migrant',drop=FALSE], offset=0.10
 #  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
 #  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
 #  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
-p5_5.5 <- p5_5 + new_scale_fill()
+p6_5 <- gheatmap(p5_5, my_prey_traits[ , 'season_migrant',drop=FALSE], offset=0.15, width=0.05,font.size=2,
+                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_manual(name = "Diel Migrant\nSeasonal Migrant",
+                    breaks = c("0", "1"),
+                    limits = c("0", "1"),
+                    values = c("0"="#FDE725FF", "1"="#39568CFF"),
+                    guide = guide_legend(order = 3))+theme(legend.position = c(1,0.5985))
 
-p6_5 <- gheatmap(p5_5.5, my_prey_traits[ ,'refuge',drop=FALSE], offset=0.15, width=0.05,font.size=2,
+p7_5 <- p6_5 + new_scale_fill()
+
+p8_5 <- gheatmap(p7_5, my_prey_traits[ ,'refuge',drop=FALSE], offset=0.20, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F)+
   scale_fill_manual(name = "Refuge",
                     breaks = c("0", "1"),
@@ -190,11 +198,13 @@ p6_5 <- gheatmap(p5_5.5, my_prey_traits[ ,'refuge',drop=FALSE], offset=0.15, wid
 habitat_traits_iter1 = p1_5 
 habitat_traits_iter2 = p3_5 
 habitat_traits_iter3 = p5_5
-habitat_traits_finalplot = p6_5
+habitat_traits_iter4 = p6_5
+habitat_traits_finalplot = p8_5
 
 ggsave('habitat_trait_iterative1.png', habitat_traits_iter1, dpi = 300, width = 10, height = 7.5)
 ggsave('habitat_trait_iterative2.png', habitat_traits_iter2, dpi = 300, width = 10, height = 7.5)
 ggsave('habitat_trait_iterative3.png', habitat_traits_iter3, dpi = 300, width = 10, height = 7.5)
+ggsave('habitat_trait_iterative4.png', habitat_traits_iter4, dpi = 300, width = 10, height = 7.5)
 ggsave('habitat_trait_values.png', habitat_traits_finalplot, dpi = 300, width = 10, height = 7.5)
 
 #morphology/trophic plot

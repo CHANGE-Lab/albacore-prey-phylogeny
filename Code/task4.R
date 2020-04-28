@@ -44,9 +44,9 @@ not_in_prey_traits<-tree_names %>%
 
 z = my_prey_traits_start
 z$prey_sp<-as.character(z$prey_sp)
-w = as.vector(names_not_in_prey$sort.my_tree_class.tip.label.)
+w = as.vector(not_in_prey_traits$sort.my_tree_class.tip.label.)
 
-z[186,5] = w[1]; z[221,5] =w[2]; z[2,5] =w[3]; z[149,5] =w[4]; z[20,5] =w[5]
+z[186,'prey_sp'] = w[1]; z[221,'prey_sp'] =w[2]; z[2,'prey_sp'] =w[3]; z[149,'prey_sp'] =w[4]; z[20,'prey_sp'] =w[5]
 z[39,'prey_sp'] =w[6]; z[238,'prey_sp'] =w[7]; z[239,'prey_sp'] =w[8]; z[154,'prey_sp'] =w[10]; z[189,'prey_sp'] =w[11];
 z[83,'prey_sp'] =w[12]; z[159,'prey_sp'] =w[14]; z[116,'prey_sp'] =w[15]
 
@@ -63,43 +63,43 @@ my_prey_traits[,c("diel_migrant","refuge","season_migrant","phys_defense","trans
 sapply(my_prey_traits,class)##there, should work now
 
  ########phylogenetic trees##########
-p1_4 <- gheatmap(mycirc, my_prey_traits[,"vert_habitat",drop=FALSE], offset=0, width=0.05,font.size=2,
+general_phylo_iter1 <- gheatmap(mycirc, my_prey_traits[,"vert_habitat",drop=FALSE], offset=0, width=0.05,font.size=2,
                colnames_angle=95, colnames_offset_y = .25, colnames = F) +
   scale_fill_viridis_d(name = "Vertical Habitat", breaks = c("benthic", "demersal",
                                                              "epipelagic", "mesopelagic", "bathypelagic"),
                        limits = c("benthic", "demersal", "epipelagic",
                                   "mesopelagic", "bathypelagic"), na.translate = TRUE)
-p2_4 <- p1_4 + new_scale_fill()
-p3_4 <- gheatmap(p2_4, my_prey_traits[ , "horz_habitat",drop=FALSE], offset=0.05, width=0.05,font.size=2,
+general_phylo_iter1.5 <- general_phylo_iter1 + new_scale_fill()
+general_phylo_iter2 <- gheatmap(general_phylo_iter1.5, my_prey_traits[ , "horz_habitat",drop=FALSE], offset=0.05, width=0.05,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Horizontal Habitat", option = "C",
                        breaks = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        limits = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        na.translate = TRUE)
-p4_4 <- p3_4 + new_scale_fill()
-p5_4 <- gheatmap(p4_4, my_prey_traits[ , "body_shape",drop=FALSE], offset=0.10, width=0.05,font.size=2,
+general_phylo_iter2.5 <- general_phylo_iter2 + new_scale_fill()
+general_phylo_iter3 <- gheatmap(general_phylo_iter2.5, my_prey_traits[ , "body_shape",drop=FALSE], offset=0.10, width=0.05,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Body Shape", option = 'magma',
                        breaks = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"),
                        limits = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"))
-p6_4 <- p5_4 +new_scale_fill()
-p7_4 <- gheatmap(p6_4, my_prey_traits[ ,"diel_migrant", drop=FALSE], offset=0.15, width=0.05,font.size=2,
+general_phylo_iter3.5 <- general_phylo_iter3 +new_scale_fill()
+general_phylo_iter4 <- gheatmap(general_phylo_iter3.5, my_prey_traits[ ,"diel_migrant", drop=FALSE], offset=0.15, width=0.05,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Diel Migrant\nRefuge\nPhysical Defense", option = "B",begin = 0,end=0.5,
                        breaks = c("0", "1"),
                        limits = c("0", "1"))
-p8_4 <- gheatmap(p7_4, my_prey_traits[ , "refuge",drop=FALSE], offset=0.20, width=0.05,font.size=2,
+general_phylo_iter5 <- gheatmap(general_phylo_iter4, my_prey_traits[ , "refuge",drop=FALSE], offset=0.20, width=0.05,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F)+
   scale_fill_viridis_d(name = "Diel Migrant\nRefuge\nPhysical Defense", option = "B",begin = 0,end=0.5,
                        breaks = c("0", "1"),
                        limits = c("0", "1"))
-p9_4 <- gheatmap(p8_4, my_prey_traits[ ,"phys_defense",drop=FALSE], offset=0.25, width=0.05,font.size=2,
+general_phylo_iter6 <- gheatmap(general_phylo_iter5, my_prey_traits[ ,"phys_defense",drop=FALSE], offset=0.25, width=0.05,font.size=2,
                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Diel Migrant\nRefuge\nPhysical Defense", option = "B",begin = 0,end=0.5,
                        breaks = c("0","1"),
                        limits = c("0","1"))
-p10_4 <- p9_4 + new_scale_fill()
-p11_4 <- gheatmap(p10_4, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.30, width=0.05, font.size=2,
+general_phylo_iter6.5 <- general_phylo_iter6 + new_scale_fill()
+general_phylo_final <- gheatmap(general_phylo_iter6.5, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.30, width=0.05, font.size=2,
                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white') +
   theme(legend.key.size = unit(3,'mm'),
@@ -121,7 +121,7 @@ p11_4 <- gheatmap(p10_4, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.3
 
 ##########Habitat traits plot   With the new category of seasonal migration#########
 
-p1_5 <- gheatmap(mycirc, my_prey_traits[, 'vert_habitat',drop=FALSE], offset= 0, width=0.05,font.size=2,
+habitat_traits_iter1 <- gheatmap(mycirc, my_prey_traits[, 'vert_habitat',drop=FALSE], offset= 0, width=0.05,font.size=2,
                  colnames_angle=95, colnames_offset_y = .25, colnames = F) +
   scale_fill_viridis_d(name = "Vertical Habitat", direction = -1, breaks = c("benthic", "demersal",
                                                              "epipelagic", "mesopelagic", "bathypelagic"),
@@ -129,8 +129,8 @@ p1_5 <- gheatmap(mycirc, my_prey_traits[, 'vert_habitat',drop=FALSE], offset= 0,
                                   "mesopelagic", "bathypelagic"), na.translate = TRUE, option = 'D',
                        guide = guide_legend(order = 1))+theme(legend.position = c(1,0.80))#+
 #  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
-p2_5 <- p1_5 + new_scale_fill()
-p3_5 <- gheatmap(p2_5, my_prey_traits[ ,'horz_habitat',drop=FALSE], offset=0.05, width=0.05,font.size=2,
+habitat_traits_iter1.5 <- habitat_traits_iter1 + new_scale_fill()
+habitat_traits_iter2 <- gheatmap(habitat_traits_iter1.5, my_prey_traits[ ,'horz_habitat',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Horizontal Habitat", option = "D", direction = -1,
                        breaks = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
@@ -138,9 +138,8 @@ p3_5 <- gheatmap(p2_5, my_prey_traits[ ,'horz_habitat',drop=FALSE], offset=0.05,
                        na.translate = TRUE, guide = guide_legend(order = 2))+theme(legend.position = c(1,0.683))#+
 #  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)#+
 #  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
-p4_5 <- p3_5 + new_scale_fill()
-
-p5_5 <- gheatmap(p4_5, my_prey_traits[ , 'diel_migrant',drop=FALSE], offset=0.10, width=0.05,font.size=2,
+habitat_traits_iter2.5 <- habitat_traits_iter2 + new_scale_fill()
+habitat_traits_iter3 <- gheatmap(habitat_traits_iter2.5, my_prey_traits[ , 'diel_migrant',drop=FALSE], offset=0.10, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_manual(name = "Diel Migrant\nSeasonal Migrant",
                     breaks = c("0", "1"),
@@ -150,17 +149,15 @@ p5_5 <- gheatmap(p4_5, my_prey_traits[ , 'diel_migrant',drop=FALSE], offset=0.10
 #  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
 #  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
 #  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
-p6_5 <- gheatmap(p5_5, my_prey_traits[ , 'season_migrant',drop=FALSE], offset=0.15, width=0.05,font.size=2,
+habitat_traits_iter4 <- gheatmap(habitat_traits_iter3, my_prey_traits[ , 'season_migrant',drop=FALSE], offset=0.15, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_manual(name = "Diel Migrant\nSeasonal Migrant",
                     breaks = c("0", "1"),
                     limits = c("0", "1"),
                     values = c("0"="#FDE725FF", "1"="#39568CFF"),
                     guide = guide_legend(order = 3))+theme(legend.position = c(1,0.5985))
-
-p7_5 <- p6_5 + new_scale_fill()
-
-p8_5 <- gheatmap(p7_5, my_prey_traits[ ,'refuge',drop=FALSE], offset=0.20, width=0.05,font.size=2,
+habitat_traits_iter4.5 <- habitat_traits_iter4 + new_scale_fill()
+habitat_traits_finalplot <- gheatmap(habitat_traits_iter4.5, my_prey_traits[ ,'refuge',drop=FALSE], offset=0.20, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F)+
   scale_fill_manual(name = "Refuge",
                     breaks = c("0", "1"),
@@ -194,21 +191,14 @@ p8_5 <- gheatmap(p7_5, my_prey_traits[ ,'refuge',drop=FALSE], offset=0.20, width
 #   draw_plot(habitat_traits_iter1_noleg) + 
 #   draw_plot(habitat_traits_iter1_leg_grid, x=0.702, y=0.72, width=0.18, height=0.1)
 
-
-habitat_traits_iter1 = p1_5 
-habitat_traits_iter2 = p3_5 
-habitat_traits_iter3 = p5_5
-habitat_traits_iter4 = p6_5
-habitat_traits_finalplot = p8_5
-
 ggsave('habitat_trait_iterative1.png', habitat_traits_iter1, dpi = 300, width = 10, height = 7.5)
 ggsave('habitat_trait_iterative2.png', habitat_traits_iter2, dpi = 300, width = 10, height = 7.5)
 ggsave('habitat_trait_iterative3.png', habitat_traits_iter3, dpi = 300, width = 10, height = 7.5)
 ggsave('habitat_trait_iterative4.png', habitat_traits_iter4, dpi = 300, width = 10, height = 7.5)
-ggsave('habitat_trait_values.png', habitat_traits_finalplot, dpi = 300, width = 10, height = 7.5)
+ggsave('habitat_trait_final.png', habitat_traits_finalplot, dpi = 300, width = 10, height = 7.5)
 
 ##########morphology/trophic plot#########
-p1_6 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',drop=FALSE], offset=0, width=0.05,font.size=2,
+morph_trophic_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',drop=FALSE], offset=0, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Body Shape", option = 'A',
                        breaks = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"),
@@ -216,8 +206,8 @@ p1_6 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',drop=FALSE], offset=0, wi
                        guide = guide_legend(order = 1))+
   theme(legend.position = c(1.1,0.6844))#+
 #  annotate('text', x = 1.07, y = 6.4, label = 'Body Shape', angle = -85, size = 2.8)
-p2_6 <- p1_6 + new_scale_fill()
-p3_6 <- gheatmap(p2_6, my_prey_traits[ ,'phys_defense',drop=FALSE], offset=0.05, width=0.05,font.size=2,
+morph_trophic_iter1.5 <- morph_trophic_iter1 + new_scale_fill()
+morph_trophic_iter2 <- gheatmap(morph_trophic_iter1.5, my_prey_traits[ ,'phys_defense',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Physical Defense", option = "A",
                        breaks = c("0","1"),
@@ -227,8 +217,8 @@ p3_6 <- gheatmap(p2_6, my_prey_traits[ ,'phys_defense',drop=FALSE], offset=0.05,
   theme(legend.position = c(1.1,0.616))#+
 #  annotate('text', x = 1.12, y = 6.7, label = 'Physical Defence', angle = -85, size = 2.8)+
 #  annotate('text', x = 1.07, y = 6.4, label = 'Body Shape', angle = -85, size = 2.8)
-p4_6 <- p3_6 + new_scale_fill()
-p5_6 <- gheatmap(p4_6, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.10, width=0.05, font.size=2,
+morph_trophic_iter2.5 <- morph_trophic_iter2 + new_scale_fill()
+morph_trophic_final <- gheatmap(morph_trophic_iter2.5, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.10, width=0.05, font.size=2,
                   colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white',
                        guide = guide_legend(order = 3))+
@@ -242,15 +232,9 @@ p5_6 <- gheatmap(p4_6, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.10,
 #  annotate('text', x = 1.12, y = 6.7, label = 'Physical Defence', angle = -85, size = 2.8)+
 #  annotate('text', x = 1.07, y = 6.4, label = 'Body Shape', angle = -85, size = 2.8)
   
-
-morph_troph_iter1plot = p1_6
-ggsave('Morphology_Trophic_iterative1.png', morph_troph_iter1plot, dpi = 300, width = 10, height = 7.5)
-
-morph_troph_iter2plot = p3_6
-ggsave('Morphology_Trophic_iterative2.png', morph_troph_iter2plot, dpi = 300, width = 10, height = 7.5)
-
-morph_troph_finalplot = p5_6
-ggsave('Morphology_Trophic_values.png', morph_troph_finalplot, dpi = 300, width = 10, height = 7.5)
+ggsave('Morphology_Trophic_iterative1.png', morph_trophic_iter1, dpi = 300, width = 10, height = 7.5)
+ggsave('Morphology_Trophic_iterative2.png', morph_trophic_iter2, dpi = 300, width = 10, height = 7.5)
+ggsave('Morphology_Trophic_values.png', morph_trophic_final, dpi = 300, width = 10, height = 7.5)
 
 ########morphology comparison plots##########
 morphology_comparison_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',drop=FALSE], offset=0, width=0.05,font.size=2,
@@ -260,16 +244,12 @@ morphology_comparison_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',dr
                        limits = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"),
                        guide = guide_legend(order = 1))+
   theme(legend.position = c(1.1,0.71))
-
 morphology_comparison_iter1.5 <- morphology_comparison_iter1 + new_scale_fill()
-
 morphology_comparison_iter2 <- gheatmap(morphology_comparison_iter1.5, my_prey_traits[ ,'b_shape_r',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_c(name = "Body Shape Ratio", option = 'C', limits=c(0,40))+
   theme(legend.position = c(1.1,0.605))
-
 morphology_comparison_iter2.5 <- morphology_comparison_iter2 + new_scale_fill()
-
 morphology_comparison_final <- gheatmap(morphology_comparison_iter2.5, my_prey_traits[ ,'eye_body_r',drop=FALSE], offset=0.10, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_c(name = "Eye-Body Ratio", option = 'D',limits=c(0,0.15),breaks=c(0.00,0.05,0.10,0.15))+
@@ -289,22 +269,19 @@ morphology_binary_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'phys_defense',drop
                        breaks = c("1", "0"),
                        limits = c("1", "0"),begin=0.5,end=0,
                        guide = guide_legend(order = 1))
-
 morphology_binary_iter2 <- gheatmap(morphology_binary_iter1, my_prey_traits[ ,'col_disrupt',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                                         colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
                        breaks = c("1", "0"),
                        limits = c("1", "0"),begin=0.5,end=0,
                        guide = guide_legend(order = 1))
-
 morphology_binary_iter3 <- gheatmap(morphology_binary_iter2, my_prey_traits[ ,'countershade',drop=FALSE], offset=0.10, width=0.05,font.size=2,
                                         colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
                        breaks = c("1", "0"),
                        limits = c("1", "0"),begin=0.5,end=0,
                        guide = guide_legend(order = 1))
-
-morphology_binary_4 <- gheatmap(morphology_binary_iter3, my_prey_traits[ ,'photophore_PA',drop=FALSE], offset=0.15, width=0.05,font.size=2,
+morphology_binary_final <- gheatmap(morphology_binary_iter3, my_prey_traits[ ,'photophore_PA',drop=FALSE], offset=0.15, width=0.05,font.size=2,
                                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
                        breaks = c("1", "0"),
@@ -315,12 +292,10 @@ ggsave('morphology_binary_final.png', morphology_binary_final, dpi = 300, width 
 
 ###########Behavior and Trophic Traits############
 
-behav_trophic_iter1 <- gheatmap(mycirc, my_prey_traits[,"trophic_level",drop=FALSE], offset=0, width=0.05, font.size=2,
+behav_trophic_iter1 <- gheatmap(mycirc, my_prey_traits[,'trophic_level',drop=FALSE], offset=0, width=0.05, font.size=2,
                                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple5'), na.value = 'white')
-
+  scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white')
 behav_trophic_iter1.5 <- behav_trophic_iter1 + new_scale_fill()
-
 behav_trophic_final <- gheatmap(behav_trophic_iter1.5, my_prey_traits[,"gregarious_primary",drop=FALSE], offset=0.05, width=0.05, font.size=2,
                                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Gregariousness", direction = -1, breaks = c("solitary", "shoaling","schooling"),

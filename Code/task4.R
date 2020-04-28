@@ -119,51 +119,50 @@ p11_4 <- gheatmap(p10_4, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.3
 #ggsave('categorical_trait_values.png', task4finalplot, dpi = 300, width = 10, height = 7.5)
 
 
-
 ##Habitat traits plot
 
-p1_5 <- gheatmap(mycirc, my_prey_traits[, c(4,6)], offset=-0.04, width=0.10,font.size=2,
+p1_5 <- gheatmap(mycirc, my_prey_traits[, 'vert_habitat',drop=FALSE], offset= 0, width=0.05,font.size=2,
                  colnames_angle=95, colnames_offset_y = .25, colnames = F) +
-  scale_fill_viridis_d(name = "Vertical Habitat", direction = -1, breaks = c("benthic", "demersal", "benthopelagic",
+  scale_fill_viridis_d(name = "Vertical Habitat", direction = -1, breaks = c("benthic", "demersal",
                                                              "epipelagic", "mesopelagic", "bathypelagic"),
-                       limits = c("benthic", "demersal", "benthopelagic", "epipelagic",
+                       limits = c("benthic", "demersal", "epipelagic",
                                   "mesopelagic", "bathypelagic"), na.translate = TRUE, option = 'D',
-                       guide = guide_legend(order = 1))+theme(legend.position = c(1,0.80))+
-  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
+                       guide = guide_legend(order = 1))+theme(legend.position = c(1,0.80))#+
+#  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 p2_5 <- p1_5 + new_scale_fill()
-p3_5 <- gheatmap(p2_5, my_prey_traits[ , c(4,7)], offset=0.01, width=0.10,font.size=2,
+p3_5 <- gheatmap(p2_5, my_prey_traits[ ,'horz_habitat',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Horizontal Habitat", option = "D", direction = -1,
                        breaks = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        limits = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
-                       na.translate = TRUE, guide = guide_legend(order = 2))+theme(legend.position = c(1,0.683))+
-  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
-  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
+                       na.translate = TRUE, guide = guide_legend(order = 2))+theme(legend.position = c(1,0.683))#+
+#  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)#+
+#  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 p4_5 <- p3_5 + new_scale_fill()
 
-p5_5 <- gheatmap(p4_5, my_prey_traits[ ,c(4,8)], offset=0.06, width=0.10,font.size=2,
+p5_5 <- gheatmap(p4_5, my_prey_traits[ , 'diel_migrant',drop=FALSE], offset=0.10, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_manual(name = "Diel Migrant",
-                    breaks = c("0", "1", "UN"),
-                    limits = c("0", "1", "UN"),
-                    values = c("0"="#FDE725FF", "1"="#39568CFF", "UN"='gray70'),
-                    guide = guide_legend(order = 3))+theme(legend.position = c(1,0.5985))+
-  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
-  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
-  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
+                    breaks = c("0", "1"),
+                    limits = c("0", "1"),
+                    values = c("0"="#FDE725FF", "1"="#39568CFF"),
+                    guide = guide_legend(order = 3))+theme(legend.position = c(1,0.5985))#+
+#  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
+#  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
+#  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 p5_5.5 <- p5_5 + new_scale_fill()
 
-p6_5 <- gheatmap(p5_5.5, my_prey_traits[ ,c(4,9)], offset=0.11, width=0.10,font.size=2,
+p6_5 <- gheatmap(p5_5.5, my_prey_traits[ ,'refuge',drop=FALSE], offset=0.15, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F)+
   scale_fill_manual(name = "Refuge",
                     breaks = c("0", "1"),
                     limits = c("0", "1"),
                     values = c("1"="#FDE725FF", "0"="#39568CFF"),
-                    guide = guide_legend(order = 4))+theme(legend.position = c(1,0.531))+
-  annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2.8)+
-  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
-  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
-  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
+                    guide = guide_legend(order = 4))+theme(legend.position = c(1,0.531))#+
+#  annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2.8)#+
+#  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)#+
+#  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)#+
+#  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 # habitat_traits_iter1_noleg = p1_5 +
 #   theme(legend.position = 'none')
 # habitat_traits_iter2_noleg = p3_5 +

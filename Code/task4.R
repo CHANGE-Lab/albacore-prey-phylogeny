@@ -252,7 +252,7 @@ ggsave('Morphology_Trophic_iterative2.png', morph_troph_iter2plot, dpi = 300, wi
 morph_troph_finalplot = p5_6
 ggsave('Morphology_Trophic_values.png', morph_troph_finalplot, dpi = 300, width = 10, height = 7.5)
 
-
+########morphology comparison plots##########
 morphology_comparison_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',drop=FALSE], offset=0, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Body Shape", option = 'A',
@@ -280,3 +280,35 @@ morphology_comparison_final <- gheatmap(morphology_comparison_iter2.5, my_prey_t
 ggsave('morphology_comparison_iterative1.png', morphology_comparison_iter1, dpi = 300, width = 10, height = 7.5)
 ggsave('morphology_comparison_iterative2.png', morphology_comparison_iter2, dpi = 300, width = 10, height = 7.5)
 ggsave('morphology_comparison_final.png', morphology_comparison_final, dpi = 300, width = 10, height = 7.5)
+
+######### Morphology binary traits ##########
+
+morphology_binary_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'phys_defense',drop=FALSE], offset=0, width=0.05,font.size=2,
+                                        colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
+                       breaks = c("1", "0"),
+                       limits = c("1", "0"),begin=0.5,end=0,
+                       guide = guide_legend(order = 1))
+
+morphology_binary_iter2 <- gheatmap(morphology_binary_iter1, my_prey_traits[ ,'col_disrupt',drop=FALSE], offset=0.05, width=0.05,font.size=2,
+                                        colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
+                       breaks = c("1", "0"),
+                       limits = c("1", "0"),begin=0.5,end=0,
+                       guide = guide_legend(order = 1))
+
+morphology_binary_iter3 <- gheatmap(morphology_binary_iter2, my_prey_traits[ ,'countershade',drop=FALSE], offset=0.10, width=0.05,font.size=2,
+                                        colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
+                       breaks = c("1", "0"),
+                       limits = c("1", "0"),begin=0.5,end=0,
+                       guide = guide_legend(order = 1))
+
+morphology_binary_4 <- gheatmap(morphology_binary_iter3, my_prey_traits[ ,'photophore_PA',drop=FALSE], offset=0.15, width=0.05,font.size=2,
+                                colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
+                       breaks = c("1", "0"),
+                       limits = c("1", "0"),begin=0.5,end=0,
+                       guide = guide_legend(order = 1))
+
+ggsave('morphology_binary_final.png', morphology_binary_final, dpi = 300, width = 10, height = 7.5)

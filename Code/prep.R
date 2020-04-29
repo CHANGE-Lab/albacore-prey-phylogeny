@@ -29,7 +29,7 @@ mycirc <- ggtree(my_tree, layout = "circular")
 
 # load data
 my_prey <- read_csv(here("Data/Prey_list_fo.csv"))
-my_prey_traits <- read.csv(here("Data/prey_traits_maxfo.csv"))
+my_prey_traits <- read.csv(here("Data/prey_traits_phylo.csv"))
 
 
 ##All of the below is from task 3, this is to create the "my_prey" dataframe, in which all
@@ -64,3 +64,4 @@ my_prey_class = my_prey_class %>%
 nrow(my_prey_class);length(my_tree_class$tip.label) #okay so problem is fixed
 
 my_prey = as.data.frame(my_prey_class) #note reassignment here - if something different required, don't run or reload from other script
+

@@ -7,10 +7,10 @@
 ##note: make sure to run all of the prep.R as this code needs it
 
 #replacing the spaces with an underscore so the prey_species in the dataset match those in the tree data
-my_prey_traits_start$prey_sp <- gsub(" ", "_", my_prey_traits_start$prey_sp)
+my_prey_traits$prey_sp <- gsub(" ", "_", my_prey_traits$prey_sp)
 
 #######some name inconsistencies between tree and this database#######
-my_prey_traits_name<-my_prey_traits_start %>% 
+my_prey_traits_name<-my_prey_traits %>% 
   select(prey_sp)
 
 not_in_tree<-my_prey_traits_name %>% 
@@ -42,13 +42,13 @@ not_in_prey_traits<-tree_names %>%
 
 ##changing the names to 'z' and 'w' for ease of typing this part
 
-z = my_prey_traits_start
+z = my_prey_traits
 z$prey_sp<-as.character(z$prey_sp)
 w = as.vector(not_in_prey_traits$sort.my_tree_class.tip.label.)
 
 z[186,'prey_sp'] = w[1]; z[221,'prey_sp'] =w[2]; z[2,'prey_sp'] =w[3]; z[149,'prey_sp'] =w[4]; z[20,'prey_sp'] =w[5]
-z[39,'prey_sp'] =w[6]; z[238,'prey_sp'] =w[7]; z[239,'prey_sp'] =w[8]; z[154,'prey_sp'] =w[10]; z[189,'prey_sp'] =w[11];
-z[83,'prey_sp'] =w[12]; z[159,'prey_sp'] =w[14]; z[116,'prey_sp'] =w[15]
+z[39,'prey_sp'] =w[6]; z[238,'prey_sp'] =w[7]; z[239,'prey_sp'] =w[8]; z[165,'prey_sp'] =w[9]; z[154,'prey_sp'] =w[10]; 
+z[189,'prey_sp'] =w[11]; z[83,'prey_sp'] =w[12]; z[48,'prey_sp'] =w[13]; z[159,'prey_sp'] =w[14]; z[116,'prey_sp'] =w[15]
 
 z$prey_sp<-as.factor(z$prey_sp)
 my_prey_traits = z
@@ -239,22 +239,22 @@ ggsave('Morphology_Trophic_values.png', morph_trophic_final, dpi = 300, width = 
 ########morphology comparison plots##########
 morphology_comparison_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',drop=FALSE], offset=0, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Body Shape", option = 'A',
-                       breaks = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"),
-                       limits = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"),
+  scale_fill_viridis_d(name = "Body Shape", option = 'C',
+                       breaks = c("eel-like", "elongated", "fusiform", "compressiform", "depressiform","globiform", "unique"),
+                       limits = c("eel-like", "elongated", "fusiform", "compressiform", "depressiform","globiform", "unique"),
                        guide = guide_legend(order = 1))+
   theme(legend.position = c(1.1,0.71))
 morphology_comparison_iter1.5 <- morphology_comparison_iter1 + new_scale_fill()
 morphology_comparison_iter2 <- gheatmap(morphology_comparison_iter1.5, my_prey_traits[ ,'b_shape_r',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_c(name = "Body Shape Ratio", option = 'C', limits=c(0,40))+
+  scale_fill_viridis_c(name = "Body Shape Ratio", option = 'C', limits=c(0,40),direction=-1)+
   theme(legend.position = c(1.1,0.605))
-morphology_comparison_iter2.5 <- morphology_comparison_iter2 + new_scale_fill()
-morphology_comparison_final <- gheatmap(morphology_comparison_iter2.5, my_prey_traits[ ,'eye_body_r',drop=FALSE], offset=0.10, width=0.05,font.size=2,
-                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_c(name = "Eye-Body Ratio", option = 'D',limits=c(0,0.15),breaks=c(0.00,0.05,0.10,0.15))+
-  theme(legend.position = c(1.1,0.499))
-
+#morphology_comparison_iter2.5 <- morphology_comparison_iter2 + new_scale_fill()
+#morphology_comparison_final <- gheatmap(morphology_comparison_iter2.5, my_prey_traits[ ,'eye_body_r',drop=FALSE], offset=0.10, width=0.05,font.size=2,
+#                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+#  scale_fill_viridis_c(name = "Eye-Body Ratio", option = 'D',limits=c(0,0.15),breaks=c(0.00,0.05,0.10,0.15))+
+#  theme(legend.position = c(1.1,0.499))
+?scale_fill_viridis
 
 
 ggsave('morphology_comparison_iterative1.png', morphology_comparison_iter1, dpi = 300, width = 10, height = 7.5)

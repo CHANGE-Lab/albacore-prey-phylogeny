@@ -122,21 +122,23 @@ general_phylo_final <- gheatmap(general_phylo_iter6.5, my_prey_traits[,"trophic_
 ##########Habitat traits plot   With the new category of seasonal migration#########
 
 habitat_traits_iter1 <- gheatmap(mycirc, my_prey_traits[, 'vert_habitat',drop=FALSE], offset= 0, width=0.05,font.size=2,
-                 colnames_angle=95, colnames_offset_y = .25, colnames = F) +
+                 colnames_angle=95, colnames_offset_y = 4.5, colnames = FALSE) +
   scale_fill_viridis_d(name = "Vertical Habitat", direction = -1, breaks = c("benthic", "demersal",
                                                              "epipelagic", "mesopelagic", "bathypelagic"),
                        limits = c("benthic", "demersal", "epipelagic",
                                   "mesopelagic", "bathypelagic"), na.translate = TRUE, option = 'D',
-                       guide = guide_legend(order = 1))+theme(legend.position = c(1,0.80))#+
-#  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
+                       guide = guide_legend(order = 1))+theme(legend.position = c(1,0.80))+
+  scale_y_continuous(expand = c(0,4))+
+  annotate('text', x = 1.03, y = -7, label = 'Vertical Habitat', angle = -85, size = 3)
 habitat_traits_iter1.5 <- habitat_traits_iter1 + new_scale_fill()
 habitat_traits_iter2 <- gheatmap(habitat_traits_iter1.5, my_prey_traits[ ,'horz_habitat',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Horizontal Habitat", option = "D", direction = -1,
                        breaks = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
                        limits = c("reef-associated", "coastal", "continental shelf","continental slope", "oceanic"),
-                       na.translate = TRUE, guide = guide_legend(order = 2))+theme(legend.position = c(1,0.683))#+
-#  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)#+
+                       na.translate = TRUE, guide = guide_legend(order = 2))+theme(legend.position = c(1,0.683))+
+  scale_y_continuous(expand = c(0,4))+
+annotate('text', x = 1.08, y = -7.1, label = 'Horizontal Habitat', angle = -85, size = 3)#+
 #  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 habitat_traits_iter2.5 <- habitat_traits_iter2 + new_scale_fill()
 habitat_traits_iter3 <- gheatmap(habitat_traits_iter2.5, my_prey_traits[ , 'diel_migrant',drop=FALSE], offset=0.10, width=0.05,font.size=2,
@@ -145,8 +147,9 @@ habitat_traits_iter3 <- gheatmap(habitat_traits_iter2.5, my_prey_traits[ , 'diel
                     breaks = c("0", "1"),
                     limits = c("0", "1"),
                     values = c("0"="#FDE725FF", "1"="#39568CFF"),
-                    guide = guide_legend(order = 3))+theme(legend.position = c(1,0.5985))#+
-#  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)+
+                    guide = guide_legend(order = 3))+theme(legend.position = c(1,0.5985))+
+  scale_y_continuous(expand = c(0,4))+
+  annotate('text', x = 1.13, y = -7.5, label = 'Diel Migrant', angle = -85, size = 3)
 #  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)+
 #  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
 habitat_traits_iter4 <- gheatmap(habitat_traits_iter3, my_prey_traits[ , 'season_migrant',drop=FALSE], offset=0.15, width=0.05,font.size=2,
@@ -155,7 +158,9 @@ habitat_traits_iter4 <- gheatmap(habitat_traits_iter3, my_prey_traits[ , 'season
                     breaks = c("0", "1"),
                     limits = c("0", "1"),
                     values = c("0"="#FDE725FF", "1"="#39568CFF"),
-                    guide = guide_legend(order = 3))+theme(legend.position = c(1,0.5985))
+                    guide = guide_legend(order = 3))+theme(legend.position = c(1,0.5985))+
+  scale_y_continuous(expand = c(0,4))+
+  annotate('text', x = 1.18, y = -7.5, label = 'Seasonal Migrant', angle = -85, size = 3)
 habitat_traits_iter4.5 <- habitat_traits_iter4 + new_scale_fill()
 habitat_traits_finalplot <- gheatmap(habitat_traits_iter4.5, my_prey_traits[ ,'refuge',drop=FALSE], offset=0.20, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F)+
@@ -163,8 +168,9 @@ habitat_traits_finalplot <- gheatmap(habitat_traits_iter4.5, my_prey_traits[ ,'r
                     breaks = c("0", "1"),
                     limits = c("0", "1"),
                     values = c("1"="#FDE725FF", "0"="#39568CFF"),
-                    guide = guide_legend(order = 4))+theme(legend.position = c(1,0.531))#+
-#  annotate('text', x = 1.22, y = 5.5, label = 'Refuge', angle = -85, size = 2.8)#+
+                    guide = guide_legend(order = 4))+theme(legend.position = c(1,0.531))+
+  scale_y_continuous(expand = c(0,4))+
+  annotate('text', x = 1.23, y = -7.5, label = 'Refuge', angle = -85, size = 3)#+
 #  annotate('text', x = 1.17, y = 5.5, label = 'Diel Migrant', angle = -85, size = 2.8)#+
 #  annotate('text', x = 1.12, y = 6.9, label = 'Horizontal Habitat', angle = -85, size = 2.8)#+
 #  annotate('text', x = 1.07, y = 6.5, label = 'Vertical Habitat', angle = -85, size = 2.8)
@@ -204,8 +210,9 @@ morph_trophic_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',drop=FALSE
                        breaks = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"),
                        limits = c("eel-like", "elongated", "fusiform", "globiform","compressiform", "depressiform", "unique"),
                        guide = guide_legend(order = 1))+
-  theme(legend.position = c(1.1,0.6844))#+
-#  annotate('text', x = 1.07, y = 6.4, label = 'Body Shape', angle = -85, size = 2.8)
+  theme(legend.position = c(1.1,0.6844))+
+  scale_y_continuous(expand = c(0,3.5))+
+  annotate('text', x = 1.03, y = -6.5, label = 'Body Shape', angle = -85, size = 3)
 morph_trophic_iter1.5 <- morph_trophic_iter1 + new_scale_fill()
 morph_trophic_iter2 <- gheatmap(morph_trophic_iter1.5, my_prey_traits[ ,'phys_defense',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
@@ -214,24 +221,25 @@ morph_trophic_iter2 <- gheatmap(morph_trophic_iter1.5, my_prey_traits[ ,'phys_de
                        limits = c("0","1"),
                        begin = 0.25, end = 0.80,
                        guide = guide_legend(order = 2))+
-  theme(legend.position = c(1.1,0.616))#+
-#  annotate('text', x = 1.12, y = 6.7, label = 'Physical Defence', angle = -85, size = 2.8)+
+  theme(legend.position = c(1.1,0.616))+
+  scale_y_continuous(expand = c(0,3.5))+
+  annotate('text', x = 1.08, y = -6.5, label = 'Physical Defence', angle = -85, size = 2.8)
 #  annotate('text', x = 1.07, y = 6.4, label = 'Body Shape', angle = -85, size = 2.8)
 morph_trophic_iter2.5 <- morph_trophic_iter2 + new_scale_fill()
 morph_trophic_final <- gheatmap(morph_trophic_iter2.5, my_prey_traits[,"trophic_level",drop=FALSE], offset=0.10, width=0.05, font.size=2,
                   colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white',
                        guide = guide_legend(order = 3))+
-  theme(legend.position = c(1.1,0.50))#+
+  theme(legend.position = c(1.1,0.50))+
+  scale_y_continuous(expand = c(0,3.5))+
 #  theme(legend.key.size = unit(3,'mm'),
 #        legend.text = element_text(size = 6.5),
 #        legend.title = element_text(size = 6.5),
 #        legend.spacing = unit(0.02,'cm'),
 #        legend.position = c(0.99,0.5)) +
-#  annotate('text', x = 1.17, y = 6.4, label = 'Trophic Level', angle = -85, size = 2.8)+
+annotate('text', x = 1.13, y = -6.5, label = 'Trophic Level', angle = -85, size = 2.8)
 #  annotate('text', x = 1.12, y = 6.7, label = 'Physical Defence', angle = -85, size = 2.8)+
 #  annotate('text', x = 1.07, y = 6.4, label = 'Body Shape', angle = -85, size = 2.8)
-  
 ggsave('Morphology_Trophic_iterative1.png', morph_trophic_iter1, dpi = 300, width = 10, height = 7.5)
 ggsave('Morphology_Trophic_iterative2.png', morph_trophic_iter2, dpi = 300, width = 10, height = 7.5)
 ggsave('Morphology_Trophic_values.png', morph_trophic_final, dpi = 300, width = 10, height = 7.5)
@@ -243,18 +251,24 @@ morphology_comparison_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'body_shape',dr
                        breaks = c("eel-like", "elongated", "fusiform", "compressiform", "depressiform","globiform", "unique"),
                        limits = c("eel-like", "elongated", "fusiform", "compressiform", "depressiform","globiform", "unique"),
                        guide = guide_legend(order = 1))+
-  theme(legend.position = c(1.1,0.71))
+  theme(legend.position = c(1.05,0.71))+
+  scale_y_continuous(expand = c(0,3.5))+
+  annotate('text', x = 1.04, y = -6.5, label = 'Body Shape', angle = -85, size = 3)
 morphology_comparison_iter1.5 <- morphology_comparison_iter1 + new_scale_fill()
 morphology_comparison_iter2 <- gheatmap(morphology_comparison_iter1.5, my_prey_traits[ ,'b_shape_r',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                  colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_c(name = "Body Shape Ratio", option = 'C', limits=c(0,40),direction=-1)+
-  theme(legend.position = c(1.1,0.605))
-#morphology_comparison_iter2.5 <- morphology_comparison_iter2 + new_scale_fill()
-#morphology_comparison_final <- gheatmap(morphology_comparison_iter2.5, my_prey_traits[ ,'eye_body_r',drop=FALSE], offset=0.10, width=0.05,font.size=2,
-#                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-#  scale_fill_viridis_c(name = "Eye-Body Ratio", option = 'D',limits=c(0,0.15),breaks=c(0.00,0.05,0.10,0.15))+
-#  theme(legend.position = c(1.1,0.499))
-?scale_fill_viridis
+  theme(legend.position = c(1.05,0.605))+
+  scale_y_continuous(expand = c(0,3.5))+
+  annotate('text', x = 1.095, y = -6.5, label = 'Body Shape Ratio', angle = -85, size = 3)
+morphology_comparison_iter2.5 <- morphology_comparison_iter2 + new_scale_fill()
+morphology_comparison_final <- gheatmap(morphology_comparison_iter2.5, my_prey_traits[ ,'eye_body_r',drop=FALSE], offset=0.10, width=0.05,font.size=2,
+                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
+  scale_fill_viridis_c(name = "Eye-Body Ratio", option = 'D',limits=c(0,0.15),breaks=c(0.00,0.05,0.10,0.15))+
+  theme(legend.position = c(1.05,0.499))+
+  scale_y_continuous(expand = c(0,3.5))+
+annotate('text', x = 1.15, y = -6.5, label = 'Eye-Body Ratio', angle = -85, size = 3)
+
 
 
 ggsave('morphology_comparison_iterative1.png', morphology_comparison_iter1, dpi = 300, width = 10, height = 7.5)
@@ -263,30 +277,38 @@ ggsave('morphology_comparison_final.png', morphology_comparison_final, dpi = 300
 
 ######### Morphology binary traits ##########
 
-morphology_binary_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'phys_defense',drop=FALSE], offset=0, width=0.05,font.size=2,
+morphology_binary_iter1 <- gheatmap(mycirc, my_prey_traits[ ,'countershade',drop=FALSE], offset=0, width=0.05,font.size=2,
                                         colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
+  scale_fill_viridis_d(name = "Countershaded\nPhysical Defence\nPhotophore presence\nDisruptive colouration", option = 'A',
                        breaks = c("1", "0"),
                        limits = c("1", "0"),begin=0.5,end=0,
-                       guide = guide_legend(order = 1))
-morphology_binary_iter2 <- gheatmap(morphology_binary_iter1, my_prey_traits[ ,'col_disrupt',drop=FALSE], offset=0.05, width=0.05,font.size=2,
+                       guide = guide_legend(order = 1))+
+  scale_y_continuous(expand = c(0,4.5))+
+  annotate('text', x = 1.04, y = -8.5, label = 'Countershaded', angle = -85, size = 3)
+morphology_binary_iter2 <- gheatmap(morphology_binary_iter1, my_prey_traits[ ,'phys_defense',drop=FALSE], offset=0.05, width=0.05,font.size=2,
                                         colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
+  scale_fill_viridis_d(name = "Countershaded\nPhysical Defence\nPhotophore presence\nDisruptive colouration", option = 'A',
                        breaks = c("1", "0"),
                        limits = c("1", "0"),begin=0.5,end=0,
-                       guide = guide_legend(order = 1))
-morphology_binary_iter3 <- gheatmap(morphology_binary_iter2, my_prey_traits[ ,'countershade',drop=FALSE], offset=0.10, width=0.05,font.size=2,
+                       guide = guide_legend(order = 1))+
+  scale_y_continuous(expand = c(0,4.5))+
+  annotate('text', x = 1.09, y = -8.5, label = 'Physical Defense', angle = -85, size = 3)
+morphology_binary_iter3 <- gheatmap(morphology_binary_iter2, my_prey_traits[ ,'photophore_PA',drop=FALSE], offset=0.10, width=0.05,font.size=2,
                                         colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
+  scale_fill_viridis_d(name = "Countershaded\nPhysical Defence\nPhotophore presence\nDisruptive colouration", option = 'A',
                        breaks = c("1", "0"),
                        limits = c("1", "0"),begin=0.5,end=0,
-                       guide = guide_legend(order = 1))
-morphology_binary_final <- gheatmap(morphology_binary_iter3, my_prey_traits[ ,'photophore_PA',drop=FALSE], offset=0.15, width=0.05,font.size=2,
+                       guide = guide_legend(order = 1))+
+  scale_y_continuous(expand = c(0,4.5))+
+  annotate('text', x = 1.14, y = -8.5, label = 'Photophore Presence', angle = -85, size = 3)
+morphology_binary_final <- gheatmap(morphology_binary_iter3, my_prey_traits[ ,'col_disrupt',drop=FALSE], offset=0.15, width=0.05,font.size=2,
                                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_viridis_d(name = "Physical Defence\nDisruptive colouration\nCountershaded\nPhotophore presence", option = 'A',
+  scale_fill_viridis_d(name = "Countershaded\nPhysical Defence\nPhotophore presence\nDisruptive colouration", option = 'A',
                        breaks = c("1", "0"),
                        limits = c("1", "0"),begin=0.5,end=0,
-                       guide = guide_legend(order = 1))
+                       guide = guide_legend(order = 1))+
+  scale_y_continuous(expand = c(0,4.5))+
+  annotate('text', x = 1.19, y = -8.5, label = 'Disruptive Colouration', angle = -85, size = 3)
 
 ggsave('morphology_binary_final.png', morphology_binary_final, dpi = 300, width = 10, height = 7.5)
 
@@ -294,12 +316,16 @@ ggsave('morphology_binary_final.png', morphology_binary_final, dpi = 300, width 
 
 behav_trophic_iter1 <- gheatmap(mycirc, my_prey_traits[,'trophic_level',drop=FALSE], offset=0, width=0.05, font.size=2,
                                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
-  scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white')
+  scale_fill_gradientn(name = "Trophic Level", colours = c('grey90', 'purple4'), na.value = 'white')+
+  scale_y_continuous(expand = c(0,3,5))+
+  annotate('text', x = 1.04, y = -6.5, label = 'Trophic Level', angle = -85, size = 3)
 behav_trophic_iter1.5 <- behav_trophic_iter1 + new_scale_fill()
 behav_trophic_final <- gheatmap(behav_trophic_iter1.5, my_prey_traits[,"gregarious_primary",drop=FALSE], offset=0.05, width=0.05, font.size=2,
                                 colnames_angle=-85, colnames_offset_y = 4.5, colnames = F) +
   scale_fill_viridis_d(name = "Gregariousness", direction = -1, breaks = c("solitary", "shoaling","schooling"),
                        limits = c("solitary", "shoaling","schooling"), na.translate = TRUE, option = 'magma',begin = 0.2,end = 0.8,
-                       guide = guide_legend(order = 1))
+                       guide = guide_legend(order = 1))+
+  scale_y_continuous(expand = c(0,3.5))+
+  annotate('text', x = 1.09, y = -6.5, label = 'Gregariousness', angle = -85, size = 3)
 
 ggsave('behaviour_trophic_final.png', behav_trophic_final, dpi = 300, width = 10, height = 7.5)

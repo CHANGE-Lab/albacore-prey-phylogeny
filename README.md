@@ -2,7 +2,7 @@
 
 All code and import of data to build phyogenetic trees of trait variation of Albacore prey diet items. 
 
-![Project Status: Active – The project has reached a stable, usable state and is being actively developed.]
+</a> ![Project Status: Active – The project has reached a stable, usable state and is being actively developed.]
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 

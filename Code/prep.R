@@ -1,4 +1,4 @@
-library(tidyverse)
+library(tidyverse) # data manipulation and visualization
 library(ggtree)
 library(taxize)
 library(rotl)
